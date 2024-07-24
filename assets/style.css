@@ -15,6 +15,16 @@
     font-style: normal;
   }
 
+/* Header */
+header {
+    background-color: lightgrey;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 /* Navigation Bar */
 
 #nav-togg {
