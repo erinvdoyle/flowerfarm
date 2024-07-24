@@ -34,7 +34,12 @@
 }
 
 nav {
-
+  position: absolute;
+  width: 100%;
+  right: 0;
+  padding-right: 1rem;
+  box-shadow: 0;
+  display: none;
 }
 
 /* General Style */
