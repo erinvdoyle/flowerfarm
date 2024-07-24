@@ -41,7 +41,7 @@ header {
 }
 
 .nav-togg-label {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 nav {
@@ -51,6 +51,12 @@ nav {
   padding-right: 1rem;
   box-shadow: 0;
   display: none;
+  top: 100%;
+}
+
+/* Main Content */
+main {
+   /* margin-top: px; fill this in to push content down under header */
 }
 
 /* General Style */
