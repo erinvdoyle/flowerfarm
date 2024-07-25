@@ -15,43 +15,68 @@
     font-style: normal;
   }
 
+/* General Style */
+body {
+  font-family: "Source Sans 3", sans-serif;
+  color: #fff;
+}
+
 /* Header */
 header {
-    background-color: lightgrey;
+    background-color: rgb(68, 65, 65);
+    border-bottom: 3px solid #000;
     position: fixed;
     width: 100%;
+    padding: 0 1rem;
     z-index: 99;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
-/* Navigation Bar */
-
-#nav-togg {
-  display: none;
+header a {
+  text-decoration: none;
 }
-
-#nav-togg:checked~nav {
-    display: block;
-  }
 
 #menu {
-
+  font-size: 100%;
+  letter-spacing: 1px;
+  list-style-type: none;
+  text-align: center;
 }
 
-.nav-togg-label {
-  font-size: 3rem;
+#menu > li {
+  margin-bottom: 1em;
 }
+
+.active {
+  border-bottom: 1px solid #000;
+}
+/* Navigation Bar */
 
 nav {
   position: absolute;
   width: 100%;
-  right: 0;
-  padding-right: 1rem;
-  box-shadow: 0;
+  padding: 0 1rem;
+  box-shadow: 2px;
   display: none;
   top: 100%;
+  left: 0;
+  background-color: #fff;
+  opacity: 50%;
+  border-bottom: 3px solid #ccc;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+  }
+
+  #nav-toggle {
+    display: none;
+  }
+
+.nav-toggle-label {
+  font-size: 2rem;
 }
 
 /* Main Content */
