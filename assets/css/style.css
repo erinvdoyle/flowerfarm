@@ -101,21 +101,24 @@ main {
 }
 
 /* Flip Cards */
-/* Flip 1 About Us */
+#flip-card-container {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 #flip-card1,
 #flip-card2,  
 #flip-card3,
 #flip-card4  {
-  margin-top: 120px;
   background-color: transparent;
   width: 300px;
   height: 200px;
   border: 1px solid rgb(68, 65, 65);
   border-radius: 5px;
   perspective: 1000px;
-  display: flex;
-  flex-direction: column;
+  margin-bottom: 60px;
 }
 
 .flip-card-inner {
