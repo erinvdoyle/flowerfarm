@@ -25,11 +25,12 @@ header {
     z-index: 99;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: baseline; 
 }
 
 header a {
   text-decoration: none;
+  color: rgb(68, 65, 65);
 }
 
 #menu {
@@ -44,6 +45,7 @@ header a {
 
 .active {
   border-bottom: 1px solid #000;
+  color: rgb(68, 65, 65);
 }
 /* Navigation Bar */
 
@@ -77,6 +79,7 @@ main {
    margin-top: 10px;
 }
 
+/* Hero Image and Cover Text */
 #hero {
   background: url("../images/dahliafieldmain.jpg") no-repeat center center/cover;
   border-radius: 5px;
@@ -102,6 +105,22 @@ main {
   text-align: center;
   line-height: 15px;
 } */
+
+/* About Section */
+
+#about {
+  /*background: url("../images/dahlias.jpg") no-repeat center center/cover;
+  border-radius: 5px;
+  width: 80%;*/
+  margin-top: 100px;
+}
+
+#about img {
+  border-radius: 5px;
+  width: 80%;*/
+  margin-left: 10%;
+}
+
 
 /* General Style */
 
