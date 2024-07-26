@@ -15,12 +15,6 @@
     font-style: normal;
   }
 
-/* General Style */
-body {
-  font-family: "Source Sans 3", sans-serif;
-  color: #fff;
-}
-
 /* Header */
 header {
     background-color: rgb(68, 65, 65);
@@ -61,8 +55,7 @@ nav {
   display: none;
   top: 100%;
   left: 0;
-  background-color: #fff;
-  opacity: 50%;
+  background-color: rgba(249, 247, 247, .7);
   border-bottom: 3px solid #ccc;
 }
 
@@ -80,17 +73,44 @@ nav {
 
 /* Main Content */
 main {
-   margin-top: 48px;
+   flex: 1 0 auto;
+   margin-top: 10px;
 }
 
-hero {
+#hero {
   background: url("../images/dahliafieldmain.jpg") no-repeat center center/cover;
-  position: relative;
+  border-radius: 5px;
   width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+#cover-text {
+  background-color: rgba(249, 247, 247, .7);
+  border-radius: 5px;
+  position: absolute;
+  bottom: -60px;
+  width: 80%;
+  margin-left: 10%;
 }
 
 /* General Style */
 
 body {
     background-color: rgb(68, 65, 65);
+    font-family: "Source Sans 3", sans-serif;
+    color: #fff; 
 }
+
+/* Media query: large or landscape phones (576px and up) */
+
+
+/* Media query: tablets and larger (768px and up) */
+
+
+/* Large devices (laptops and desktops, 992px and up) */
+
+
+/* Devices larger than 1200px */
+
+
