@@ -1,5 +1,6 @@
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
 
 .lora-<uniquifier> {
     font-family: "Lora", serif;
@@ -15,17 +16,27 @@
     font-style: normal;
   }
 
+  .sail-regular {
+    font-family: "Sail", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 /* Header */
 header {
     background-color: rgb(68, 65, 65);
     border-bottom: 3px solid #000;
     position: fixed;
     width: 100%;
-    padding: 0 1rem;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-bottom: .5rem;
     z-index: 99;
     display: flex;
     justify-content: space-between;
     align-items: baseline; 
+    top: 0;
 }
 
 header a {
@@ -52,11 +63,9 @@ header a {
 nav {
   position: absolute;
   width: 100%;
-  padding: 0 1rem;
   box-shadow: 2px;
   display: none;
   top: 100%;
-  left: 0;
   background-color: rgba(249, 247, 247, .7);
   border-bottom: 3px solid #ccc;
 }
@@ -92,21 +101,26 @@ main {
   background-color: rgba(249, 247, 247, .7);
   border-radius: 5px;
   position: absolute;
-  bottom: -60px;
+  bottom: -40px;
   width: 80%;
   margin-left: 10%;
-  font-family: "Lora", serif;
   color: rgb(68, 65, 65);
   text-align: center;
+  line-height: 6px;
+}
+
+#cover-text h1 {
+  font-family: "Sail", system-ui;
+  font-size: 180%;
 }
 
 /* Flip Cards */
 #flip-card-container {
-  margin-top: 120px;
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content:space-around;
 }
 
 #flip-card1,
@@ -164,6 +178,22 @@ main {
   background-color: rgba(202,168,169,255);
   color: white;
   transform: rotateY(180deg);
+}
+
+/* Footer */
+#social-networks {
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  border-top: 3px solid #000;
+}
+
+#social-networks i {
+  font-size: 140%;
+  padding: 5%;
+  color: #fff;
 }
 
 /* General Style */
