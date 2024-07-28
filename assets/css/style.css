@@ -268,8 +268,28 @@ body {
   }
 }
 
+/* Media query: large tablets and larger screens */
+@media (min-width: 916px) {
+  #card-text {
+    background-color: transparent;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -50px;
+    width: 40%;
+    margin-left: 30%;
+    color: black;
+    font-family: "Sail", system-ui;
+    font-weight: 900;
+    text-align: center;
+    line-height: 6px;
+    margin-bottom: 10px;
+  }
+}
+
+
+
 /* Media query: large or landscape phones (576px and up) */
-/*make coming soon ribbon fit 320px by changing position and using current css for larger screens */
+
 
 
 /* Media query: tablets and larger (768px and up) */
