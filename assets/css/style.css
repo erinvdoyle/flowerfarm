@@ -24,13 +24,19 @@
   
 
 /* Header */
+
+#logo {
+  margin-top: -8px;
+  margin-bottom: -25px;
+  margin-left: 10px;
+}
+
 header {
     background-color: rgb(68, 65, 65);
     border-bottom: 3px solid #000;
     position: fixed;
     width: 100%;
     padding-top: .5rem;
-    padding-left: .5rem;
     padding-bottom: .5rem;
     z-index: 99;
     display: flex;
@@ -82,6 +88,9 @@ nav {
 
 .nav-toggle-label {
   font-size: 2rem;
+  margin-right: 20px;
+  color: black;
+  size: 180%;
 }
 
 /* Main Content */
@@ -248,9 +257,9 @@ footer {
 }
 
 #social-networks i {
-  font-size: 140%;
+  font-size: 160%;
   padding: 5%;
-  color: #fff;
+  color: #000;
 }
 
 /* General Style */
