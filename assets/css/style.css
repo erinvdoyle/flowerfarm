@@ -31,6 +31,13 @@
   margin-left: 10px;
 }
 
+#logo-text {
+  font-family: "Sail", system-ui;
+  color: black;
+  font-weight: 900;
+  font-size: 140%;
+}
+
 header {
     background-color: rgb(68, 65, 65);
     border-bottom: 3px solid #000;
@@ -49,10 +56,10 @@ header {
 header a {
   text-decoration: none;
   color: rgb(68, 65, 65);
-  font-family: "Sail", system-ui;
+  /*font-family: "Sail", system-ui;
   color: black;
   font-weight: 900;
-  font-size: 140%;
+  font-size: 140%;*/
 }
 
 #menu {
