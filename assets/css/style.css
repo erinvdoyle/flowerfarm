@@ -157,7 +157,6 @@ main {
   background-color: transparent;
   width: 300px;
   height: 200px;
-  border-radius: 5px;
   perspective: 1000px;
   margin-bottom: 40px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -282,6 +281,20 @@ body {
   .ribbon {
     display: none;
   }
+#small-ribbon {
+  width: 80px;
+  padding: 4px;
+  position: absolute;
+  right: 100px;
+  bottom: 0px;
+  text-align: center;
+  border: 1px dotted white;
+  border-radius: 10px;
+  background-color: #d95550;
+  color: white;
+  z-index: 99;
+}
+
 }
 
 /* Media query: large tablets and larger screens */
