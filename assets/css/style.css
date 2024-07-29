@@ -224,8 +224,6 @@ main {
   line-height: 6px;
 }
 
-
-
 /*ribbon */
 
 .ribbon {
@@ -275,6 +273,46 @@ body {
     font-family: "Source Sans 3", sans-serif;
     color: #fff; 
 }
+
+/* About Page */
+
+#floral-top {
+  margin-top: 65px;
+  background: url("../images/flowers.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 10vh;
+  position: relative;
+  opacity: 90%;
+}
+
+.floral-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(204, 167, 167, 0.8);
+}
+
+.grey-container {
+  background-color: #7c7a7a;
+  width: 100%;
+  height: 20vh;
+}
+
+#image-carousel {
+  width: 100%;
+  height: 30vh;
+}
+
+#floral-bottom {
+  background: url("../images/flowers.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 10vh;
+  position: relative;
+  opacity: 90%;
+}
+
 
 /* Media query: Mobile phones (425px and below) */
 @media (max-width: 425px) {
