@@ -335,6 +335,17 @@ body {
   width: 300px;
 } 
 
+/* Visit Page */
+#image-scroll {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+#image-scroll img {
+  padding: 10px;
+}
 
 
 /* Media query: Mobile phones (425px and below) */
