@@ -301,10 +301,16 @@ body {
   flex: 1;
   padding: 10px;
   gap: 10px;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
   height: auto;
   background-color: rgb(68, 65, 65);
+  margin-top: 5px;
+}
+
+#left-container > img {
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 #story-div {
@@ -316,6 +322,7 @@ body {
   font-size: 180%;
   text-align: center;
   border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .about-image {
