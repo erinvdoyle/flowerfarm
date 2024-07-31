@@ -340,17 +340,15 @@ body {
 /* Background Image */
 
 .background-image {
-  background: url("../images/Flower-Arranging.jpg");
+  background: url("../images/Flower-Arranging.jpg") no-repeat center center/cover;
   height: 30vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 100%;
   margin-top: 70px;
+  border-radius: 5px;
+  position: relative;
 }
 
 #events-cover-text {
-  font-family: "Sail", system-ui;
-  font-size: 180%;
   background-color: rgba(249, 247, 247, .7);
   border-radius: 5px;
   position: absolute;
@@ -362,7 +360,13 @@ body {
   line-height: 6px;
 }
 
+#events-cover-text {
+  font-family: "Sail", system-ui;
+  font-size: 180%;
+}
+
 #events-container {
+  border: 1px solid pink;
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
@@ -392,7 +396,8 @@ body {
   position: relative;
   height: 50vh;
   margin-top: 20px;
-  min-width: 500px;
+  min-width: 40vh;
+  border-radius: 5px;
 }
 
 #form-container {
