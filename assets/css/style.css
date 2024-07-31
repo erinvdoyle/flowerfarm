@@ -115,7 +115,10 @@ main {
    margin-top: 10px;
 }
 
-/* Hero Image and Cover Text */
+/* Index.html */
+
+/*Hero Image and Cover Text */
+
 #hero {
   background: url("../images/dahliafieldmain.jpg") no-repeat center center/cover;
   border-radius: 5px;
@@ -224,7 +227,7 @@ main {
   line-height: 6px;
 }
 
-/*ribbon */
+/*Coming Soon Ribbon */
 
 .ribbon {
   width: 80px;
@@ -414,6 +417,39 @@ body {
   background-color: rgba(249, 247, 247, .9);
   border-radius: 5px;
 }
+
+/* Visit Page */
+
+#visit-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  margin-top: 85px;
+  border: 1px solid pink;
+}
+
+#visit-left {
+  flex: 1;
+  padding: 10px;
+  width: 100%;
+  border-left: 1px solid orange;
+  background-color: blue;
+}
+
+#visit-right {
+  flex: 1;
+  padding: 10px;
+  width: 100%;
+  border-left: 1px solid red;
+  background-color: green;
+}
+
+
+#polaroid {
+
+}
+
+/* Media Queries */
 
 /* Media query: Mobile phones (425px and below) */
 @media (max-width: 425px) {
