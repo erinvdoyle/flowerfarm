@@ -392,10 +392,16 @@ body {
   position: relative;
   height: 50vh;
   margin-top: 20px;
+  min-width: 500px;
 }
 
 #form-container {
-
+  position: absolute;
+  right: 20;
+  margin: 15px;
+  max-width: 300px;
+  padding: 20px;
+  background-color: rgba(249, 247, 247, .9);
 }
 
 /* Media query: Mobile phones (425px and below) */
