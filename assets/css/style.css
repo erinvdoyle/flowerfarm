@@ -287,7 +287,7 @@ body {
 }
 
 #right-container {
-  background-color: #b897a2;
+  background-color: #dcc8bf;
   flex: 1;
   padding: 10px;
   width: 100%;
@@ -320,13 +320,20 @@ body {
 #story-div {
   width: 300px;
   height: 33.3vh;
-  background-color: #b897a2;
-  font-family: "Sail", system-ui;
-  color: black;
-  font-size: 180%;
+  background-color: #b65669;
   text-align: center;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#story-div h1 {
+  font-family: "Sail", system-ui;
+  color: black;
+  font-size: 180%;
+}
+
+#story-div p {
+  color: #000;
 }
 
 .about-image {
