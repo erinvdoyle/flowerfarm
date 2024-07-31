@@ -424,29 +424,65 @@ body {
   display: flex;
   flex-wrap: wrap;
   height: 100vh;
-  margin-top: 85px;
-  border: 1px solid pink;
+  margin-top: 70px;
+  overflow: auto;
 }
 
 #visit-left {
+  background: url("/assets/images/woman-making-beautiful-floral-bouquet.jpg")no-repeat center center/cover;
   flex: 1;
-  padding: 10px;
-  width: 100%;
-  border-left: 1px solid orange;
-  background-color: blue;
+  padding-top: 10px;
+  height: 100vh;
+  width: auto;
 }
+
+#visit-image-text {
+  background-color: rgba(249, 247, 247, .7);
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 180px;
+  width: 80%;
+  margin-left: 10%;
+  color: rgb(68, 65, 65);
+  text-align: center;
+  padding: 10px 0;
+  font-family: "Sail", system-ui;
+  font-weight: bold;
+  font-size: 180%;
+}
+
+/* Polaroid Section */
 
 #visit-right {
+  display: flex;
   flex: 1;
-  padding: 10px;
+  gap: 20px;
+  padding: 5px;
   width: 100%;
-  border-left: 1px solid red;
-  background-color: green;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+.polaroid {
+  height: 200px;
+  width: 300px;
+  padding: 10px 10px 90px 10px;
+  background: rgba(249, 247, 247, .9);
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: -10px;
+  border-radius: 5px;
+}
 
-#polaroid {
+.polaroid img {
+  height: 200px;
+  width: 300px;
+}
 
+.polaroid p {
+  color: #000;
+  font-weight: bold;
+  text-align: center;
 }
 
 /* Media Queries */
