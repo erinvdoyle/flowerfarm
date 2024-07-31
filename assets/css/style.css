@@ -305,7 +305,7 @@ body {
   justify-content: space-around;
   width: 100%;
   height: auto;
-  background-color: #8f8d8d;
+  background-color: rgba(249, 247, 247, .7);
   margin-top: 5px;
 }
 
@@ -360,6 +360,42 @@ body {
   color: rgb(68, 65, 65);
   text-align: center;
   line-height: 6px;
+}
+
+#events-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+#events-left {
+  flex: 1;
+  padding: 10px;
+  width: 100%;
+  color: black;
+  margin-top: 20px;
+}
+
+#events-right {
+  flex: 1;
+  padding: 10px;
+  width: 100%;
+  color: black;
+}
+/* Events Form */
+
+#form-image {
+  background-image: url("../images/flowers.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 50vh;
+  margin-top: 20px;
+}
+
+#form-container {
+
 }
 
 /* Media query: Mobile phones (425px and below) */
