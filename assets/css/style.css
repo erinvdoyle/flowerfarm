@@ -39,7 +39,7 @@
 }
 
 header {
-    background-color: rgb(68, 65, 65);
+    background-color: #c7c6c6;
     border-bottom: 3px solid #000;
     position: fixed;
     width: 100%;
@@ -269,7 +269,7 @@ footer {
 /* General Style */
 
 body {
-    background-color: rgb(68, 65, 65);
+    background-color: #c7c6c6;
     font-family: "Source Sans 3", sans-serif;
     color: #fff; 
 }
@@ -475,7 +475,7 @@ body {
 
     nav {
       display: block;
-      background-color: rgb(68, 65, 65);
+      background-color: #c7c6c6;
       border-bottom: 0px solid rgb(68, 65, 65);
       position: relative;
       width: fit-content;
