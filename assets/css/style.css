@@ -337,6 +337,7 @@ body {
 } 
 
 /* Events Page */
+/* Background Image */
 
 .background-image {
   background: url("../images/Flower-Arranging.jpg");
@@ -345,6 +346,20 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 70px;
+}
+
+#events-cover-text {
+  font-family: "Sail", system-ui;
+  font-size: 180%;
+  background-color: rgba(249, 247, 247, .7);
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 185px;
+  width: 80%;
+  margin-left: 10%;
+  color: rgb(68, 65, 65);
+  text-align: center;
+  line-height: 6px;
 }
 
 /* Media query: Mobile phones (425px and below) */
