@@ -505,7 +505,14 @@ body {
   color: white;
   z-index: 99;
 }
+}
 
+/* Media query: Tablets (780px and below) */
+@media (max-width: 780px) {
+#visit-left {
+  min-width: 50vh;
+  margin-bottom: 20px;
+}
 }
 
 /* Media query: large tablets and larger screens */
