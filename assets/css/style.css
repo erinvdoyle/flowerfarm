@@ -513,7 +513,7 @@ body {
   min-width: 50vh;
   margin-bottom: 20px;
   background: url("/assets/images/woman-making-beautiful-floral-bouquet.jpg")no-repeat center center/cover;
-  background-color: pink;
+  border: 1px solid pink;
 }
 }
 
