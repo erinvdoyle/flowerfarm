@@ -429,7 +429,7 @@ body {
 }
 
 #visit-left {
-  background: url("/assets/images/woman-making-beautiful-floral-bouquet.jpg")no-repeat center center/cover;
+  background: url("/assets/images/floralbouquet.jpg") center center/cover;
   flex: 1;
   padding-top: 10px;
   height: 100vh;
