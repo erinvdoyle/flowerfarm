@@ -604,3 +604,10 @@ body {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  #hero {
+    background: url("../images/cute-sheep-rural-life-concept.jpg") no-repeat;
+    background-size: cover;
+    background-position: 5% 30%;
+  }
+}
