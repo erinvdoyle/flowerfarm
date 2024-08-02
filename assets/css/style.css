@@ -611,3 +611,13 @@ body {
     background-position: 5% 30%;
   }
 }
+
+@media screen and (min-width: 1760px) {
+  #hero {
+    height: 600px;
+  }
+
+  #page-container {
+    margin-top: 400px;
+  }
+}
