@@ -214,6 +214,18 @@ main {
   transform: rotateY(180deg);
 }
 
+.flip-card-back > a {
+  color:#000;
+  border: 1px solid black;
+  background-color: rgba(249, 247, 247, .6);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.flip-card-back > h3 {
+  font-family: "Sail", system-ui;
+}
+
 /* Flip Card Cover Text */
 #card-text {
   background-color: rgba(249, 247, 247, .6);
@@ -617,7 +629,4 @@ body {
     height: 600px;
   }
 
-  #page-container {
-    margin-top: 400px;
-  }
 }
