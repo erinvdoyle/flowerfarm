@@ -345,6 +345,7 @@ body {
   font-family: "Sail", system-ui;
   color: black;
   font-size: 180%;
+  padding-top: -20px;
 }
 
 #story-div p {
@@ -398,7 +399,7 @@ body {
   padding: 10px;
   width: 100%;
   color: black;
-  margin-top: 20px;
+  margin-top: 15px;
   min-width: 40vh;
 }
 
