@@ -309,6 +309,14 @@ body {
   padding: 10px;
   width: 100vh;
   color: black;
+  margin-right: -16px;
+  min-width: 40vh;
+}
+
+#right-container h3 {
+  text-align: center;
+  font-family: "Sail", system-ui;
+  font-size: 160%;
 }
 
 #left-container {
@@ -399,7 +407,16 @@ body {
   width: 100%;
   color: black;
   margin-top: 20px;
+  min-width: 40vh;
 }
+
+#events-left h2 {
+  text-align: center;
+  font-family: "Sail", system-ui;
+  font-size: 160%;
+}
+
+
 
 #events-right {
   flex: 1;
@@ -435,9 +452,9 @@ body {
   border-radius: 5px;
 }
 
-#form-container h3 {
+#form-container h2 {
   font-family: "Sail", system-ui;
-  font-size: 140%;
+  font-size: 160%;
   text-align: center;
   margin: -12px 0 8px 0;
   font-weight: bold;
@@ -485,12 +502,12 @@ body {
 }
 
 #visit-text {
-  /*position: absolute;*/
   margin-left: 2.5%;
   margin-right: 2.5%;
   margin-top: 25%;
   padding: 30%;
-  width: 250px;
+  min-width: 20vh;
+  max-width: 20vh;
   background-color: rgba(249, 247, 247, .9);
   border-radius: 5px;
 }
@@ -578,8 +595,19 @@ body {
   }
 }
 
+/* Media query: Phones larger than 320px */
+
+@media screen and (min-width: 321px) {
+  #right-container {
+    margin-right: 0;
+  }
+}
+
 /* Media query: medium phones (417px and up) */
-@media screen and (min-width: 417px) {
+
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 633px) {
   #right-container {
     background-color: #dcc8bf;
     flex: 1;
@@ -603,12 +631,7 @@ body {
     background-color: rgba(249, 247, 247, .7);
     margin-left: -10px;
   }
-  
 }
-
-
-/* Media query: large or landscape phones (576px and up) */
-
 
 
 /* Media query: tablets and larger (768px and up) */
