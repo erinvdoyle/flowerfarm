@@ -2,13 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
 
-.lora-<uniquifier> {
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
-
   .source-sans-3-<uniquifier> {
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
@@ -22,7 +15,6 @@
     font-style: normal;
   }
   
-
 /* Header */
 
 #logo {
@@ -678,6 +670,12 @@ body {
   }
 }
 
+/* Media Query: Tablets to laptops (768px to 1023px) */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  #visit-right {
+    padding-left: 40px;
+  }
+}
 
 /* Large devices (laptops and desktops, 992px and up) */
 
@@ -694,6 +692,18 @@ body {
     background: url("../images/cute-sheep-rural-life-concept.jpg") no-repeat;
     background-size: cover;
     background-position: 5% 30%;
+  }
+
+  #flip-card-container {
+    margin-top: 80px;
+  }
+
+  #about-container {
+    padding-top: 25px;
+  }
+
+  #visit-right {
+    padding-top: 90px;
   }
 }
 
