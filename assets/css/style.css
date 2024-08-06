@@ -202,7 +202,7 @@ main {
 
 .flip-card-back {
   background-color: rgba(202,168,169,255);
-  color: white;
+  color:rgb(68, 65, 65);
   transform: rotateY(180deg);
 }
 
