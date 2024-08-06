@@ -502,13 +502,15 @@ body {
   bottom: 25%;
   height: 50%;
   width: 80%;
-  margin-left: 10%;
+  margin-left: 8%;
   color: rgb(68, 65, 65);
+  align-self: center;
 }
 
 #visit-text {
   background-color: rgba(249, 247, 247, .9);
   border-radius: 5px;
+  align-self: center;
   padding: 20px 10px 10px 15px;
   margin: 20px;
 }
@@ -570,7 +572,7 @@ body {
 @media (max-width: 374px and below) {
   #visit-text {
     padding: 20px 10px 5px 15px;
-    margin: 10px 10px 10% 10px;
+    margin: 10px 10px 30% 10px;
   }
 }
 
