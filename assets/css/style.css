@@ -113,7 +113,7 @@ main {
 
 #hero {
   /*background: url("../images/dahliafieldmain.jpg") no-repeat center center/cover;*/
-  background: url("../images/cute-sheep-rural-life-concept.jpg") no-repeat center center/cover;
+  background: url("../images/cute-sheep-rural-life-concept.webp") no-repeat center center/cover;
   margin-top: 75px;
   border-radius: 5px;
   width: 100%;
@@ -204,10 +204,12 @@ main {
   background-color: rgba(202,168,169,255);
   color:rgb(68, 65, 65);
   transform: rotateY(180deg);
+  font-weight: 700;
 }
 
 .flip-card-back > a {
   color: rgb(68, 65, 65);
+  font-weight: 700;
   border: 1px solid rgb(68, 65, 65);
   background-color: rgba(249, 247, 247, .6);
   border-radius: 5px;
@@ -363,7 +365,7 @@ body {
 /* Background Image */
 
 .background-image {
-  background: url("../images/eventtable.jpg") no-repeat center center/cover;
+  background: url("../images/eventtable.webp") no-repeat center center/cover;
   height: 400px;
   width: 100%;
   margin-top: 70px;
@@ -419,7 +421,7 @@ body {
 /* Events Form */
 
 #form-image {
-  background-image: url("../images/flowers.jpg");
+  background-image: url("../images/flowers.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -481,7 +483,7 @@ body {
 }
 
 #visit-left {
-  background: url("../images/floralbouquet.jpg") center center/cover;
+  background: url("../images/floralbouquet.webp") center center/cover;
   flex: 1;
   padding-top: 10px;
   height: 100vh;
@@ -598,7 +600,7 @@ body {
 #visit-left {
   min-width: 50vh;
   margin-bottom: 20px;
-  background: url("../images/floralbouquet.jpg")no-repeat center center/cover;
+  background: url("../images/floralbouquet.webp")no-repeat center center/cover;
 }
 }
 
@@ -722,7 +724,7 @@ body {
 
 @media screen and (min-width: 1440px) {
   #hero {
-    background: url("../images/cute-sheep-rural-life-concept.jpg") no-repeat;
+    background: url("../images/cute-sheep-rural-life-concept.webp") no-repeat;
     background-size: cover;
     background-position: 5% 30%;
   }
