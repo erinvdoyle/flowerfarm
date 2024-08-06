@@ -1,15 +1,18 @@
 # <Black Sheep Farm>
 
-## Welcome to Black Sheep Farm, Cut Flower Farm & Venue
+## Welcome to Black Sheep Farm, Cut Flower Farm & Venue <add logo and heading text>
 The Black Sheep Farm website is an invitation for its visitors to connect with nature. This flower farm and events venue is set in the Wicklow Mountains of Ireland and offers a variety of outdoor activities and purposes: Garden walks, weekend yoga, floral design classes, a cut flower garden to build and bring home a bouquet, and an event space to host special occasions.
 
 Users of the site will be able to find out about the people behind the farm, their origin story, beginning with a move from hectic city life to the Wicklow Mountains, and all of the information therein to either plan a day visit or inquire about booking the farm. There is a class schedule newsletter to subscribe to and a contact form for events. The site is intended for adults of all ages and backgrounds-- anyone who could use more time in nature.
- 
+
+## Why Black Sheep Farm? 
 We were tasked for our first project with Code Institute to build a site with a minimum of three pages ---. I wanted to create something I felt passionate about, so a romanticized version of our own home with a deep connection to nature fit that parameter. I chose to create this site and name it so as in a different life, my home and the land around it could be Black Sheep Farm. 
 
 Because a wellness website was one of our project prompts, I gavee the business a focus on slow-living, sustainability, and spending time outdoors. This lent itself to the plant and floral-based color palette and the style choices I made along the way. It's so simple to get caught up in the demands of modern life. Sometimes we all need to stop and take a breath, feel the sun on our faces, listen to birdsong, and appreciate the beauty around us; if my site can evoke that sense, or better yet, encourage its viewer to do so, then it has been successful. Every project is a journey in itself, and on this one, I leaned on visual inspiration from talented photographers and learned to let the design of the site follow organically.
 
-## Table of Contents (Optional)
+<add screenshot from amiresponsive>
+
+## Table of Contents
 
 - [UXDesign] (#uxdesign)
 - [Features] (#features)
@@ -20,10 +23,9 @@ Because a wellness website was one of our project prompts, I gavee the business 
 - [License](#license)
 - [Tests] (#tests)
 - [Bugs] (#bugs)
-- [Badges] (#badges)
 
 
-## UX Design
+## UX Design <add image of dahlias>
 The design began with a photo of a field of dahlias for inspiration and the building of wireframes in Balsamiq. 
 
 The 5 Planes of UX Design guided this process:
@@ -48,6 +50,12 @@ The 5 Planes of UX Design guided this process:
 ## Features   
 
 ## Future Feature Developments
+- Bouquet CSA: A sign up and info page for a monthly subscription bouquet box (as shown on flipcard #4 on the landing page).
+- Flowers: A feature page with images of each garden and the varieties of flowers grown.
+- A dynamic bi-weekly calendar on the Visit page to view and reserve a spot for upcoming classes. 
+- A scrolling or dynamic image gallery of events.
+- "LambCam": Livestream video of the farm's lambs.
+- Streamable content: Yoga and meditation classes for non-local visitors and an audio gallery of Black Sheep Farm nature sounds, forrest bathing, etc.
 
 ## Testing
 
@@ -64,5 +72,3 @@ Is this necessary?
 ## Tests
 
 ## Bugs
-
-## Badges
