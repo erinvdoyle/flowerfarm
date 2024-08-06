@@ -13,7 +13,6 @@ Because a wellness website was one of our project prompts, I gavee the business 
 <add screenshot from amiresponsive>
 
 ## Table of Contents
-
 - [UXDesign] (#uxdesign)
 - [Features] (#features)
 - [FutureFeatures] (#futurefeatures)
@@ -21,7 +20,6 @@ Because a wellness website was one of our project prompts, I gavee the business 
 - [Deployment](#deployment)
 - [Credits](#credits)
 - [License](#license)
-- [Tests] (#tests)
 - [Bugs] (#bugs)
 
 
@@ -48,6 +46,28 @@ The 5 Planes of UX Design guided this process:
    A color palette based off of floral hues for images and feature elelemts with a neutral grey background to tie into the logo and farm name. Cards representing each page of the site are used on the landing page for visual interest. Images from the farm are used for the front of the cards and brief explanatory text and a link to the page reveal on hover. Background colors on the backside are taken from landing page images using a color picker. Dark grey text is used in favor of black for ease of reading.
 
 ## Features   
+- Header and Navigation
+  - The header is in a fixed position and remains static at the top of the page.
+  - The navigation element features at the top inside the header where the logo and name are located on the left side. These are clickable and return the user to the landing page from any page on the site. 
+  - For mobile screens, the right side features a toggle bar which opens a menu when clicked to display links to the four pages: Home, Our Story, Visit, and Events.
+  - For tablet-sized screens and larger, this toggle gives way to links to the four pages. 
+
+  - Index.html
+   - The landing page features a hero image with one of the farm's mascots at the forefront: A black sheep. Cover text at the bottom of the image lists the farm's full name.
+   - Beneath the hero image and cover text, four flip cards introduce the three remaining pages and a coming soon feature: A bouquet box. The front of these cards show an image relevant to the page content (Dahlias for Our Story/about, a garden pathway for Visit, and a decorated table for Events). These cards flip due to the CSS transform property. The brightly colored back side of each card contains a short explanation of each page and a link.
+
+- Our Story
+ - This about page features a newspaper-like format with four images sized to echo the landing page's flipcards. The main content is split into two containers: The left side contains the images and a brief introduction, while the right side contains text about the owners and their vision for the farm. The background colors are an earthy pale peach and a muted sage green to give the page a calming, comforting, and homey feel appropriate to the content. 
+
+ - Visit 
+  - The Visit page contains a call to subscribe to the class schedule, which is overlayed over a background image of a bouquet being arranged. The right half of the screen displays four images with border and padding such that they appear in the style of polaroid photographs. Each image is captioned to describe the class or farm activity they represent: Garden yoga, floral arrangement, family-friendly garden walks, and the on-site cafe.
+
+ -Events
+  - This page introduces the different possibilities of booking the farm as the venue for a special occasion. There is a hero image of an events table, text below it to detail types of events, and an image with a contact form overlayed so that users can get in touch with the owners about scheduling an event.
+
+- Footer
+ - The footer houses four icons spaced evenly across the bottom of the page. These icons link to the farm's social media: Facebook, X, Instagram, and Youtube.
+
 
 ## Future Feature Developments
 - Bouquet CSA: A sign up and info page for a monthly subscription bouquet box (as shown on flipcard #4 on the landing page).
@@ -56,8 +76,6 @@ The 5 Planes of UX Design guided this process:
 - A scrolling or dynamic image gallery of events.
 - "LambCam": Livestream video of the farm's lambs.
 - Streamable content: Yoga and meditation classes for non-local visitors and an audio gallery of Black Sheep Farm nature sounds, forrest bathing, etc.
-
-## Testing
 
 ## Deployment
 
