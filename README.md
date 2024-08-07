@@ -19,7 +19,6 @@ Because a wellness website was one of our project prompts, I gavee the business 
 - [Testing] (#testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
-- [License](#license)
 - [Bugs] (#bugs)
 
 
@@ -68,6 +67,8 @@ The 5 Planes of UX Design guided this process:
 - Footer
  - The footer houses four icons spaced evenly across the bottom of the page. These icons link to the farm's social media: Facebook, X, Instagram, and Youtube.
 
+- Site Consistency***
+ - colors, cards, split screen or hero image + text format. 
 
 ## Future Feature Developments
 - Bouquet CSA: A sign up and info page for a monthly subscription bouquet box (as shown on flipcard #4 on the landing page).
@@ -80,13 +81,29 @@ The 5 Planes of UX Design guided this process:
 ## Deployment
 
 ## Credits
+- Content 
+ - Flip Card tutorial from W3Schools
+ - Ribbon tutorial from W3Schools
+ - Adding a form to an image W3Schools
+ - Footer tutorial from FreeCodeCamp
 
-third-party assets, tutorials
+- Media
+ - Logo Icon from Icon8
+ - Web Font "Sail" from Google Fonts
+ - Font Awesome for favicon, burger menu, and social media icons
+ - imagecolorpicker.com color picker for background colors inspired by images
+ - Images from freepik.com and floretflowers.com
+ 
 
-## License
-Is this necessary?
-(https://choosealicense.com/).
+## Testing
+- Feature testing
+- Browser compatibility
+- responsiveness
+- Lighthouse testing (consider using WAVE as an extra accessibility test) 
+- Code validation
 
-## Tests
 
 ## Bugs
+- Solved Bugs
+ - When I deployed my site, I realized that my header left a gap at the top of the screen that became visible on some mobile devices when the user scrolled. I added a property of "top: 0;" to solve this issue.
+ - When I began testing my deployed site on different screens and devices, I realized my photos were loading slowly. I converted them from jpg to webp to lower the resolution and decrease load time.
