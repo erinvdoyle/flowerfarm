@@ -1,6 +1,8 @@
 # <Black Sheep Farm>
 
-## Welcome to Black Sheep Farm, Cut Flower Farm & Venue <add logo and heading text>
+## Welcome to Black Sheep Farm, Cut Flower Farm & Venue <add logo and heading text>![alt text](http://url/to/img.png)
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
 The Black Sheep Farm website is an invitation for its visitors to connect with nature. This flower farm and events venue is set in the Wicklow Mountains of Ireland and offers a variety of outdoor activities and purposes: Garden walks, weekend yoga, floral design classes, a cut flower garden to build and bring home a bouquet, and an event space to host special occasions.
 
 Users of the site will be able to find out about the people behind the farm and their origin story, beginning with a move from hectic city life to the Wicklow Mountains, and a mission statement for the "why" behind the farm. All of the information to either plan a day visit or inquire about booking the farm is contained within the Events and Visit pages. There is a class schedule newsletter to subscribe to and a contact form for events. The site is intended for adults and their family memebers and friends of all ages and backgrounds: Anyone who would enjoy spending time in a beautiful garden setting.
