@@ -109,3 +109,6 @@ The 5 Planes of UX Design guided this process:
 - Solved Bugs
   - When I deployed my site, I realized that my header left a gap at the top of the screen that became visible on some mobile devices when the user scrolled. I added a property of "top: 0;" to solve this issue.
   - When I began testing my deployed site on different screens and devices, I realized my photos were loading slowly. I converted them from jpg to webp to lower the resolution and decrease load time.
+
+- Unresolved Bugs
+  - The form text and content on the Events and Visits pages, as well as the text of the "Our Story" div on the about page, overflow their containers when tested on mobile device landscape dimensions. Adjusting devtools to the proper dimensions for landscape was something I neglected to do until my final checkthrough.

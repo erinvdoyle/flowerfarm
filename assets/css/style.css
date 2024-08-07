@@ -757,3 +757,21 @@ body {
   }
 
 }
+
+/* Mobile Devices on Landscape Mode */
+@media screen and (min-height: 320px) and (max-height: 657px) {
+  #story-div {
+    height: auto;
+  }
+
+  #form-image {
+    height: 65%;
+  }
+
+  #visit-text-box {
+    height: auto;
+    border: 0px solid transparent;
+    margin-bottom: -80px;
+  }
+  
+}
