@@ -562,6 +562,36 @@ body {
   border-radius: 5px;
 }
 
+.polaroid-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.polaroid:hover .polaroid-inner {
+  transform: rotateY(180deg);
+}
+
+.polaroid-front, .polaroid-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.polaroid-front {
+  background-color:  rgba(249, 247, 247, .6);
+}
+
+.polaroid-back {
+  background-color: rgb(68, 65, 65);
+  transform: rotateY(180deg);
+}
+
 .polaroid img {
   height: 200px;
   width: 300px;
