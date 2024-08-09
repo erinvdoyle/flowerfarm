@@ -92,17 +92,6 @@ nav {
   size: 180%;
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-
 /* Main Content */
 #page-container {
   position: relative;
@@ -377,6 +366,15 @@ body {
   height: 200px;
   width: 300px;
 } 
+
+.sr {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 160%;
+  font-family: "Sail", system-ui;
+  color: rgb(68, 65, 65);
+  text-align: center;
+}
 
 /* Events Page */
 /* Background Image */
