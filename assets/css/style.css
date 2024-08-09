@@ -138,6 +138,12 @@ main {
   font-size: 180%;
 }
 
+#cover-text h2 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 1.17em;
+}
+
 /* Flip Cards */
 #flip-card-container {
   margin-top: 100px;
@@ -165,7 +171,7 @@ main {
 }
 
 #flip-card3 .flip-card-back {
-  background-color: #b897a2;
+  background-color: #e7dade;
 }
 
 #flip-card4 .flip-card-back {
@@ -247,7 +253,7 @@ main {
   border: 1px dotted white;
   border-radius: 10px;
   transform: rotate(20deg);
-  background-color: hsl(333, 35%, 60%);
+  background-color: #72374F;
   color: white;
   z-index: 99;
 }
@@ -628,7 +634,7 @@ body {
   text-align: center;
   border: 1px dotted white;
   border-radius: 10px;
-  background-color:  hsl(333, 35%, 60%);
+  background-color: #72374F;
   color: white;
   z-index: 99;
 }
