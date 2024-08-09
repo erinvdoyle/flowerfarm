@@ -169,7 +169,7 @@ main {
 }
 
 #flip-card4 .flip-card-back {
-  background-color: #d9a16c;
+  background-color: #edbc80ce;
 }
 
 .flip-card-inner {
@@ -247,7 +247,7 @@ main {
   border: 1px dotted white;
   border-radius: 10px;
   transform: rotate(20deg);
-  background-color: #d95550;
+  background-color: hsl(333, 35%, 60%);
   color: white;
   z-index: 99;
 }
@@ -628,7 +628,7 @@ body {
   text-align: center;
   border: 1px dotted white;
   border-radius: 10px;
-  background-color: #d95550;
+  background-color:  hsl(333, 35%, 60%);
   color: white;
   z-index: 99;
 }

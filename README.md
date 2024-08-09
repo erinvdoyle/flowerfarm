@@ -86,26 +86,29 @@ The 5 Planes of UX Design guided this process:
 - Streamable content: Yoga and meditation classes for non-local visitors and an audio gallery of Black Sheep Farm nature sounds, forrest bathing, etc.
 
 ## Deployment
-- This site was deployed through GitHub repository <[text](https://github.com/erinvdoyle/flowerfarm)>
+- This site was deployed through GitHub repository [/erinvdoyle/flowerfarm](https://github.com/erinvdoyle/flowerfarm)
 - Follow the link above and click the Settings tab in the top navigation bar.
 - From there, navigate to the Code and Automation section on the left side of the screen and click the pages tab.
- - Under the "Build and deployment" header, click the drop down menu "Deploy from a branch," located under Source.
- - Under Branch, select "main" with folder "/root" and click Save.
- - Congratulations, your site is now deployed.
+- Under the "Build and deployment" header, click the drop down menu "Deploy from a branch," located under Source.
+- Under Branch, select "main" with folder "/root" and click Save.
+- Congratulations, your site is now deployed.
 
 ## Credits
 - Content 
-  - Flip Card tutorial from W3Schools [text](https://www.w3schools.com/howto/howto_css_flip_card.asp)
-  - Ribbon tutorial from W3Schools [text](https://www.w3schools.com/howto/howto_css_ribbon.asp)
-  - Adding a form to an image W3Schools [text](https://www.w3schools.com/howto/howto_css_form_on_image.asp)
-  - Footer tutorial from FreeCodeCamp [text](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
+  - Flip Card tutorial from W3Schools [How To Create a Flip Card with CSS](https://www.w3schools.com/howto/howto_css_flip_card.asp)
+  - Ribbon tutorial from W3Schools [How To Create a Ribbon with CSS](https://www.w3schools.com/howto/howto_css_ribbon.asp)
+  - Adding a form to an image W3Schools [How To Add a Form to an Image](https://www.w3schools.com/howto/howto_css_form_on_image.asp)
+  - Footer tutorial from FreeCodeCamp [How to keep your footer where it belongs](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
 
 - Media
-  - Logo Icon from Icon8
-  - Web Fonts "Sail" and "Source Sans 3" from Google Fonts
-  - Font Awesome for favicon, burger menu, and social media icons
+  - Logo Icon from [Icons8] (https://icons8.com)
+  - Web Fonts "Sail" and "Source Sans 3" from [Google Fonts] (https://fonts.google.com/)
+  - [Font Awesome](https://fontawesome.com/) for favicon, burger menu, and social media icons
   - (https://www.imagecolorpicker.com) color picker for background colors inspired by images
-  - Images from freepik.com and floretflowers.com
+  - Images from [freepik](https://www.freepik.com) and [Floret Flowers] (https://www.floretflowers.com)
+
+- Guidance
+  - Inspiration and a jumping off point from Code Institute's Love Running walkthrough project.
  
 
 ## Testing
