@@ -2,10 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
 
-  .source-sans-3-<uniquifier> {
+  .source-sans-3 {
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
   }
 
@@ -70,7 +69,6 @@ header a {
 nav {
   position: absolute;
   width: 100%;
-  box-shadow: 2px;
   display: none;
   top: 100%;
   background-color: rgba(249, 247, 247, .7);
@@ -89,7 +87,6 @@ nav {
   font-size: 2rem;
   margin-right: 20px;
   color: rgb(68, 65, 65);
-  size: 180%;
 }
 
 /* Main Content */
@@ -227,7 +224,7 @@ main {
 }
 
 /* Flip Card Cover Text */
-#card-text {
+.card-text {
   background-color: rgba(249, 247, 247, .9);
   border-radius: 5px;
   position: absolute;
@@ -353,7 +350,6 @@ body {
   font-family: "Sail", system-ui;
   color: rgb(68, 65, 65);
   font-size: 180%;
-  padding-top: -20px;
 }
 
 #story-div p {
@@ -543,7 +539,7 @@ body {
 }
 
 #visit-text > p {
-  padding: -10px 5px 0 0px;
+  padding: 0 5px 0 0px;
 }
 
 #visit-left  form {

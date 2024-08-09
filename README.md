@@ -114,13 +114,16 @@ The 5 Planes of UX Design guided this process:
 ## Testing
 - Feature testing
 - Browser compatibility
-- Responsiveness
-- Lighthouse testing (consider using WAVE as an extra accessibility test) 
+- Responsiveness 
+- Lighthouse & WAVE testing
+ - After running an inital Lighthouse test on each page of the site, it was clear that SEO and Accessability needed to improve. I used the WAVE Web Accessability Evaluation Tool to scan each page and found several contrast errors on the landing page flipcards, as well as empty labels in the nav toggle and the forms in Visit and Events. The contrast issues were easily modified using WAVE's contrast tab and color sliders. The missing labels were fixed after a quick google search suggested adding aria labels. The final issue to be fixed recurred throughout the site and was a failure to adhere to header best practices. I had understood that headers should be used consecutively in size with no smaller header preceeding a larger one, but did not realize it was bad practice to start a page with an <h3>, for example, as a design choice, without first having an <h1> followed by an <h2>. I resolved this issue by using font-size percentages in a css class for each header so that I could keep my preferred size but with the correct selector. Once these errors and alerts were fixed, Lighthouse testing across mobile and desktop on all four pages resulted in SEO and Accessability scores of 100.
 - Code validation
+  -[HTML Validator](https://validator.w3.org/) - Running the code through an HTML validator highlighted three errors. I used an erroneous </img> closing tag for the logo image, which occurred across all pages as they shared the same header containing it. I also attempted to add an alt tag to a <section> composed of a background image which was assigned in the css rather than an image tag. Finally, I used a css ID multiple times for the flipcard text rather than correctly assigning a class. These were all easily fixed by deleting the superfluous code and switching the ID selector to a class.
+  -[CSS Validator](https://jigsaw.w3.org/css-validator/) - The CSS validator highlighted two specific errors: I attempted to use a negative padding value in the about page and a size value rather than re-size on the nav toggle icon. I removed the unneccesary CSS to resolve these issues.
 
 
 ## Bugs
 - Solved Bugs
-  - When I deployed my site, I realized that my header left a gap at the top of the screen that became visible on some mobile devices when the user scrolled. I added a property of "top: 0;" to solve this issue.
-  - After testing my deployed site on different screens and devices, I realized my photos were loading slowly. I converted them from jpg to webp to lower the resolution and decrease load time.
+  - When I deployed my site, I realized that the header left a gap at the top of the screen which became visible on some mobile devices when the user scrolled. I added a property of "top: 0;" to solve this issue.
+  - After testing my deployed site on different screens and devices, I realized the photos were loading slowly. I converted them from jpg to webp to lower the resolution and decrease load time.
   - The form text and content on the Events and Visits pages, as well as the text of the "Our Story" div on the about page, overflowed their containers when tested on mobile device landscape dimensions. Adjusting devtools to the proper dimensions for landscape on small devices was something I neglected to do and I did not catch the bug until testing landscape mode on my own device. I adjusted the height of each container and added a negative margin-bottom to the Visit form container.
