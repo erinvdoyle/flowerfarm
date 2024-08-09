@@ -3,13 +3,13 @@
 ## Welcome to Black Sheep Farm, Cut Flower Farm & Venue <add logo and heading text>![alt text](http://url/to/img.png)
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
-The Black Sheep Farm website invited its visitors to connect with nature. This flower farm and events venue is set in the Wicklow Mountains of Ireland and offers a variety of outdoor activities and purposes: Garden walks, weekend yoga, floral design classes, a cut flower garden to build and bring home a bouquet, and an event space to host special occasions.
+The Black Sheep Farm website invites its visitors to connect with nature. This flower farm and events venue is set in the Wicklow Mountains of Ireland and offers a variety of outdoor activities and purposes: Garden walks, weekend yoga, floral design classes, a cut flower garden to build and bring home a bouquet, and an event space to host special occasions.
 
-Users of the site will find out about the people behind the farm and their origin story, as well as a mission statement for the "why" behind the farm, as found in the Our Story/ about page. All of the information to either plan a day visit or inquire about booking the farm is contained within the Events and Visit pages. There is a class schedule newsletter to subscribe to and a contact form for events. The site is intended for adults, their family memebers, and friends of all ages and backgrounds; anyone who would enjoy spending time in a beautiful garden setting.
+Users of the site will find out about the owners of the farm and their origin story, as well as a mission statement for the "why" behind the farm, as found in the Our Story (about) page. All of the information to either plan a day visit or inquire about booking the farm is contained within the Events and Visit pages. There is a class schedule newsletter to subscribe to and a contact form for events. The site is intended for adults, their family memebers, and friends of all ages and backgrounds; anyone who would enjoy spending time in a garden setting.
 
 
 ## Why Black Sheep Farm? 
-We were tasked for our first project with Code Institute to build a site with a minimum of three pages. I wanted to create something I felt passionate about, so I created a romanticized version of my own home with its deep connection to nature. I chose to create this site and name it so as in a different life, my home and the land around it could be Black Sheep Farm. 
+We were tasked for our first project with Code Institute to build a site with a minimum of three pages. I wanted to create something I felt passionate about, so I chose to create this site and name it so as in a different life, my home and the land around it could be Black Sheep Farm. 
 
 Because a wellness website was one of our project prompts, I gave the business a focus on slow-living, sustainability, and spending time outdoors. This lent itself to the plant and floral-based color palette and the style choices made along the way. Sometimes we all need to stop and take a breath, feel the sun on our faces, listen to birdsong, and appreciate the beauty around us; if this site can evoke that sense, or better yet, encourage its viewer to do so, then it has been successful. Every project is a journey in itself, and on this one, I gathered visual inspiration from nature and natural photography and let the design of the site follow organically.
 
@@ -47,7 +47,7 @@ The 5 Planes of UX Design guided this process:
   <Balsamiq Wireframes>
 
 5. SURFACE - 
-   A color palette based off of floral hues for images and feature elements and a neutral grey background to tie into the logo and farm name. Cards representing each page of the site are used on the landing page for visual interest. Images from the farm are used for the front of the cards and brief explanatory text and a link to the page described reveal on hover. Background colors on the back of the cards are taken from the landing page images using a color picker. Dark grey text is used in favor of black for ease of reading. Copy and image choice give the site an informal, friendly, homespun feel.
+   A color palette based off of floral hues for images and feature elements and a neutral grey background to tie into the logo and farm name. Flip cards representing each page of the site are used on the landing page for visual interest. Images from the farm are used for the front of the cards and brief explanatory text and a link to the page described reveal on hover. Background colors on the back of the cards are taken from the landing page images using a color picker. Dark grey text is used in favor of black for ease of reading. Copy and image choice give the site an informal, friendly, homespun feel.
 
    Colors and Fonts
 
