@@ -619,6 +619,10 @@ body {
   text-align: center;
 }
 
+.sr-h2 {
+  font-size: 120%;
+}
+
 /* Media Queries */
 
 /* Media query: Mobile phones (374px and below) */
