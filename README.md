@@ -10,13 +10,10 @@ The Black Sheep Farm website invites its visitors to connect with nature. This f
 
 Users of the site will find out about the owners of the farm and their origin story, as well as a mission statement for the "why" behind the farm, as found in the Our Story (about) page. All of the information to either plan a day visit or inquire about booking the farm is contained within the Events and Visit pages. There is a class schedule newsletter to subscribe to and a contact form for events. The site is intended for adults, their family memebers, and friends of all ages and backgrounds; anyone who would enjoy spending time in a garden setting.
 
-
 ## Why Black Sheep Farm? 
 We were tasked for our first project with Code Institute to build a site with a minimum of three pages. I wanted to create something I felt passionate about, so I chose to create this site and name it so as in a different life, my home and the nature preserve around it could be Black Sheep Farm. 
 
 Because a wellness website was one of our project prompts, I gave the business a focus on slow-living, sustainability, and spending time outdoors. This lent itself to the plant and floral-based color palette and the style choices made along the way. Sometimes we need to stop and take a breath, feel the sun on our faces, listen to birdsong, and appreciate the beauty around us; if this site can evoke that sense, or better yet, encourage its viewer to do so, then it has been successful. Every project is a journey in itself, and on this one, I gathered visual inspiration from nature and natural photography and let the design of the site follow organically.
-
-<add screenshot from amiresponsive>
 
 ## Table of Contents
 - [User Design] (#userdesign)
@@ -31,17 +28,15 @@ Because a wellness website was one of our project prompts, I gave the business a
 ## UX Design
 Inspiration for the design began with a photo of a field of dahlias and the building of wireframes via Balsamiq. 
 
-![alt text](assets/images/dahlias.webp)
-
 The 5 Planes of UX Design guided this process:
 
 1. STRATEGY -
    To achieve a visually pleasing web experience that evokes a connection to nature and invites its visitors to plan either a day or an event out at the farm.
 
 2. SCOPE -
-   i.  An enticing landing page that displays the beauty of the farm's flowers while inviting visitors to explore the site with a simple layout.
-   ii. A feel good origin story about literal and metaphorical black sheep and a mission statement to connect with the reader.
-   iii. Visit and Events pages to display what the farm offers.
+   - i.  An enticing landing page that displays the beauty of the farm's flowers while inviting visitors to explore the site with a simple layout.
+   - ii. A feel good origin story about literal and metaphorical black sheep and a mission statement to connect with the reader.
+   - iii. Visit and Events pages to display what the farm offers.
 
 3. STRUCTURE -
    Four pages with clear purposes. Landing, About (titled "Our Story"), Visit, and Events.
@@ -54,17 +49,16 @@ The 5 Planes of UX Design guided this process:
 5. SURFACE - 
    A color palette based off of floral hues for images and feature elements and a neutral grey background to tie into the logo and farm name. Flip cards representing each page of the site are used on the landing page for visual interest. Images from the farm are used for the front of the cards and brief explanatory text and a link to the page described reveal on hover. Background colors on the back of the cards are taken from the landing page images using a color picker. Dark grey text is used in favor of black for ease of reading. Copy and image choice give the site an informal, friendly, homespun feel.
 
-   - Fonts and Colors
+  - Fonts and Colors
     - Fonts provided by Google Fonts:
 
-    - "Sail" for headers and accent text
-    ![alt text](assets/images/screenshots/sail-font.png)
+    - "Sail" for headers and accent text and "Source Sans 3" for all other copy:
+    <img src="assets/images/screenshots/sail-font.png" alt="" style="float: left; margin-right: 10px;" width="300"/>
+    <img src="assets/images/screenshots/Source-Sans-3-font.png" alt="" style="float: left; margin-right: 10px;" width="300"/>
 
-    - "Source Sans 3" for all other copy
-     ![alt text](assets/images/screenshots/Source-Sans-3-font.png)
-
-     - Colors:
-      ![alt text](assets/images/screenshots/colorkit.png)
+  - Colors:
+    <img src="assets/images/dahlias1.webp" alt="" style="float: left; margin-right: 10px;" width="300"/>
+    <img src="assets/images/screenshots/colorkit.png" alt="" style="float: left; margin-right: 10px;" width="300"/>
 
    
 
@@ -134,6 +128,7 @@ The 5 Planes of UX Design guided this process:
   - Ribbon tutorial from W3Schools [How To Create a Ribbon with CSS](https://www.w3schools.com/howto/howto_css_ribbon.asp)
   - Adding a form to an image W3Schools [How To Add a Form to an Image](https://www.w3schools.com/howto/howto_css_form_on_image.asp)
   - Footer tutorial from FreeCodeCamp [How to keep your footer where it belongs](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
+  - README Tutorial on Medium [How to make the perfect README.MD on Github](https://medium.com/swlh/how-to-make-the-perfect-readme-md-on-github-92ed5771c061)
 
 - Media
   - Logo Icon from [Icons8] (https://icons8.com)
