@@ -35,7 +35,7 @@ The 5 Planes of UX Design guided this process:
    To achieve a visually pleasing web experience that evokes a connection to nature and invites its visitors to plan either a day or an event out at the farm.
 
 2. SCOPE -
-   - i.  An enticing landing page that displays the beauty of the farm's flowers while inviting visitors to explore the site with a simple layout.
+   - i.  An enticing landing page witha simple layout that displays the beauty of the farm's flowers while inviting visitors to explore the site.
    - ii. A feel good origin story about literal and metaphorical black sheep and a mission statement to connect with the reader.
    - iii. Visit and Events pages to display what the farm offers.
 
@@ -76,7 +76,7 @@ The 5 Planes of UX Design guided this process:
     <img src="assets/images/screenshots/flowerfarm-mobile-header.png" alt="" height="75"/>
   </p>
 
-  - For mobile screens, the right side features a toggle bar which opens a menu when clicked to display links to the four pages: Home, Our Story, Visit, and Events.
+  - For mobile screens, the right side features a toggle bar which opens a menu. When clicked, it displays links to the four pages: Home, Our Story, Visit, and Events.
   - For tablet-sized screens and larger, this toggle gives way to links to the four pages. 
 
 ### Index.html
@@ -95,7 +95,7 @@ The 5 Planes of UX Design guided this process:
   <img src="assets/images/screenshots/about1.png" alt="" height="400"/>
   </p/>
 
-  - This about page features a newspaper-like format with four images sized to echo the landing page's flipcards. The main content is split into two containers: The left side contains the images and a brief introduction, while the right side contains text about the owners and their vision for the farm. The background colors are an earthy pale peach and a muted sage green to give the page a calming, comforting, and homey feel appropriate to the content. 
+  - This about page features a newspaper-like format with four images sized to echo the landing page's flipcards. The main content is split into two containers: The left side contains the images and a brief introduction, while the right side contains text about the owners and their vision for the farm. The background colors are an earthy pale peach and a muted sage green to give the page a calming, homey feel appropriate to the content. 
 
 ### Visit.html 
 
@@ -103,7 +103,7 @@ The 5 Planes of UX Design guided this process:
   <img src="assets/images/screenshots/visit1.png" alt="" height="400"/>
   </p>
 
-  - The Visit page contains a call to subscribe to the class schedule. The input box and a description of the classes offered is overlayed on a background image of a bouquet being arranged. The right half of the screen displays four images with border and padding such that they appear in the style of polaroid photographs. Each image is captioned to describe the class or farm activity they depict: Garden yoga, floral arrangement, family-friendly garden walks, and the on-site cafe. These image cards flip on hover to reveal the class times and locations.
+  - The Visit page contains a call to subscribe to the class schedule. The input box and a description of the classes offered is overlayed on a background image of a bouquet being arranged. The right half of the screen displays four images with border and padding such that they appear in the style of polaroid photographs. Each image is captioned to describe the class or farm attraction they depict: Garden yoga, floral arrangement, family-friendly garden walks, and the on-site cafe. These image cards flip on hover to reveal the class times and locations.
 
   <p align="center">
   <br><img src="/assets/images/screenshots/flowerfarm-polaroids.png" alt="two images in the style of polaroid photos" height="200"/><br>
@@ -123,7 +123,7 @@ The 5 Planes of UX Design guided this process:
   - The footer houses four icons spaced evenly across the bottom of the page. These icons link to Black Sheep Farm's social media: Facebook, X, Instagram, and Youtube.
 
 - Site Consistency
-  - Neutral and complimentary floral colors paired with uniformly sized images with rounded edges are used to create a cohesive feel. Each page features either a hero image with text beneath, or a split screen style format, or a combination of both, to maintain consistency. Flip cards are used to add interest to images on two of the pages.
+  - Neutral and complimentary floral colors paired with uniformly sized, round-edged images are used to create a cohesive feel. Each page features either a hero image with text beneath, a split screen style format, or a combination of both, to maintain consistency. Flip cards are used to add interest to images on two of the pages.
 
 ## Future Feature Developments
 - Bouquet CSA: A sign up and info page for a monthly subscription bouquet box (as shown on flipcard #4 on the landing page).
@@ -140,6 +140,10 @@ The 5 Planes of UX Design guided this process:
 - Under the "Build and deployment" header, click the drop down menu "Deploy from a branch," located under Source.
 - Under Branch, select "main" with folder "/root" and click Save.
 - Congratulations, your site is now deployed.
+
+<p align="center">
+<img src="assets/images/screenshots/githubfinal.png">
+</p>
 
 ## Technology
 - HTML5
