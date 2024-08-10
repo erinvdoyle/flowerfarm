@@ -188,17 +188,13 @@ The 5 Planes of UX Design guided this process:
   - The newsletter signup box on the Visit page requires an email address to be entered on submission. The user data is collected and correctly routed to the Code Institute form dump.
 
 <p align="center">
-<img src="assets/images/screenshots/visitform1.png">
-<img src="assets/images/screenshots/visitform2.png">
-<img src="assets/images/screenshots/visitform3.png">
+<img src="assets/images/screenshots/visittesting.png">
 </p>
 
   - The Events page features a contact form which requires data entered into the top three input fields in order to submit. This functions correctly and sends the data to the Code Institute form dump.
 
   <p align="center">
-<img src="assets/images/screenshots/eventsform1.png">
-<img src="assets/images/screenshots/eventsform2.png">
-<img src="assets/images/screenshots/eventsform3.png">
+<img src="assets/images/screenshots/eventstesting.png">
 </p>
 
 - Browser compatibility
