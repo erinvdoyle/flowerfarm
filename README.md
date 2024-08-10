@@ -142,7 +142,11 @@ The 5 Planes of UX Design guided this process:
 - Congratulations, your site is now deployed.
 
 <p align="center">
-<img src="assets/images/screenshots/githubfinal.png">
+<img src="assets/images/screenshots/github1.png">
+</p>
+<p align="center">
+<img src="assets/images/screenshots/github2.png">
+<img src="assets/images/screenshots/github3.png">
 </p>
 
 ## Technology
