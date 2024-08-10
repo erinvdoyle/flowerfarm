@@ -13,6 +13,23 @@
     font-weight: 400;
     font-style: normal;
   }
+
+/* Main Content */
+#page-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+}
+
+*#content-wrap {
+  padding-bottom: 5rem; 
+}
+
+main {
+   flex: 1 0 auto;
+   margin-top: 10px;
+}  
   
 /* Header */
 
@@ -54,6 +71,7 @@ header a {
   font-size: 100%;
   letter-spacing: 1px;
   list-style-type: none;
+  font-weight: bold;
 }
 
 #menu > li {
@@ -63,6 +81,7 @@ header a {
 .active {
   border-bottom: 1px solid rgb(68, 65, 65);
   color: rgb(68, 65, 65);
+  font-weight: bold;
 }
 /* Navigation Bar */
 
@@ -89,19 +108,38 @@ nav {
   color: rgb(68, 65, 65);
 }
 
-/* Main Content */
-#page-container {
-  position: relative;
-  min-height: 100vh;
+/* Footer */
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  /*flex-shrink: 0;*/
 }
 
-#content-wrap {
-  padding-bottom: 5rem; 
+#social-networks {
+  text-align: center;
+  padding: 20px 0 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  border-top: 3px solid rgb(68, 65, 65);
 }
 
-main {
-   flex: 1 0 auto;
-   margin-top: 10px;
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: rgb(68, 65, 65);
+}
+
+/* General Style */
+
+body {
+  background-color: #c7c6c6;
+  font-family: "Source Sans 3", sans-serif;
+  color: #fff; 
 }
 
 /* Index.html */
@@ -109,7 +147,6 @@ main {
 /*Hero Image and Cover Text */
 
 #hero {
-  /*background: url("../images/dahliafieldmain.jpg") no-repeat center center/cover;*/
   background: url("../images/cute-sheep-rural-life-concept.webp") no-repeat center center/cover;
   margin-top: 75px;
   border-radius: 5px;
@@ -255,39 +292,6 @@ main {
   z-index: 99;
 }
 
-/* Footer */
-
-footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 5rem;
-}
-
-#social-networks {
-  text-align: center;
-  padding: 20px 0 10px 0;
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-  border-top: 3px solid rgb(68, 65, 65);
-}
-
-#social-networks i {
-  font-size: 160%;
-  padding: 5%;
-  color: rgb(68, 65, 65);
-}
-
-/* General Style */
-
-body {
-    background-color: #c7c6c6;
-    font-family: "Source Sans 3", sans-serif;
-    color: #fff; 
-}
-
 /* About Page */
 
 *#about-main {
@@ -373,6 +377,7 @@ body {
 }
 
 /* Events Page */
+
 /* Background Image */
 
 .background-image {
@@ -429,6 +434,7 @@ body {
   width: 100%;
   color: rgb(68, 65, 65);
 }
+
 /* Events Form */
 
 #form-image {
@@ -512,14 +518,9 @@ body {
   align-items: center;
   border: 8px solid rgba(249, 247, 247, .9);
   border-radius: 5px;
-  /*left: 0;
-  bottom: 25%;
-  height: 50%;*/
   width: 80%;
   max-height: 80%;
-  /*margin-left: 8%;*/
   color: rgb(68, 65, 65);
-  /*align-self: center;*/
 }
 
 #visit-text {

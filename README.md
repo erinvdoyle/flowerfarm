@@ -42,14 +42,15 @@ The 5 Planes of UX Design guided this process:
    Four pages with clear purposes. Landing, About (titled "Our Story"), Visit, and Events.
 
 4. SKELETON -
-   Planned and depicted in wireframes
+   Planned and assembled in wireframes
 
   <Balsamiq Wireframes>
 
 5. SURFACE - 
    A color palette based off of floral hues for images and feature elements and a neutral grey background to tie into the logo and farm name. Flip cards representing each page of the site are used on the landing page for visual interest. Images from the farm are used for the front of the cards and brief explanatory text and a link to the page described reveal on hover. Background colors on the back of the cards are taken from the landing page images using a color picker. Dark grey text is used in favor of black for ease of reading. Copy and image choice give the site an informal, friendly, homespun feel.
 
-   Colors and Fonts
+   -Colors and Fonts:
+   
 
 ## Features   
 - Header and Navigation
