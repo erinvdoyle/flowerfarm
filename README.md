@@ -45,18 +45,18 @@ The 5 Planes of UX Design guided this process:
   <Balsamiq Wireframes>
 
 5. SURFACE - 
-   A color palette based off of floral hues for images and feature elements and a neutral grey background to tie into the logo and farm name. Flip cards representing each page of the site are used on the landing page for visual interest. Images from the farm are used for the front of the cards and brief explanatory text and a link to the page described reveal on hover. Background colors on the back of the cards are taken from the landing page images using a color picker. Dark grey text is used in favor of black for ease of reading. Copy and image choice give the site an informal, friendly, homespun feel.
+   A color palette based off of floral hues for images and feature elements and a neutral grey background to tie into the logo and farm name. Flip cards representing each page of the site are used on the landing page for visual interest. Images from the farm are used for the front of the cards and brief explanatory text with a link to the page described reveal on hover. Background colors on the back of the cards were taken from the front images using a color picker. The form and email subscription signup are each overlaid atop a background image representing life at the farm. Dark grey text is used in favor of black for ease of reading. Copy and image choice give the site an informal, friendly, homespun feel.
 
   - Fonts and Colors
     - Fonts courtesy of Google Fonts. "Sail" for headers and accent text; "Source Sans 3" for all other copy:
     <p align="center">
     <img src="assets/images/screenshots/sail-font.png" alt="" height="50"/>
-    <img src="assets/images/screenshots/Source-Sans-3-font.png" alt="" height="50"/>
+    <img src="assets/images/screenshots/Source-Sans-3-font.png" alt="" height="45"/>
     </p>
 
     - Colors:
     <p align="center">
-    <img src="assets/images/dahlias1.webp" alt="" height="150"/>
+    <img src="assets/images/dahlias1.webp" alt="" height="150" style="margin-right: 20px;"/>
     <img src="assets/images/screenshots/colorkit.png" alt="" height="150"/>
     </p>
 
@@ -100,7 +100,7 @@ The 5 Planes of UX Design guided this process:
   <img src="assets/images/screenshots/visit1.png" alt="" height="400"/>
   </p>
 
-  - The Visit page contains a call to subscribe to the class schedule. The input box and a description of the classes offered is overlayed over a background image of a bouquet being arranged. The right half of the screen displays four images with border and padding such that they appear in the style of polaroid photographs. Each image is captioned to describe the class or farm activity they depict: Garden yoga, floral arrangement, family-friendly garden walks, and the on-site cafe. These image cards flip on hover to reveal the class times and locations.
+  - The Visit page contains a call to subscribe to the class schedule. The input box and a description of the classes offered is overlayed on a background image of a bouquet being arranged. The right half of the screen displays four images with border and padding such that they appear in the style of polaroid photographs. Each image is captioned to describe the class or farm activity they depict: Garden yoga, floral arrangement, family-friendly garden walks, and the on-site cafe. These image cards flip on hover to reveal the class times and locations.
 
   <p align="center">
   <br><img src="/assets/images/screenshots/flowerfarm-polaroids.png" alt="two images in the style of polaroid photos" height="200"/><br>
@@ -159,12 +159,24 @@ The 5 Planes of UX Design guided this process:
 
 ## Testing
 - Feature testing
+  - The flip cards on the landing and Visit pages function as expected, performing a horizontal flip across the y axis on hover.
+  - The mobile drop down navigation menu covers the width of the screen and the links deliver the user to the chosen page.
+  - The form on the Events page and the newsletter signup box on the Visit page each require the designated fields on submission and the user data is collected and correctly routed to the Code Institute form dump.
 - Browser compatibility
+  - The site has been manually tested for desktop with Microsoft Edge and Google Chrome, and for mobile with Edge, Chrome, and Safari. The function and design of the site remain intact with the exception of a bug on Safari mobile on my personal device, as detailed in the Unsolved Bugs section below.
 - Responsiveness 
+  - All pages have been tested for responsiveness through both Chrome and Microsoft Edge DevTools at the following CSS breakpoints:
+    - Mobile S (320px)
+    - Mobile M (375px)
+    - Mobile L (425px)
+    - Tablet (768px)
+    - Laptop (1024px)
+    - Laptop (1440px)
+   Manual testing has been performed on an iPhone 11 and iPhone12 using Safari and Chrome, as well as on three Windows laptops of differing screen sizes. [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) provided the screenshot for the top of this README and allowed further testing on site. 
 - Lighthouse & WAVE testing
- - After running an inital Lighthouse test on each page of the site, it was clear that SEO and Accessability needed to improve. I used the WAVE Web Accessability Evaluation Tool to scan each page and found several contrast errors on the landing page flipcards, as well as empty labels in the nav toggle and the forms in Visit and Events. The contrast issues were easily modified using WAVE's contrast tab and color sliders. The missing labels were fixed after a quick google search suggested adding aria labels. The final issue to be fixed recurred throughout the site and was a failure to adhere to header best practices. I had understood that headers should be used consecutively in size with no smaller header preceeding a larger one, but did not realize it was bad practice to start a page with an h3, for example, as a design choice, without first having an h1 followed by an h2. I resolved this issue by using font-size percentages in a css class for each header so that I could keep my preferred size but with the correct selector. Once these errors and alerts were fixed, Lighthouse testing across mobile and desktop for all four pages resulted in SEO and Accessability scores of 100.
+ - After running an inital Lighthouse test on each page of the site, it was clear that SEO and Accessability needed to improve. I used the WAVE Web Accessability Evaluation Tool to scan each page and found several contrast errors on the landing page flipcards, as well as empty labels in the nav toggle and in the forms in Visit and Events. The contrast issues were easily modified using WAVE's contrast tab and color sliders. The missing labels were fixed after a quick google search suggested adding aria labels. The final issue to be fixed recurred throughout the site and was a failure to adhere to header best practices. I had understood that headers should be used consecutively in size with no smaller header preceeding a larger one, but did not realize it was bad practice to start a page with an h3, for example, without first having an h1 followed by an h2. I resolved this issue by using font-size percentages in a CSS class for each header so that I could keep my preferred size but with the correct selector. Once these errors and alerts were fixed, Lighthouse testing across mobile and desktop for all four pages resulted in SEO and Accessability scores of 100.
 - Code validation
-  -[HTML Validator](https://validator.w3.org/) - Running the code through an HTML validator highlighted three errors. I used an erroneous </img> closing tag for the logo image, which occurred across all pages as they shared the same header that contained it. I also attempted to add an alt tag to a <section> composed of a background image which was assigned in the css rather than an html image tag. Finally, I used a css ID multiple times for the flipcard text rather than correctly assigning a class. These were all easily fixed by deleting the superfluous code and switching the ID selector to a class.
+  -[HTML Validator](https://validator.w3.org/) - Running the code through an HTML validator highlighted three errors. I used an erroneous img closing tag for the logo image, which occurred across all pages as they shared the same header. I also attempted to add an alt tag to a section element composed of a background image which was assigned in the css rather than an html image tag. Finally, I used a css ID multiple times for the flipcard text rather than correctly assigning a class. These were all easily fixed by deleting the superfluous code and switching the ID selector to a class.
   -[CSS Validator](https://jigsaw.w3.org/css-validator/) - The CSS validator highlighted two specific errors: I attempted to use a negative padding value in the about page and a size value rather than re-size on the nav toggle icon. I removed the unneccesary CSS to resolve these issues.
 
 
