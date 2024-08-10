@@ -176,28 +176,28 @@ The 5 Planes of UX Design guided this process:
  
 
 ## Testing
-- Feature testing
-    - The mobile nav toggle clicks into a drop down navigation menu which covers the width of the screen. Its links deliver the user to the page chosen.
+### Feature testing
+- The mobile nav toggle clicks into a drop down navigation menu which covers the width of the screen. Its links deliver the user to the page chosen.
 
 <p align="center">
 <img src="assets/images/screenshots/togglemenu1.png">
 </p>
 
-    - The landing and Vist pages feature flip cards which function as expected, performing a horizontal flip across the y axis on hover.
+- The landing and Vist pages feature flip cards which function as expected, performing a horizontal flip across the y axis on hover.
   
-    - The newsletter signup box on the Visit page requires an email address to be entered on submission. The user data is collected and correctly routed to the Code Institute form dump.
+- The newsletter signup box on the Visit page requires an email address to be entered on submission. The user data is collected and correctly routed to the Code Institute form dump.
 
 <p align="center">
 <img src="assets/images/screenshots/visittesting.png">
 </p>
 
-    - The Events page features a contact form which requires data entered into the top three input fields in order to submit. This functions correctly and sends the data to the Code Institute form dump.
+- The Events page features a contact form which requires data entered into the top three input fields in order to submit. This functions correctly and sends the data to the Code Institute form dump.
 
   <p align="center">
 <img src="assets/images/screenshots/eventstesting.png">
 </p>
 
-- Browser compatibility
+### Browser compatibility
 
 | Browser Tested          | Intended Appearance | Intended Responsiveness |
 |-------------------------|---------------------|-------------------------|
@@ -205,21 +205,25 @@ The 5 Planes of UX Design guided this process:
 | Edge (Mobile/ Desktop)  | Good                | Good                    |
 | Safari (Mobile)         | Good                | Fair                    |
 
-  - The site has been manually tested for desktop with Microsoft Edge and Google Chrome, and for mobile with Edge, Chrome, and Safari. The function and design of the site remain intact with the exception of a bug on Safari mobile on my own personal device, as detailed in the Unsolved Bugs section below.
-- Responsiveness 
-  - All pages have been tested for responsiveness through both Chrome and Edge DevTools at the following CSS breakpoints:
+- The site has been manually tested for desktop with Microsoft Edge and Google Chrome, and for mobile with Edge, Chrome, and Safari. The function and design of the site remain intact with the exception of a bug on Safari mobile on my own personal device, as detailed in the Unsolved Bugs section below.
+
+### Responsiveness 
+- All pages have been tested for responsiveness through both Chrome and Edge DevTools at the following CSS breakpoints:
     - Mobile S (320px)
     - Mobile M (375px)
     - Mobile L (425px)
     - Tablet (768px)
     - Laptop (1024px)
     - Laptop (1440px)
-   Manual testing has been performed on an iPhone 11 and iPhone12 using Safari and Chrome, as well as on three Windows laptops of differing screen sizes. [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) provided the screenshot for the top of this README and allowed further testing on site. 
-- Lighthouse & WAVE testing
- - After running an inital Lighthouse test on each page of the site, it was clear that SEO and Accessability needed to improve. I used the WAVE Web Accessability Evaluation Tool to scan each page and found several contrast errors on the landing page flipcards, as well as empty labels in the nav toggle and forms in Visit and Events. The contrast issues were easily modified using WAVE's contrast tab and color sliders. The missing labels were fixed after a quick google search suggested adding aria labels. The final issue to be fixed recurred throughout the site and was a failure to adhere to header best practices. I had understood that headers should be used consecutively in size with no smaller header preceeding a larger one, but did not realize it was bad practice to start a page with an h3, for example, without first having an h1 followed by an h2. I resolved this issue by using font-size percentages in a CSS class for each header. This allowed me to keep my preferred size while using the correct selector. Once these errors and alerts were fixed, Lighthouse testing across mobile and desktop for all four pages resulted in SEO and Accessability scores of 100.
-- Code validation
-  -[HTML Validator](https://validator.w3.org/) - Running the code through an HTML validator highlighted three errors. I used an erroneous img closing tag for the logo image, which occurred across all pages as they shared the same header. I also attempted to add an alt tag to a section element composed of a background image which was assigned in the css rather than an html image tag. Finally, I used a css ID multiple times for the flipcard text rather than correctly assigning a class. These were all easily fixed by deleting the superfluous code and switching the ID selector to a class.
-  -[CSS Validator](https://jigsaw.w3.org/css-validator/) - The CSS validator highlighted two specific errors: I attempted to use a negative padding value in the about page and a size value rather than re-size on the nav toggle icon. I removed the unneccesary CSS to resolve these issues.
+  
+- Manual testing has been performed on an iPhone 11 and iPhone12 using Safari and Chrome, as well as on three Windows laptops of differing screen sizes. [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) provided the screenshot for the top of this README and allowed further testing on site. 
+
+### Lighthouse & WAVE testing
+- After running an inital Lighthouse test on each page of the site, it was clear that SEO and Accessability needed to improve. I used the WAVE Web Accessability Evaluation Tool to scan each page and found several contrast errors on the landing page flipcards, as well as empty labels in the nav toggle and forms in Visit and Events. The contrast issues were easily modified using WAVE's contrast tab and color sliders. The missing labels were fixed after a quick google search suggested adding aria labels. The final issue to be fixed recurred throughout the site and was a failure to adhere to header best practices. I had understood that headers should be used consecutively in size with no smaller header preceeding a larger one, but did not realize it was bad practice to start a page with an h3, for example, without first having an h1 followed by an h2. I resolved this issue by using font-size percentages in a CSS class for each header. This allowed me to keep my preferred size while using the correct selector. Once these errors and alerts were fixed, Lighthouse testing across mobile and desktop for all four pages resulted in SEO and Accessability scores of 100.
+
+### Code validation
+-[HTML Validator](https://validator.w3.org/) - Running the code through an HTML validator highlighted three errors. I used an erroneous img closing tag for the logo image, which occurred across all pages as they shared the same header. I also attempted to add an alt tag to a section element composed of a background image which was assigned in the css rather than an html image tag. Finally, I used a css ID multiple times for the flipcard text rather than correctly assigning a class. These were all easily fixed by deleting the superfluous code and switching the ID selector to a class.
+-[CSS Validator](https://jigsaw.w3.org/css-validator/) - The CSS validator highlighted two specific errors: I attempted to use a negative padding value in the about page and a size value rather than re-size on the nav toggle icon. I removed the unneccesary CSS to resolve these issues.
 
 
 ## Bugs
