@@ -441,14 +441,15 @@ body {
   margin-top: 20px;
   min-width: 40vh;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #form-container {
   position: absolute;
   height: 75%;
   width: 75%;
-  margin-left: 8.5%;
-  margin-top: 5%;
   padding: 20px;
   background-color: rgba(249, 247, 247, .9);
   border-radius: 5px;
@@ -498,7 +499,6 @@ body {
   flex: 1;
   padding-top: 10px;
   height: 100vh;
-  width: auto;
   position: relative;
   display: flex;
   align-items: center;
@@ -512,20 +512,21 @@ body {
   align-items: center;
   border: 8px solid rgba(249, 247, 247, .9);
   border-radius: 5px;
-  position: absolute;
-  left: 0;
+  /*left: 0;
   bottom: 25%;
-  height: 50%;
+  height: 50%;*/
   width: 80%;
-  margin-left: 8%;
+  max-height: 80%;
+  /*margin-left: 8%;*/
   color: rgb(68, 65, 65);
-  align-self: center;
+  /*align-self: center;*/
 }
 
 #visit-text {
   background-color: rgba(249, 247, 247, .9);
   border-radius: 5px;
   align-self: center;
+  max-height: 80%;
   padding: 20px 10px 10px 15px;
   margin: 20px;
 }
@@ -607,6 +608,7 @@ body {
 .polaroid img {
   height: 200px;
   width: 300px;
+  max-width: 100%;
 }
 
 .polaroid p {
@@ -715,6 +717,11 @@ body {
   }
 }
 
+@media screen and (max-height: 420px) and (min-width: 640px) {
+  #visit-left {
+    height: 150vh;
+  }
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -817,12 +824,4 @@ body {
   #form-image {
     height: 65%;
   }
-
-  /*
-  #visit-text-box {
-    height: auto;
-    border: 0px solid transparent;
-    margin-bottom: -80px;
-  } */
-  
 }
