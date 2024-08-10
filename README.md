@@ -1,11 +1,10 @@
 # <Black Sheep Farm>
 
 <div style="text-align: center;">
-  <img src="/assets/images/screenshots/flowerfarm-header.png" alt="Description of the image">
+  <img src="/assets/images/screenshots/flowerfarm-hero.png" alt="image of a black sheep with text 'Welcome to Black Sheep Farm'">
 </div>
 
-## Welcome to Black Sheep Farm, Cut Flower Farm & Venue <add logo and heading text>![alt text](http://url/to/img.png)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+## Welcome to Black Sheep Farm, Cut Flower Farm & Venue
 
 The Black Sheep Farm website invites its visitors to connect with nature. This flower farm and events venue is set in the Wicklow Mountains of Ireland and offers a variety of outdoor activities and purposes: Garden walks, weekend yoga, floral design classes, a cut flower garden to build and bring home a bouquet, and an event space to host special occasions.
 
@@ -32,7 +31,7 @@ Because a wellness website was one of our project prompts, I gave the business a
 ## UX Design
 Inspiration for the design began with a photo of a field of dahlias and the building of wireframes via Balsamiq. 
 
-![alt text](assets/images/screenshots/flowerfarm-mobile-header.png?raw=true)
+![alt text](assets/images/dahlias.webp)
 
 The 5 Planes of UX Design guided this process:
 
@@ -71,24 +70,32 @@ The 5 Planes of UX Design guided this process:
   - For tablet-sized screens and larger, this toggle gives way to links to the four pages. 
 
 - Index.html
-![alt text](assets/images/screenshots/flowerfarm-mobile-header.png?raw=true)
+![alt text](assets/images/screenshots/landing1.png)
   - The landing page features a hero image with one of the farm's mascots at the forefront: A black sheep. Cover text at the bottom of the image lists the farm's full name.
   - Beneath the hero image and cover text, four flip cards introduce the three remaining pages and a coming soon feature: A bouquet box. The front of these cards show an image relevant to the page content (Dahlias for Our Story/about, a garden pathway for Visit, and a decorated table for Events). These cards flip using the CSS transform property. The brightly colored back side of each card contains a short explanation of each page and a link.
 
+  <div style="text-align: center;">
+  <img src="/assets/images/screenshots/flowerfarm-flipcards.png" alt="two cards side by side, one with text 'Our Story', another with the image of a garden path">
+</div>
+
 - Our Story
-![alt text](assets/images/screenshots/flowerfarm-mobile-header.png?raw=true)
+![alt text](assets/images/screenshots/about1.png)
   - This about page features a newspaper-like format with four images sized to echo the landing page's flipcards. The main content is split into two containers: The left side contains the images and a brief introduction, while the right side contains text about the owners and their vision for the farm. The background colors are an earthy pale peach and a muted sage green to give the page a calming, comforting, and homey feel appropriate to the content. 
 
 - Visit 
-![alt text](assets/images/screenshots/flowerfarm-mobile-header.png?raw=true)
+![alt text](assets/images/screenshots/visit1.png)
   - The Visit page contains a call to subscribe to the class schedule. The input box and a description of the classes offered is overlayed over a background image of a bouquet being arranged. The right half of the screen displays four images with border and padding such that they appear in the style of polaroid photographs. Each image is captioned to describe the class or farm activity they depict: Garden yoga, floral arrangement, family-friendly garden walks, and the on-site cafe. These image cards flip on hover to reveal the class times and locations.
 
+  <div style="text-align: center;">
+  <img src="/assets/images/screenshots/flowerfarm-polaroids.png" alt="two images in the style of polaroid photos">
+</div>
+
 -Events
-![alt text](assets/images/screenshots/flowerfarm-mobile-header.png?raw=true)
+![alt text](assets/images/screenshots/events1.png)
   - This page introduces the different opportunities to book the farm as the venue for a special occasion. There is a hero image of an events table, text below it to detail types of events, and an image with a contact form overlayed so that users can get in touch with the owners about scheduling an event.
 
 - Footer
-![alt text](assets/images/screenshots/flowerfarm-mobile-header.png?raw=true)
+![alt text](assets/images/screenshots/flowerfarm-footer.png)
   - The footer houses four icons spaced evenly across the bottom of the page. These icons link to Black Sheep Farm's social media: Facebook, X, Instagram, and Youtube.
 
 - Site Consistency
