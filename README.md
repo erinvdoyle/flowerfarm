@@ -49,12 +49,16 @@ The 5 Planes of UX Design guided this process:
 
   - Fonts and Colors
     - Fonts courtesy of Google Fonts. "Sail" for headers and accent text; "Source Sans 3" for all other copy:
-    <img src="assets/images/screenshots/sail-font.png" alt="" height="75"/>
-    <img src="assets/images/screenshots/Source-Sans-3-font.png" alt="" height="75"/>
+    <p align="center">
+    <img src="assets/images/screenshots/sail-font.png" alt="" height="50"/>
+    <img src="assets/images/screenshots/Source-Sans-3-font.png" alt="" height="50"/>
+    </p>
 
     - Colors:
-    <br><img src="assets/images/dahlias1.webp" alt="" height="100"/>
-    <img src="assets/images/screenshots/colorkit.png" alt="" height="100"/>
+    <p align="center">
+    <img src="assets/images/dahlias1.webp" alt="" height="150"/>
+    <img src="assets/images/screenshots/colorkit.png" alt="" height="150"/>
+    </p>
 
    
 ## Features   
@@ -85,7 +89,7 @@ The 5 Planes of UX Design guided this process:
 ### Our Story (about.html)
 
   <p align="center">
-  <img src="assets/images/screenshots/about1.png" alt="" height="300"/>
+  <img src="assets/images/screenshots/about1.png" alt="" height="400"/>
   </p/>
 
   - This about page features a newspaper-like format with four images sized to echo the landing page's flipcards. The main content is split into two containers: The left side contains the images and a brief introduction, while the right side contains text about the owners and their vision for the farm. The background colors are an earthy pale peach and a muted sage green to give the page a calming, comforting, and homey feel appropriate to the content. 
@@ -93,7 +97,7 @@ The 5 Planes of UX Design guided this process:
 ### Visit.html 
 
   <p align="center">
-  <img src="assets/images/screenshots/visit1.png" alt="" height="300"/>
+  <img src="assets/images/screenshots/visit1.png" alt="" height="400"/>
   </p>
 
   - The Visit page contains a call to subscribe to the class schedule. The input box and a description of the classes offered is overlayed over a background image of a bouquet being arranged. The right half of the screen displays four images with border and padding such that they appear in the style of polaroid photographs. Each image is captioned to describe the class or farm activity they depict: Garden yoga, floral arrangement, family-friendly garden walks, and the on-site cafe. These image cards flip on hover to reveal the class times and locations.
@@ -105,7 +109,7 @@ The 5 Planes of UX Design guided this process:
 ### Events.html
 
 <p align="center">
-<img src="assets/images/screenshots/events1.png" alt="" height="300"/>
+<img src="assets/images/screenshots/events1.png" alt="" height="400"/>
 </p>
 
   - This page introduces the different opportunities to book the farm as the venue for a special occasion. There is a hero image of an events table, text below it to detail types of events, and an image with a contact form overlayed so that users can get in touch with the owners about scheduling an event.
