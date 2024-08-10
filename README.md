@@ -1,5 +1,9 @@
 # <Black Sheep Farm>
 
+<div style="text-align: center;">
+  <img src="/assets/images/screenshots/flowerfarm-header.png" alt="Description of the image">
+</div>
+
 ## Welcome to Black Sheep Farm, Cut Flower Farm & Venue <add logo and heading text>![alt text](http://url/to/img.png)
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
@@ -25,8 +29,10 @@ Because a wellness website was one of our project prompts, I gave the business a
 - [Bugs] (#bugs)
 
 
-## UX Design <add image of dahlias>
+## UX Design
 Inspiration for the design began with a photo of a field of dahlias and the building of wireframes via Balsamiq. 
+
+![alt text](assets/images/screenshots/flowerfarm-mobile-header.png?raw=true)
 
 The 5 Planes of UX Design guided this process:
 
@@ -55,29 +61,34 @@ The 5 Planes of UX Design guided this process:
 ## Features   
 - Header and Navigation
 
-![alt text](https://github.com/erinvdoyle/flowerfarm/assets/images/screenshots/flowerfarm-header.png?raw=true)
+![alt text](assets/images/screenshots/flowerfarm-header.png)
 
   - The header is in a fixed position and remains static at the top of the page.
   - The navigation element features at the top of each page, inside the header where the logo and name are located on the left side. These are clickable and return the user from any page or position on the site to the landing page. 
 
-  ![alt text](https://github.com/erinvdoyle/flowerfarm/assets/images/screenshots/flowerfarm-mobile-header.png?raw=true)
+  ![alt text](assets/images/screenshots/flowerfarm-mobile-header.png?raw=true)
   - For mobile screens, the right side features a toggle bar which opens a menu when clicked to display links to the four pages: Home, Our Story, Visit, and Events.
   - For tablet-sized screens and larger, this toggle gives way to links to the four pages. 
 
 - Index.html
+![alt text](assets/images/screenshots/flowerfarm-mobile-header.png?raw=true)
   - The landing page features a hero image with one of the farm's mascots at the forefront: A black sheep. Cover text at the bottom of the image lists the farm's full name.
   - Beneath the hero image and cover text, four flip cards introduce the three remaining pages and a coming soon feature: A bouquet box. The front of these cards show an image relevant to the page content (Dahlias for Our Story/about, a garden pathway for Visit, and a decorated table for Events). These cards flip using the CSS transform property. The brightly colored back side of each card contains a short explanation of each page and a link.
 
 - Our Story
+![alt text](assets/images/screenshots/flowerfarm-mobile-header.png?raw=true)
   - This about page features a newspaper-like format with four images sized to echo the landing page's flipcards. The main content is split into two containers: The left side contains the images and a brief introduction, while the right side contains text about the owners and their vision for the farm. The background colors are an earthy pale peach and a muted sage green to give the page a calming, comforting, and homey feel appropriate to the content. 
 
 - Visit 
+![alt text](assets/images/screenshots/flowerfarm-mobile-header.png?raw=true)
   - The Visit page contains a call to subscribe to the class schedule. The input box and a description of the classes offered is overlayed over a background image of a bouquet being arranged. The right half of the screen displays four images with border and padding such that they appear in the style of polaroid photographs. Each image is captioned to describe the class or farm activity they depict: Garden yoga, floral arrangement, family-friendly garden walks, and the on-site cafe. These image cards flip on hover to reveal the class times and locations.
 
 -Events
+![alt text](assets/images/screenshots/flowerfarm-mobile-header.png?raw=true)
   - This page introduces the different opportunities to book the farm as the venue for a special occasion. There is a hero image of an events table, text below it to detail types of events, and an image with a contact form overlayed so that users can get in touch with the owners about scheduling an event.
 
 - Footer
+![alt text](assets/images/screenshots/flowerfarm-mobile-header.png?raw=true)
   - The footer houses four icons spaced evenly across the bottom of the page. These icons link to Black Sheep Farm's social media: Facebook, X, Instagram, and Youtube.
 
 - Site Consistency
