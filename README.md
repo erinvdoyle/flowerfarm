@@ -50,27 +50,24 @@ The 5 Planes of UX Design guided this process:
    A color palette based off of floral hues for images and feature elements and a neutral grey background to tie into the logo and farm name. Flip cards representing each page of the site are used on the landing page for visual interest. Images from the farm are used for the front of the cards and brief explanatory text and a link to the page described reveal on hover. Background colors on the back of the cards are taken from the landing page images using a color picker. Dark grey text is used in favor of black for ease of reading. Copy and image choice give the site an informal, friendly, homespun feel.
 
   - Fonts and Colors
-    - Fonts provided by Google Fonts:
+    - Fonts courtesy of Google Fonts. "Sail" for headers and accent text; "Source Sans 3" for all other copy:
+    <img src="assets/images/screenshots/sail-font.png" alt="" style="float: left; margin-right: 10px;" height="200"/>
+    <img src="assets/images/screenshots/Source-Sans-3-font.png" alt="" style="float: left; margin-right: 10px;" height="200"/>
 
-    - "Sail" for headers and accent text and "Source Sans 3" for all other copy:
-    <img src="assets/images/screenshots/sail-font.png" alt="" style="float: left; margin-right: 10px;" width="300"/>
-    <img src="assets/images/screenshots/Source-Sans-3-font.png" alt="" style="float: left; margin-right: 10px;" width="300"/>
-
-  - Colors:
-    <img src="assets/images/dahlias1.webp" alt="" style="float: left; margin-right: 10px;" width="300"/>
+    - Colors:
+    <br><img src="assets/images/dahlias1.webp" alt="" style="float: left; margin-right: 10px;" width="300"/>
     <img src="assets/images/screenshots/colorkit.png" alt="" style="float: left; margin-right: 10px;" width="300"/>
 
    
-
 ## Features   
 - Header and Navigation
 
 ![alt text](assets/images/screenshots/flowerfarm-header.png)
 
-  - The header is in a fixed position and remains static at the top of the page.
-  - The navigation element features at the top of each page, inside the header where the logo and name are located on the left side. These are clickable and return the user from any page or position on the site to the landing page. 
+    - The header is in a fixed position and remains static at the top of the page.
+    - The navigation element features at the top of each page, inside the header where the logo and name are located on the left side. These are clickable and return the user from any page or position on the site to the landing page. 
 
-  ![alt text](assets/images/screenshots/flowerfarm-mobile-header.png?raw=true)
+  <img src="assets/images/screenshots/flowerfarm-mobile-header.png" alt="" height="100"/>
   - For mobile screens, the right side features a toggle bar which opens a menu when clicked to display links to the four pages: Home, Our Story, Visit, and Events.
   - For tablet-sized screens and larger, this toggle gives way to links to the four pages. 
 
@@ -80,19 +77,19 @@ The 5 Planes of UX Design guided this process:
   - Beneath the hero image and cover text, four flip cards introduce the three remaining pages and a coming soon feature: A bouquet box. The front of these cards show an image relevant to the page content (Dahlias for Our Story/about, a garden pathway for Visit, and a decorated table for Events). These cards flip using the CSS transform property. The brightly colored back side of each card contains a short explanation of each page and a link.
 
   <p align="center">
-  <img src="/assets/images/screenshots/flowerfarm-flipcards.png" alt="two cards side by side, one with text 'Our Story', another with the image of a garden path">
+  <img src="/assets/images/screenshots/flowerfarm-flipcards.png" alt="two cards side by side, one with text 'Our Story', another with the image of a garden path" height="200"/>
 </p>
 
 - Our Story
-![alt text](assets/images/screenshots/about1.png)
+<img src="assets/images/screenshots/about1.png" alt="" height="300"/>
   - This about page features a newspaper-like format with four images sized to echo the landing page's flipcards. The main content is split into two containers: The left side contains the images and a brief introduction, while the right side contains text about the owners and their vision for the farm. The background colors are an earthy pale peach and a muted sage green to give the page a calming, comforting, and homey feel appropriate to the content. 
 
 - Visit 
-![alt text](assets/images/screenshots/visit1.png)
+<img src="assets/images/screenshots/visit1.png" alt="" height="300"/>
   - The Visit page contains a call to subscribe to the class schedule. The input box and a description of the classes offered is overlayed over a background image of a bouquet being arranged. The right half of the screen displays four images with border and padding such that they appear in the style of polaroid photographs. Each image is captioned to describe the class or farm activity they depict: Garden yoga, floral arrangement, family-friendly garden walks, and the on-site cafe. These image cards flip on hover to reveal the class times and locations.
 
   <p align="center">
-  <img src="/assets/images/screenshots/flowerfarm-polaroids.png" alt="two images in the style of polaroid photos">
+  <img src="/assets/images/screenshots/flowerfarm-polaroids.png" alt="two images in the style of polaroid photos" height="200"/>
 </p>
 
 - Events
