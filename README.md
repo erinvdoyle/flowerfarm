@@ -2,26 +2,29 @@
   <img src="/assets/images/screenshots/responsive.png">
 </p>
 
-# Welcome to Black Sheep Farm, Cut Flower Farm & Venue
+# Welcome to Black Sheep Farm
 
 The Black Sheep Farm website invites its visitors to connect with nature. This flower farm and events venue is set in the Wicklow Mountains of Ireland and offers a variety of outdoor activities and purposes: Garden walks, weekend yoga, floral design classes, a cut flower garden to build and bring home a bouquet, and an event space to host special occasions.
 
 Users of the site will find out about the owners of the farm and their origin story, as well as a mission statement for the "why" behind the farm, as found in the Our Story (about) page. All of the information to either plan a day visit or inquire about booking the farm is contained within the Events and Visit pages. There is a class schedule newsletter to subscribe to and a contact form for events. The site is intended for adults, their family memebers, and friends of all ages and backgrounds; anyone who would enjoy spending time in a garden setting.
 
+
+## Table of Contents
+- [Why Black Sheep Farm?](#why-black-sheep-farm)
+- [UX Design](#uxdesign)
+- [Features](#features)
+- [Future Features](#futurefeatures)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Technology](#technology)
+- [Credits](#credits)
+- [Bugs](#bugs)
+
+
 ## Why Black Sheep Farm? 
 We were tasked for our first project with Code Institute to build a site with a minimum of three pages. I wanted to create something I felt passionate about, so I chose to create this site and name it so as in a different life, my home and the nature preserve around it could be Black Sheep Farm. 
 
 Because a wellness website was one of our project prompts, I gave the business a focus on slow-living, sustainability, and spending time outdoors. This lent itself to the plant and floral-based color palette and the style choices made along the way. Sometimes we need to stop and take a breath, feel the sun on our faces, listen to birdsong, and appreciate the beauty around us; if this site can evoke that sense, or better yet, encourage its viewer to do so, then it has been successful. Every project is a journey in itself, and on this one, I gathered visual inspiration from nature and natural photography and let the design of the site follow organically.
-
-## Table of Contents
-- [User Design] (#userdesign)
-- [Features] (#features)
-- [Future Features] (#futurefeatures)
-- [Testing] (#testing)
-- [Deployment](#deployment)
-- [Credits](#credits)
-- [Bugs] (#bugs)
-
 
 ## UX Design
 Inspiration for the design began with a photo of a field of dahlias and the building of wireframes via Balsamiq. 
@@ -138,6 +141,10 @@ The 5 Planes of UX Design guided this process:
 - Under Branch, select "main" with folder "/root" and click Save.
 - Congratulations, your site is now deployed.
 
+## Technology
+- HTML5
+- CSS
+
 ## Credits
 - Content 
   - Flip Card tutorial from W3Schools [How To Create a Flip Card with CSS](https://www.w3schools.com/howto/howto_css_flip_card.asp)
@@ -147,11 +154,13 @@ The 5 Planes of UX Design guided this process:
   - README Tutorial on Medium [How to make the perfect README.MD on Github](https://medium.com/swlh/how-to-make-the-perfect-readme-md-on-github-92ed5771c061)
 
 - Media
-  - Logo Icon from [Icons8] (https://icons8.com)
-  - Web Fonts "Sail" and "Source Sans 3" from [Google Fonts] (https://fonts.google.com/)
+  - Logo Icon from [Icons8](https://icons8.com)
+  - Web Fonts "Sail" and "Source Sans 3" from [Google Fonts](https://fonts.google.com/)
   - [Font Awesome](https://fontawesome.com/) for favicon, burger menu, and social media icons
   - (https://www.imagecolorpicker.com) color picker for background colors inspired by images
-  - Images from [freepik](https://www.freepik.com) and [Floret Flowers] (https://www.floretflowers.com)
+  - Images from [freepik](https://www.freepik.com) and [Floret Flowers](https://www.floretflowers.com)
+  - [Squoosh](https://squoosh.app/) for image compression
+  - [Coolors](https://coolors.co/) for README visual of color pallet
 
 - Guidance
   - Inspiration and a jumping off point from Code Institute's Love Running walkthrough project.
@@ -160,12 +169,12 @@ The 5 Planes of UX Design guided this process:
 ## Testing
 - Feature testing
   - The flip cards on the landing and Visit pages function as expected, performing a horizontal flip across the y axis on hover.
-  - The mobile drop down navigation menu covers the width of the screen and the links deliver the user to the chosen page.
-  - The form on the Events page and the newsletter signup box on the Visit page each require the designated fields on submission and the user data is collected and correctly routed to the Code Institute form dump.
+  - The mobile nav toggle clicks into a drop down navigation menu which covers the width of the screen. Its links deliver the user to the page chosen.
+  - The form on the Events page and the newsletter signup box on the Visit page each require the designated fields on submission. The user data is collected and correctly routed to the Code Institute form dump.
 - Browser compatibility
-  - The site has been manually tested for desktop with Microsoft Edge and Google Chrome, and for mobile with Edge, Chrome, and Safari. The function and design of the site remain intact with the exception of a bug on Safari mobile on my personal device, as detailed in the Unsolved Bugs section below.
+  - The site has been manually tested for desktop with Microsoft Edge and Google Chrome, and for mobile with Edge, Chrome, and Safari. The function and design of the site remain intact with the exception of a bug on Safari mobile on my own personal device, as detailed in the Unsolved Bugs section below.
 - Responsiveness 
-  - All pages have been tested for responsiveness through both Chrome and Microsoft Edge DevTools at the following CSS breakpoints:
+  - All pages have been tested for responsiveness through both Chrome and Edge DevTools at the following CSS breakpoints:
     - Mobile S (320px)
     - Mobile M (375px)
     - Mobile L (425px)
@@ -174,7 +183,7 @@ The 5 Planes of UX Design guided this process:
     - Laptop (1440px)
    Manual testing has been performed on an iPhone 11 and iPhone12 using Safari and Chrome, as well as on three Windows laptops of differing screen sizes. [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) provided the screenshot for the top of this README and allowed further testing on site. 
 - Lighthouse & WAVE testing
- - After running an inital Lighthouse test on each page of the site, it was clear that SEO and Accessability needed to improve. I used the WAVE Web Accessability Evaluation Tool to scan each page and found several contrast errors on the landing page flipcards, as well as empty labels in the nav toggle and in the forms in Visit and Events. The contrast issues were easily modified using WAVE's contrast tab and color sliders. The missing labels were fixed after a quick google search suggested adding aria labels. The final issue to be fixed recurred throughout the site and was a failure to adhere to header best practices. I had understood that headers should be used consecutively in size with no smaller header preceeding a larger one, but did not realize it was bad practice to start a page with an h3, for example, without first having an h1 followed by an h2. I resolved this issue by using font-size percentages in a CSS class for each header so that I could keep my preferred size but with the correct selector. Once these errors and alerts were fixed, Lighthouse testing across mobile and desktop for all four pages resulted in SEO and Accessability scores of 100.
+ - After running an inital Lighthouse test on each page of the site, it was clear that SEO and Accessability needed to improve. I used the WAVE Web Accessability Evaluation Tool to scan each page and found several contrast errors on the landing page flipcards, as well as empty labels in the nav toggle and forms in Visit and Events. The contrast issues were easily modified using WAVE's contrast tab and color sliders. The missing labels were fixed after a quick google search suggested adding aria labels. The final issue to be fixed recurred throughout the site and was a failure to adhere to header best practices. I had understood that headers should be used consecutively in size with no smaller header preceeding a larger one, but did not realize it was bad practice to start a page with an h3, for example, without first having an h1 followed by an h2. I resolved this issue by using font-size percentages in a CSS class for each header. This allowed me to keep my preferred size while using the correct selector. Once these errors and alerts were fixed, Lighthouse testing across mobile and desktop for all four pages resulted in SEO and Accessability scores of 100.
 - Code validation
   -[HTML Validator](https://validator.w3.org/) - Running the code through an HTML validator highlighted three errors. I used an erroneous img closing tag for the logo image, which occurred across all pages as they shared the same header. I also attempted to add an alt tag to a section element composed of a background image which was assigned in the css rather than an html image tag. Finally, I used a css ID multiple times for the flipcard text rather than correctly assigning a class. These were all easily fixed by deleting the superfluous code and switching the ID selector to a class.
   -[CSS Validator](https://jigsaw.w3.org/css-validator/) - The CSS validator highlighted two specific errors: I attempted to use a negative padding value in the about page and a size value rather than re-size on the nav toggle icon. I removed the unneccesary CSS to resolve these issues.
@@ -187,4 +196,4 @@ The 5 Planes of UX Design guided this process:
   - The form text and content on the Events and Visits pages, as well as the text of the "Our Story" div on the about page, overflowed their containers when tested on mobile device landscape dimensions. Adjusting devtools to the proper dimensions for landscape on small devices was something I neglected to do and I did not catch the bug until testing landscape mode on my own device. I corrected the flex box for each image containter and set each form container to 80% width to solve this issue.
 
 - Unsolved Bugs
- - However, as an addendum to my final "solved" bug above, I found that the Events form and the "Our Story" div in the about page function as expected on my mobile phone's Chrome in landscape mode, but overflow their containers on mobile Safari (iphone 12). These elements function properly on all mobile landscape (starting at a height of 320px and upward) in DevTools for Microsoft Edge and Chrome, as well as my partner's safari mobile (iphone 11). 
+  - However, as an addendum to my final "solved" bug above, I found that the Events form and the "Our Story" div in the about page function as expected on my mobile phone's Chrome in landscape mode, but overflow their containers on mobile Safari (iphone 12). These elements function properly on all mobile landscape (starting at a height of 320px and upward) in DevTools for Microsoft Edge and Chrome, as well as my partner's safari mobile (iphone 11). 
