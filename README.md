@@ -1,10 +1,8 @@
-# <Black Sheep Farm>
-
 <p align="center">
   <img src="/assets/images/screenshots/responsive.png">
 </p>
 
-## Welcome to Black Sheep Farm, Cut Flower Farm & Venue
+### Welcome to Black Sheep Farm, Cut Flower Farm & Venue
 
 The Black Sheep Farm website invites its visitors to connect with nature. This flower farm and events venue is set in the Wicklow Mountains of Ireland and offers a variety of outdoor activities and purposes: Garden walks, weekend yoga, floral design classes, a cut flower garden to build and bring home a bouquet, and an event space to host special occasions.
 
@@ -51,16 +49,16 @@ The 5 Planes of UX Design guided this process:
 
   - Fonts and Colors
     - Fonts courtesy of Google Fonts. "Sail" for headers and accent text; "Source Sans 3" for all other copy:
-    <img src="assets/images/screenshots/sail-font.png" alt="" style="float: left; margin-right: 10px;" height="200"/>
-    <img src="assets/images/screenshots/Source-Sans-3-font.png" alt="" style="float: left; margin-right: 10px;" height="200"/>
+    <img src="assets/images/screenshots/sail-font.png" alt="" height="75"/>
+    <img src="assets/images/screenshots/Source-Sans-3-font.png" alt="" height="75"/>
 
     - Colors:
-    <br><img src="assets/images/dahlias1.webp" alt="" style="float: left; margin-right: 10px;" height="50"/>
-    <img src="assets/images/screenshots/colorkit.png" alt="" style="float: left; margin-right: 10px;" height="50"/>
+    <br><img src="assets/images/dahlias1.webp" alt="" height="100"/>
+    <img src="assets/images/screenshots/colorkit.png" alt="" height="100"/>
 
    
 ## Features   
-- Header and Navigation
+# Header and Navigation
 
 ![alt text](assets/images/screenshots/flowerfarm-header.png)
 
@@ -74,7 +72,7 @@ The 5 Planes of UX Design guided this process:
   - For mobile screens, the right side features a toggle bar which opens a menu when clicked to display links to the four pages: Home, Our Story, Visit, and Events.
   - For tablet-sized screens and larger, this toggle gives way to links to the four pages. 
 
-- Index.html
+# Index.html
 ![alt text](assets/images/screenshots/landing1.png)
   
   - The landing page features a hero image with one of the farm's mascots at the forefront: A black sheep. Cover text at the bottom of the image lists the farm's full name.
@@ -84,7 +82,7 @@ The 5 Planes of UX Design guided this process:
   <img src="/assets/images/screenshots/flowerfarm-flipcards.png" alt="two cards side by side, one with text 'Our Story', another with the image of a garden path" height="200"/>
   </p>
 
-- Our Story
+# Our Story (about.html)
 
   <p align="center">
   <img src="assets/images/screenshots/about1.png" alt="" height="300"/>
@@ -92,7 +90,7 @@ The 5 Planes of UX Design guided this process:
 
   - This about page features a newspaper-like format with four images sized to echo the landing page's flipcards. The main content is split into two containers: The left side contains the images and a brief introduction, while the right side contains text about the owners and their vision for the farm. The background colors are an earthy pale peach and a muted sage green to give the page a calming, comforting, and homey feel appropriate to the content. 
 
-- Visit 
+# Visit.html 
 
   <p align="center">
   <img src="assets/images/screenshots/visit1.png" alt="" height="300"/>
@@ -104,7 +102,7 @@ The 5 Planes of UX Design guided this process:
   <br><img src="/assets/images/screenshots/flowerfarm-polaroids.png" alt="two images in the style of polaroid photos" height="200"/><br>
   </p>
 
-- Events
+# Events.html
 
 <p align="center">
 <img src="assets/images/screenshots/events1.png" alt="" height="300"/>
@@ -112,7 +110,7 @@ The 5 Planes of UX Design guided this process:
 
   - This page introduces the different opportunities to book the farm as the venue for a special occasion. There is a hero image of an events table, text below it to detail types of events, and an image with a contact form overlayed so that users can get in touch with the owners about scheduling an event.
 
-- Footer
+# Footer
 
 ![alt text](assets/images/screenshots/flowerfarm-footer.png)
   - The footer houses four icons spaced evenly across the bottom of the page. These icons link to Black Sheep Farm's social media: Facebook, X, Instagram, and Youtube.
