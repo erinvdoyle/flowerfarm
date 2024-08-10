@@ -54,8 +54,13 @@ The 5 Planes of UX Design guided this process:
 
 ## Features   
 - Header and Navigation
+
+![alt text](https://github.com/erinvdoyle/flowerfarm/assets/images/screenshots/flowerfarm-header.png?raw=true)
+
   - The header is in a fixed position and remains static at the top of the page.
   - The navigation element features at the top of each page, inside the header where the logo and name are located on the left side. These are clickable and return the user from any page or position on the site to the landing page. 
+
+  ![alt text](https://github.com/erinvdoyle/flowerfarm/assets/images/screenshots/flowerfarm-mobile-header.png?raw=true)
   - For mobile screens, the right side features a toggle bar which opens a menu when clicked to display links to the four pages: Home, Our Story, Visit, and Events.
   - For tablet-sized screens and larger, this toggle gives way to links to the four pages. 
 
@@ -127,4 +132,7 @@ The 5 Planes of UX Design guided this process:
 - Solved Bugs
   - When I deployed my site, I realized that the header left a gap at the top of the screen which became visible on some mobile devices when the user scrolled. I added a property of "top: 0;" to solve this issue.
   - After testing my deployed site on different screens and devices, I realized the photos were loading slowly. I converted them from jpg to webp to lower the resolution and decrease load time.
-  - The form text and content on the Events and Visits pages, as well as the text of the "Our Story" div on the about page, overflowed their containers when tested on mobile device landscape dimensions. Adjusting devtools to the proper dimensions for landscape on small devices was something I neglected to do and I did not catch the bug until testing landscape mode on my own device. I adjusted the height of each container and added a negative margin-bottom to the Visit form container.
+  - The form text and content on the Events and Visits pages, as well as the text of the "Our Story" div on the about page, overflowed their containers when tested on mobile device landscape dimensions. Adjusting devtools to the proper dimensions for landscape on small devices was something I neglected to do and I did not catch the bug until testing landscape mode on my own device. I corrected the flex box for each image containter and set each form container to 80% width to solve this issue.
+
+- Unsolved Bugs
+ - However, as an addendum to my final "solved" bug above, I found that the Events form and the "Our Story" div in the about page function as expected on my mobile phone's Chrome in landscape mode, but overflow their containers on mobile Safari (iphone 12). These elements function properly on all mobile landscape (starting at a height of 320px and upward) in DevTools for Microsoft Edge and Chrome, as well as my partner's safari mobile (iphone 11). 
