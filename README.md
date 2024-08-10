@@ -16,7 +16,7 @@ Users of the site will find out about the owners of the farm and their origin st
 - [Future Features](#futurefeatures)
 - [Testing](#testing)
 - [Deployment](#deployment)
-- [Technology](#technology)
+- [Languages](#languages)
 - [Credits](#credits)
 - [Bugs](#bugs)
 
@@ -62,7 +62,6 @@ The 5 Planes of UX Design guided this process:
     <img src="assets/images/dahlias1.webp" alt="" height="150" style="margin-right: 20px;"/>
     <img src="assets/images/screenshots/colorkit.png" alt="" height="150"/>
     </p>
-
    
 ## Features   
 ### Header and Navigation
@@ -135,21 +134,23 @@ The 5 Planes of UX Design guided this process:
 
 ## Deployment
 - This site was deployed through GitHub repository [/erinvdoyle/flowerfarm](https://github.com/erinvdoyle/flowerfarm)
-- Follow the link above and click the Settings tab in the top navigation bar.
-- From there, navigate to the Code and Automation section on the left side of the screen and click the pages tab.
-- Under the "Build and deployment" header, click the drop down menu "Deploy from a branch," located under Source.
-- Under Branch, select "main" with folder "/root" and click Save.
+1. Follow the link above and click the Settings tab in the top navigation bar.
+2. From there, navigate to the Code and Automation section on the left side of the screen and click the pages tab.
+3. Under the "Build and deployment" header, click the drop down menu "Deploy from a branch," located under Source.
+4. Under Branch, select "main" with folder "/root" and click Save.
 - Congratulations, your site is now deployed.
 
 <p align="center">
 <img src="assets/images/screenshots/github1.png">
 </p>
+<br>
+
 <p align="center">
 <img src="assets/images/screenshots/github2.png">
 <img src="assets/images/screenshots/github3.png">
 </p>
 
-## Technology
+## Languages
 - HTML5
 - CSS
 
@@ -176,9 +177,30 @@ The 5 Planes of UX Design guided this process:
 
 ## Testing
 - Feature testing
-  - The flip cards on the landing and Visit pages function as expected, performing a horizontal flip across the y axis on hover.
-  - The mobile nav toggle clicks into a drop down navigation menu which covers the width of the screen. Its links deliver the user to the page chosen.
-  - The form on the Events page and the newsletter signup box on the Visit page each require the designated fields on submission. The user data is collected and correctly routed to the Code Institute form dump.
+ - The mobile nav toggle clicks into a drop down navigation menu which covers the width of the screen. Its links deliver the user to the page chosen.
+
+<p align="center">
+<img src="assets/images/screenshots/togglemenu1.png">
+</p>
+
+  - The landing and Vist pages feature flip cards which function as expected, performing a horizontal flip across the y axis on hover.
+  
+  - The newsletter signup box on the Visit page requires an email address to be entered on submission. The user data is collected and correctly routed to the Code Institute form dump.
+
+<p align="center">
+<img src="assets/images/screenshots/visitform1.png">
+<img src="assets/images/screenshots/visitform2.png">
+<img src="assets/images/screenshots/visitform3.png">
+</p>
+
+  - The Events page features a contact form which requires data entered into the top three input fields in order to submit. This functions correctly and sends the data to the Code Institute form dump.
+
+  <p align="center">
+<img src="assets/images/screenshots/eventsform1.png">
+<img src="assets/images/screenshots/eventsform2.png">
+<img src="assets/images/screenshots/eventsform3.png">
+</p>
+
 - Browser compatibility
   - The site has been manually tested for desktop with Microsoft Edge and Google Chrome, and for mobile with Edge, Chrome, and Safari. The function and design of the site remain intact with the exception of a bug on Safari mobile on my own personal device, as detailed in the Unsolved Bugs section below.
 - Responsiveness 
@@ -201,7 +223,7 @@ The 5 Planes of UX Design guided this process:
 - Solved Bugs
   - When I deployed my site, I realized that the header left a gap at the top of the screen which became visible on some mobile devices when the user scrolled. I added a property of "top: 0;" to solve this issue.
   - After testing my deployed site on different screens and devices, I realized the photos were loading slowly. I converted them from jpg to webp to lower the resolution and decrease load time.
-  - The form text and content on the Events and Visits pages, as well as the text of the "Our Story" div on the about page, overflowed their containers when tested on mobile device landscape dimensions. Adjusting devtools to the proper dimensions for landscape on small devices was something I neglected to do and I did not catch the bug until testing landscape mode on my own device. I corrected the flex box for each image containter and set each form container to 80% width to solve this issue.
+  - The form text and content on the Events and Visits pages, as well as the text of the "Our Story" div on the about page, overflowed their containers when tested on mobile device landscape dimensions. Adjusting devtools to the proper dimensions for landscape on small devices was something I neglected to do and I did not catch the bug until testing landscape mode on my own device. I corrected the flex box for each image container and set each form container to 80% width to solve this issue.
 
 - Unsolved Bugs
   - However, as an addendum to my final "solved" bug above, I found that the Events form and the "Our Story" div in the about page function as expected on my mobile phone's Chrome in landscape mode, but overflow their containers on mobile Safari (iphone 12). These elements function properly on all mobile landscape (starting at a height of 320px and upward) in DevTools for Microsoft Edge and Chrome, as well as my partner's safari mobile (iphone 11). 
