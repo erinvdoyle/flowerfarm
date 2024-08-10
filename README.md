@@ -177,27 +177,34 @@ The 5 Planes of UX Design guided this process:
 
 ## Testing
 - Feature testing
- - The mobile nav toggle clicks into a drop down navigation menu which covers the width of the screen. Its links deliver the user to the page chosen.
+    - The mobile nav toggle clicks into a drop down navigation menu which covers the width of the screen. Its links deliver the user to the page chosen.
 
 <p align="center">
 <img src="assets/images/screenshots/togglemenu1.png">
 </p>
 
-  - The landing and Vist pages feature flip cards which function as expected, performing a horizontal flip across the y axis on hover.
+    - The landing and Vist pages feature flip cards which function as expected, performing a horizontal flip across the y axis on hover.
   
-  - The newsletter signup box on the Visit page requires an email address to be entered on submission. The user data is collected and correctly routed to the Code Institute form dump.
+    - The newsletter signup box on the Visit page requires an email address to be entered on submission. The user data is collected and correctly routed to the Code Institute form dump.
 
 <p align="center">
 <img src="assets/images/screenshots/visittesting.png">
 </p>
 
-  - The Events page features a contact form which requires data entered into the top three input fields in order to submit. This functions correctly and sends the data to the Code Institute form dump.
+    - The Events page features a contact form which requires data entered into the top three input fields in order to submit. This functions correctly and sends the data to the Code Institute form dump.
 
   <p align="center">
 <img src="assets/images/screenshots/eventstesting.png">
 </p>
 
 - Browser compatibility
+
+| Browser Tested          | Intended Appearance | Intended Responsiveness |
+|-------------------------|---------------------|-------------------------|
+| Chrome (Mobile/Desktop) | Good                | Good                    |
+| Edge (Mobile/ Desktop)  | Good                | Good                    |
+| Safari (Mobile)         | Good                | Fair                    |
+
   - The site has been manually tested for desktop with Microsoft Edge and Google Chrome, and for mobile with Edge, Chrome, and Safari. The function and design of the site remain intact with the exception of a bug on Safari mobile on my own personal device, as detailed in the Unsolved Bugs section below.
 - Responsiveness 
   - All pages have been tested for responsiveness through both Chrome and Edge DevTools at the following CSS breakpoints:
