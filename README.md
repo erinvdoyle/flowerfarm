@@ -1,13 +1,16 @@
+# Welcome to Black Sheep Farm
+
 <p align="center">
   <img src="/assets/images/screenshots/responsive.png">
 </p>
 
-# Welcome to Black Sheep Farm
+## Introduction
 
 The Black Sheep Farm website invites its visitors to connect with nature. This flower farm and events venue is set in the Wicklow Mountains of Ireland and offers a variety of outdoor activities and purposes: Garden walks, weekend yoga, floral design classes, a cut flower garden to build and bring home a bouquet, and an event space to host special occasions.
 
 Users of the site will find out about the owners of the farm and their origin story, as well as a mission statement for the "why" behind the farm, as found in the Our Story (about) page. All of the information to either plan a day visit or inquire about booking the farm is contained within the Events and Visit pages. There is a class schedule newsletter to subscribe to and a contact form for events. The site is intended for adults, their family memebers, and friends of all ages and backgrounds; anyone who would enjoy spending time in a garden setting.
 
+![Visit the deployed site](https://erinvdoyle.github.io/flowerfarm)
 
 ## Table of Contents
 - [Why Black Sheep Farm?](#why-black-sheep-farm)
@@ -62,6 +65,16 @@ The 5 Planes of UX Design guided this process:
     <img src="assets/images/dahlias1.webp" alt="" height="150" style="margin-right: 20px;"/>
     <img src="assets/images/screenshots/colorkit.png" alt="" height="150"/>
     </p>
+
+    -  Hex codes:
+      - C7C6C6, Silver
+      - 444141, Jet
+      - CAA8A9, Rosy Brown
+      - E9DBA5, Vanilla
+      - E7DADE, Lavendar Blush
+      - EDBC80, Buff
+      - 9BAAA1, Ash Gray
+      - DCC8BF, Pale Dogwood
    
 ## Features   
 ### Header and Navigation
@@ -199,11 +212,15 @@ The 5 Planes of UX Design guided this process:
 
 ### Browser compatibility
 
+<p align="center">
+
 | Browser Tested          | Intended Appearance | Intended Responsiveness |
 |-------------------------|---------------------|-------------------------|
 | Chrome (Mobile/Desktop) | Good                | Good                    |
 | Edge (Mobile/ Desktop)  | Good                | Good                    |
 | Safari (Mobile)         | Good                | Fair                    |
+
+</p>
 
 - The site has been manually tested for desktop with Microsoft Edge and Google Chrome, and for mobile with Edge, Chrome, and Safari. The function and design of the site remain intact with the exception of a bug on Safari mobile on my own personal device, as detailed in the Unsolved Bugs section below.
 
@@ -224,6 +241,11 @@ The 5 Planes of UX Design guided this process:
 ### Code validation
 -[HTML Validator](https://validator.w3.org/) - Running the code through an HTML validator highlighted three errors. I used an erroneous img closing tag for the logo image, which occurred across all pages as they shared the same header. I also attempted to add an alt tag to a section element composed of a background image which was assigned in the css rather than an html image tag. Finally, I used a css ID multiple times for the flipcard text rather than correctly assigning a class. These were all easily fixed by deleting the superfluous code and switching the ID selector to a class.
 -[CSS Validator](https://jigsaw.w3.org/css-validator/) - The CSS validator highlighted two specific errors: I attempted to use a negative padding value in the about page and a size value rather than re-size on the nav toggle icon. I removed the unneccesary CSS to resolve these issues.
+
+| W3 Validator | index.html | about.html | visit.html | events.html |
+|--------------|------------|------------|------------|-------------|
+| html         | Pass       | Pass       | Pass       | Pass        |
+| CSS          | Pass       | Pass       | Pass       | Pass        |
 
 
 ## Bugs
