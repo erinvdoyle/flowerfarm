@@ -1,6 +1,4 @@
-<!-- <div style="text-align: center;"> -->
 # Welcome to Black Sheep Farm
-<!-- </div> -->
 
 <p align="center">
   <img src="/assets/images/screenshots/responsive.png">
@@ -29,7 +27,7 @@ Users of the site will find out about the owners of the farm and their origin st
 
 
 ## Why Black Sheep Farm? 
-We were tasked for our first project with Code Institute to build a site with a minimum of three pages. I wanted to create something I felt passionate about, so I chose to create this site and name it so as in a different life, my home and the nature preserve around it could be Black Sheep Farm. 
+We were tasked for our first project with Code Institute to build a responsive website with a minimum of three pages. I wanted to create something I felt passionate about, so I chose to create this site and name it so as in a different life, my home and the nature preserve around it could be Black Sheep Farm. 
 
 Because a wellness website was one of our project prompts, I gave the business a focus on slow-living, sustainability, and spending time outdoors. This lent itself to the plant and floral-based color palette and the style choices made along the way. Sometimes we need to stop and take a breath, feel the sun on our faces, listen to birdsong, and appreciate the beauty around us; if this site can evoke that sense, or better yet, encourage its viewer to do so, then it has been successful. Every project is a journey in itself, and on this one, I gathered visual inspiration from nature and natural photography and let the design of the site follow organically.
 
@@ -45,17 +43,17 @@ The 5 Planes of UX Design guided this process:
 
    - User Stories
      - As a visitor, I want:
-       - A simple and inviting layout. The navigation features are easy to use and the information is presented in a logical, straightforward manner.
-       - To learn about the ethos of the farm and the people who founded it.
-       - To explore the different opportunities to visit the farm and how to experience it
-       - An easy way to stay informed about upcoming classes and activities
+       - A simple and inviting layout. Easy to use navigation features and information presented in a logical, straightforward manner.
+       - To learn about the ethos of the farm and its founders.
+       - To explore the different opportunities to visit and how to experience the farm.
+       - A simple way to stay informed about upcoming classes and activities
        - To find out what kind of events are hosted and to be able to easily contact the farm for more information about booking my own event.
 
 2. SCOPE -
-   - i.  An enticing landing page witha simple layout that displays the beauty of the farm's flowers while inviting visitors to explore the site.
+   - i.  An enticing landing page with a simple layout that displays the beauty of the farm's flowers while inviting visitors to explore the site.
    - ii. A feel good origin story about literal and metaphorical black sheep and a mission statement to connect with the reader.
    - iii. Visit and Events pages to display what user experiences the farm offers.
-   - iv. A mailing list subscription service and a contact form to get updated class schedules and to be able to inquire about booking an event.
+   - iv. A mailing list subscription service to get udated monthly class schedules and a contact form to be able to inquire about booking an event.
 
 3. STRUCTURE -
    Four pages with clear purposes. Landing, About (titled "Our Story"), Visit, and Events.
@@ -150,7 +148,7 @@ The 5 Planes of UX Design guided this process:
 ![alt text](assets/images/screenshots/flowerfarm-footer.png)
   - The footer houses four icons spaced evenly across the bottom of the page. These icons link to Black Sheep Farm's social media: Facebook, X, Instagram, and Youtube.
 
-- Site Consistency
+### Site Consistency
   - Neutral and complimentary floral colors paired with uniformly sized, round-edged images are used to create a cohesive feel. Each page features either a hero image with text beneath, a split screen style format, or a combination of both, to maintain consistency. Flip cards are used to add interest to images on two of the pages.
 
 ## Future Feature Developments
@@ -229,7 +227,7 @@ The 5 Planes of UX Design guided this process:
 <img src="assets/images/screenshots/eventstesting.png">
 </p>
 
-#### Feature Tests Performed
+### Feature Tests Performed
 
 | Feature                 | Test Case           | Outcome                 |
 |-------------------------|---------------------|-------------------------|
@@ -272,6 +270,11 @@ The 5 Planes of UX Design guided this process:
 Once these errors and alerts were fixed, Lighthouse testing across mobile and desktop for all four pages resulted in SEO and Accessability scores of 100.
 
 ### Accessability
+This website was developed with consideration for accessability through the following methods:
+- Aria labels for all forms
+- Alt text for images
+- Appropriate contrast levels between background and foreground features and background colors and text.
+- 100% Lighthouse testing scores for Accessability and SEO of each page 
 
 ### Code validation
 - [HTML Validator](https://validator.w3.org/) - Running the code through an HTML validator highlighted three errors:
