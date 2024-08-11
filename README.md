@@ -4,13 +4,14 @@
   <img src="/assets/images/screenshots/responsive.png">
 </p>
 
+
+[Visit the deployed site](https://erinvdoyle.github.io/flowerfarm)
+
 ## Introduction
 
 The Black Sheep Farm website invites its visitors to connect with nature. This flower farm and events venue is set in the Wicklow Mountains of Ireland and offers a variety of outdoor activities and purposes: Garden walks, weekend yoga, floral design classes, a cut flower garden to build and bring home a bouquet, and an event space to host special occasions.
 
 Users of the site will find out about the owners of the farm and their origin story, as well as a mission statement for the "why" behind the farm, as found in the Our Story (about) page. All of the information to either plan a day visit or inquire about booking the farm is contained within the Events and Visit pages. There is a class schedule newsletter to subscribe to and a contact form for events. The site is intended for adults, their family memebers, and friends of all ages and backgrounds; anyone who would enjoy spending time in a garden setting.
-
-[Visit the deployed site](https://erinvdoyle.github.io/flowerfarm)
 
 ## Table of Contents
 - [Why Black Sheep Farm?](#why-black-sheep-farm)
@@ -19,7 +20,7 @@ Users of the site will find out about the owners of the farm and their origin st
 - [Future Features](#futurefeatures)
 - [Testing](#testing)
 - [Deployment](#deployment)
-- [Languages](#languages)
+- [Technology](#technology)
 - [Credits](#credits)
 - [Bugs](#bugs)
 
@@ -163,7 +164,7 @@ The 5 Planes of UX Design guided this process:
 <img src="assets/images/screenshots/github3.png">
 </p>
 
-## Languages
+## Technology
 - HTML5
 - CSS
 
