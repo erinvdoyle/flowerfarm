@@ -68,14 +68,14 @@ The 5 Planes of UX Design guided this process:
     </p>
 
     -  Hex codes:
-      - C7C6C6, ![Static Badge](https://img.shields.io/badge/Silver-C7C6C6)
-      - 444141, ![Static Badge](https://img.shields.io/badge/Jet-444141)
-      - CAA8A9, ![Static Badge](https://img.shields.io/badge/Rosy_Brown-CAA8A9)
-      - E9DBA5, ![Static Badge](https://img.shields.io/badge/Vanilla-E9DBA5)
-      - E7DADE, ![Static Badge](https://img.shields.io/badge/Lavendar_Blush-E7DADE)
-      - EDBC80, ![Static Badge](https://img.shields.io/badge/Buff-EDBC80)
-      - 9BAAA1, ![Static Badge](https://img.shields.io/badge/Ash_Gray-9BAAA1)
-      - DCC8BF, ![Static Badge](https://img.shields.io/badge/Pale_Dogwood-DCC8BF)
+        - C7C6C6, ![Static Badge](https://img.shields.io/badge/Silver-C7C6C6)
+        - 444141, ![Static Badge](https://img.shields.io/badge/Jet-444141)
+        - CAA8A9, ![Static Badge](https://img.shields.io/badge/Rosy_Brown-CAA8A9)
+        - E9DBA5, ![Static Badge](https://img.shields.io/badge/Vanilla-E9DBA5)
+        - E7DADE, ![Static Badge](https://img.shields.io/badge/Lavendar_Blush-E7DADE)
+        - EDBC80, ![Static Badge](https://img.shields.io/badge/Buff-EDBC80)
+        - 9BAAA1, ![Static Badge](https://img.shields.io/badge/Ash_Gray-9BAAA1)
+        - DCC8BF, ![Static Badge](https://img.shields.io/badge/Pale_Dogwood-DCC8BF)
 
    
 ## Features   
@@ -176,6 +176,7 @@ The 5 Planes of UX Design guided this process:
   - Adding a form to an image W3Schools [How To Add a Form to an Image](https://www.w3schools.com/howto/howto_css_form_on_image.asp)
   - Footer tutorial from FreeCodeCamp [How to keep your footer where it belongs](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
   - README Tutorial on Medium [How to make the perfect README.MD on Github](https://medium.com/swlh/how-to-make-the-perfect-readme-md-on-github-92ed5771c061)
+  - Badges for Pallet colors in README supplied by [Shields.io](https://shields.io/)
 
 - Media
   - Logo Icon from [Icons8](https://icons8.com)
@@ -200,6 +201,8 @@ The 5 Planes of UX Design guided this process:
 
 - The landing and Vist pages feature flip cards which function as expected, performing a horizontal flip across the y axis on hover.
   
+  - The links on the flipside of the landing page cards work properly and lead to the page listed.
+
 - The newsletter signup box on the Visit page requires an email address to be entered on submission. The user data is collected and correctly routed to the Code Institute form dump.
 
 <p align="center">
@@ -211,6 +214,13 @@ The 5 Planes of UX Design guided this process:
   <p align="center">
 <img src="assets/images/screenshots/eventstesting.png">
 </p>
+
+| Feature                 | Test Case           | Outcome                 |
+|-------------------------|---------------------|-------------------------|
+| *********************** | *****               | ****                    |
+| **********************  | ****                | ****                    |
+| **********************  | ****                | ****                    |
+
 
 ### Browser compatibility
 
