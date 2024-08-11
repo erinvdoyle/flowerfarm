@@ -1,4 +1,6 @@
+<!-- <div style="text-align: center;"> -->
 # Welcome to Black Sheep Farm
+<!-- </div> -->
 
 <p align="center">
   <img src="/assets/images/screenshots/responsive.png">
@@ -15,7 +17,7 @@ Users of the site will find out about the owners of the farm and their origin st
 
 ## Table of Contents
 - [Why Black Sheep Farm?](#why-black-sheep-farm)
-- [UX Design](#uxdesign)
+- [User Experience](#userexperience)
 - [Features](#features)
 - [Future Features](#futurefeatures)
 - [Testing](#testing)
@@ -23,6 +25,7 @@ Users of the site will find out about the owners of the farm and their origin st
 - [Technology](#technology)
 - [Credits](#credits)
 - [Bugs](#bugs)
+- [Contact](#contact)
 
 
 ## Why Black Sheep Farm? 
@@ -30,7 +33,9 @@ We were tasked for our first project with Code Institute to build a site with a 
 
 Because a wellness website was one of our project prompts, I gave the business a focus on slow-living, sustainability, and spending time outdoors. This lent itself to the plant and floral-based color palette and the style choices made along the way. Sometimes we need to stop and take a breath, feel the sun on our faces, listen to birdsong, and appreciate the beauty around us; if this site can evoke that sense, or better yet, encourage its viewer to do so, then it has been successful. Every project is a journey in itself, and on this one, I gathered visual inspiration from nature and natural photography and let the design of the site follow organically.
 
-## UX Design
+## User Experience
+
+### UX Design
 Inspiration for the design began with a photo of a field of dahlias and the building of wireframes via Balsamiq. 
 
 The 5 Planes of UX Design guided this process:
@@ -38,10 +43,19 @@ The 5 Planes of UX Design guided this process:
 1. STRATEGY -
    To achieve a visually pleasing web experience that evokes a connection to nature and invites its visitors to plan either a day or an event out at the farm.
 
+   - User Stories
+     - As a visitor, I want:
+       - A simple and inviting layout. The navigation features are easy to use and the information is presented in a logical, straightforward manner.
+       - To learn about the ethos of the farm and the people who founded it.
+       - To explore the different opportunities to visit the farm and how to experience it
+       - An easy way to stay informed about upcoming classes and activities
+       - To find out what kind of events are hosted and to be able to easily contact the farm for more information about booking my own event.
+
 2. SCOPE -
    - i.  An enticing landing page witha simple layout that displays the beauty of the farm's flowers while inviting visitors to explore the site.
    - ii. A feel good origin story about literal and metaphorical black sheep and a mission statement to connect with the reader.
-   - iii. Visit and Events pages to display what the farm offers.
+   - iii. Visit and Events pages to display what user experiences the farm offers.
+   - iv. A mailing list subscription service and a contact form to get updated class schedules and to be able to inquire about booking an event.
 
 3. STRUCTURE -
    Four pages with clear purposes. Landing, About (titled "Our Story"), Visit, and Events.
@@ -52,16 +66,16 @@ The 5 Planes of UX Design guided this process:
   <Balsamiq Wireframes>
 
 5. SURFACE - 
-   A color palette based off of floral hues for images and feature elements and a neutral grey background to tie into the logo and farm name. Flip cards representing each page of the site are used on the landing page for visual interest. Images from the farm are used for the front of the cards and brief explanatory text with a link to the page described reveal on hover. Background colors on the back of the cards were taken from the front images using a color picker. The form and email subscription signup are each overlaid atop a background image representing life at the farm. Dark grey text is used in favor of black for ease of reading. Copy and image choice give the site an informal, friendly, homespun feel.
+   A color palette based off of floral hues for images and feature elements with a neutral grey background to tie into the logo and farm name. Flip cards representing each page of the site are used on the landing page for visual interest. Images from the farm are used for the front of the cards and brief explanatory text with a link to the page described reveal on hover. Background colors on the back of the cards were taken from the front images using a color picker. The form and email subscription signup are each overlaid atop a background image representing life at the farm. Dark grey text is used in favor of black for ease of reading. Copy and image choice give the site an informal, friendly, homespun feel.
 
   - Fonts and Colors
-    - Fonts courtesy of Google Fonts. "Sail" for headers and accent text; "Source Sans 3" for all other copy:
+    - Fonts courtesy of Google Fonts. "Sail": Headers and accent text. "Source Sans 3": All other copy.
     <p align="center">
     <img src="assets/images/screenshots/sail-font.png" alt="" height="50"/>
     <img src="assets/images/screenshots/Source-Sans-3-font.png" alt="" height="45"/>
     </p>
 
-    - Colors:
+    - Color Scheme:
     <p align="center">
     <img src="assets/images/dahlias1.webp" alt="" height="150" style="margin-right: 20px;"/>
     <img src="assets/images/screenshots/colorkit.png" alt="" height="150"/>
@@ -193,7 +207,7 @@ The 5 Planes of UX Design guided this process:
 
 ## Testing
 ### Feature testing
-- The mobile nav toggle clicks into a drop down navigation menu which covers the width of the screen. Its links deliver the user to the page chosen.
+- The mobile nav toggle clicks into a drop down navigation menu which covers the width of the screen. Its links correctly deliver the user to each page as chosen.
 
 <p align="center">
 <img src="assets/images/screenshots/togglemenu1.png">
@@ -201,9 +215,9 @@ The 5 Planes of UX Design guided this process:
 
 - The landing and Vist pages feature flip cards which function as expected, performing a horizontal flip across the y axis on hover.
   
-  - The links on the flipside of the landing page cards work properly and lead to the page listed.
+  - The link on the flipside of each of the landing page cards works properly and leads to the listed page.
 
-- The newsletter signup box on the Visit page requires an email address to be entered on submission. The user data is collected and correctly routed to the Code Institute form dump.
+- The newsletter signup box on the Visit page requires an email address to be entered before permitting submission. Entering text without an @ results in a directive to enter a functional email address. The user data is then collected and correctly routed to the Code Institute form dump.
 
 <p align="center">
 <img src="assets/images/screenshots/visittesting.png">
@@ -214,6 +228,8 @@ The 5 Planes of UX Design guided this process:
   <p align="center">
 <img src="assets/images/screenshots/eventstesting.png">
 </p>
+
+#### Feature Tests Performed
 
 | Feature                 | Test Case           | Outcome                 |
 |-------------------------|---------------------|-------------------------|
@@ -230,7 +246,7 @@ The 5 Planes of UX Design guided this process:
 | Edge (Mobile/ Desktop)  | Good                | Good                    |
 | Safari (Mobile)         | Good                | Fair                    |
 
-- The site has been manually tested for desktop with Microsoft Edge and Google Chrome, and for mobile with Edge, Chrome, and Safari. The function and design of the site remain intact with the exception of a bug on Safari mobile on my own personal device, as detailed in the Unsolved Bugs section below.
+- The site has been manually tested for desktop with Microsoft Edge and Google Chrome, and for mobile with Edge, Chrome, and Safari. The function and design of the site remain intact with the exception of a bug in Safari on my own mobile device, as detailed in the Unsolved Bugs section below.
 
 ### Responsiveness 
 - All pages have been tested for responsiveness through both Chrome and Edge DevTools at the following CSS breakpoints:
@@ -241,19 +257,35 @@ The 5 Planes of UX Design guided this process:
     - Laptop (1024px)
     - Laptop (1440px)
   
-- Manual testing has been performed on an iPhone 11 and iPhone12 using Safari and Chrome, as well as on three Windows laptops of differing screen sizes. [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) provided the screenshot for the top of this README and allowed further testing on site. 
+- Manual testing has been performed on an iPhone 11 and iPhone12 using Safari and Chrome, as well as on three Windows laptops of differing screen sizes. [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) provided the screenshot for the top of this README and allowed further testing of site responsiveness. 
 
 ### Lighthouse & WAVE testing
 
 <img src="assets/images/screenshots/lighthouse.png">
 
-- After running an inital Lighthouse test on each page of the site, it was clear that SEO and Accessability needed to improve. I used the WAVE Web Accessability Evaluation Tool to scan each page and found several contrast errors on the landing page flipcards, as well as empty labels in the nav toggle and forms in Visit and Events. 
+- After running an inital Lighthouse test on each page of the site, it was clear that SEO and Accessability needed to improve. I used the WAVE Web Accessability Evaluation Tool to scan each page and found several contrast errors on the landing page flipcards, as well as empty labels in the navigation toggle and both the mailing list subscription box and Events page form. 
 
-- The contrast issues were easily modified using WAVE's contrast tab and color sliders. The missing labels were fixed after a quick google search suggested adding aria labels. The final issue to be fixed recurred throughout the site and was a failure to adhere to header best practices. I had understood that headers should be used consecutively in size with no smaller header preceeding a larger one, but did not realize it was bad practice to start a page with an h3, for example, without first having an h1 followed by an h2. I resolved this issue by using font-size percentages in a CSS class for each header. This allowed me to keep my preferred size while using the correct selector. Once these errors and alerts were fixed, Lighthouse testing across mobile and desktop for all four pages resulted in SEO and Accessability scores of 100.
+- The contrast issues were easily modified using WAVE's contrast tab and color sliders. 
+- The missing labels were fixed after a quick google search suggested adding aria labels. 
+- The final issue to be fixed recurred throughout the site and was a failure to adhere to header best practices. I had understood that headers should be used consecutively in size with no smaller header preceeding a larger one, but did not realize it was bad practice to start a page with an h3, for example, without first having an h1 followed by an h2. I resolved this issue by using font-size percentages in a CSS class for each header. This allowed me to keep my preferred size while using the correct selector. 
+
+Once these errors and alerts were fixed, Lighthouse testing across mobile and desktop for all four pages resulted in SEO and Accessability scores of 100.
+
+### Accessability
 
 ### Code validation
-- [HTML Validator](https://validator.w3.org/) - Running the code through an HTML validator highlighted three errors. I used an erroneous img closing tag for the logo image, which occurred across all pages as they shared the same header. I also attempted to add an alt tag to a section element composed of a background image which was assigned in the css rather than an html image tag. Finally, I used a css ID multiple times for the flipcard text rather than correctly assigning a class. These were all easily fixed by deleting the superfluous code and switching the ID selector to a class.
-- [CSS Validator](https://jigsaw.w3.org/css-validator/) - The CSS validator highlighted two specific errors: I attempted to use a negative padding value in the about page and a size value rather than re-size on the nav toggle icon. I removed the unneccesary CSS to resolve these issues.
+- [HTML Validator](https://validator.w3.org/) - Running the code through an HTML validator highlighted three errors:
+  - I used an erroneous img closing tag for the logo image, which occurred across all pages as they shared the same header. 
+  - I also attempted to add an alt tag to a section element composed of a background image assigned in the css rather than an html image tag. 
+  - Finally, I used a css ID multiple times for the flipcard text rather than correctly assigning a class. 
+  
+  These were all easily fixed by deleting the superfluous code and switching the ID selector to a class.
+
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) - The CSS validator highlighted two specific errors: 
+  - I attempted to use a negative padding value in the about page.
+  - I used a "size" value rather than "re-size" on the nav toggle icon. 
+  
+  I removed the unneccesary CSS to resolve these issues as I was happy with the design without the intended CSS.
 
 | W3 Validator | index.html | about.html | visit.html | events.html |
 |--------------|------------|------------|------------|-------------|
@@ -263,9 +295,15 @@ The 5 Planes of UX Design guided this process:
 
 ## Bugs
 - Solved Bugs
-  - When I deployed my site, I realized that the header left a gap at the top of the screen which became visible on some mobile devices when the user scrolled. I added a property of "top: 0;" to solve this issue.
+  - When I deployed my site, I realized that the header left a gap at the top of the screen which became visible on some mobile devices as the user scrolled. I added a property of "top: 0;" to solve this issue.
   - After testing my deployed site on different screens and devices, I realized the photos were loading slowly. I converted them from jpg to webp to lower the resolution and decrease load time.
-  - The form text and content on the Events and Visits pages, as well as the text of the "Our Story" div on the about page, overflowed their containers when tested on mobile device landscape dimensions. Adjusting devtools to the proper dimensions for landscape on small devices was something I neglected to do and I did not catch the bug until testing landscape mode on my own device. I corrected the flex box for each image container and set each form container to 80% width to solve this issue.
+  - The form text and content on the Events and Visits pages, as well as the text of the "Our Story" div on the about page, overflowed their containers when tested on mobile device landscape dimensions. Adjusting DevTools to the proper dimensions for landscape on small devices was something I neglected to do and I did not catch the bug until testing landscape mode on my own device. I corrected the flex box for each image container and set each form container to 80% width to solve this issue.
 
 - Unsolved Bugs
-  - However, as an addendum to my final "solved" bug above, I found that the Events form and the "Our Story" div in the about page function as expected on my mobile phone's Chrome in landscape mode, but overflow their containers on mobile Safari (iphone 12). These elements function properly on all mobile landscape (starting at a height of 320px and upward) in DevTools for Microsoft Edge and Chrome, as well as my partner's safari mobile (iphone 11). 
+  - However, as an addendum to my final "solved" bug above, I found that the Events form and the "Our Story" div in the about page function as expected on my mobile phone's Chrome in landscape mode, but overflow their containers on mobile Safari (iPhone 12). These elements function properly on all mobile landscape (starting at a height of 320px and upward) in DevTools for Microsoft Edge and Chrome, as well as my partner's safari mobile (iPhone 11). 
+
+  ## Contact
+  Thank you for viewing this project. 
+  
+  Email
+  LinkedIn
