@@ -68,14 +68,15 @@ The 5 Planes of UX Design guided this process:
     </p>
 
     -  Hex codes:
-      - C7C6C6, Silver
-      - 444141, Jet
-      - CAA8A9, Rosy Brown
-      - E9DBA5, Vanilla
-      - E7DADE, Lavendar Blush
-      - EDBC80, Buff
-      - 9BAAA1, Ash Gray
-      - DCC8BF, Pale Dogwood
+      - C7C6C6, ![Static Badge](https://img.shields.io/badge/Silver-C7C6C6)
+      - 444141, ![Static Badge](https://img.shields.io/badge/Jet-444141)
+      - CAA8A9, ![Static Badge](https://img.shields.io/badge/Rosy_Brown-CAA8A9)
+      - E9DBA5, ![Static Badge](https://img.shields.io/badge/Vanilla-E9DBA5)
+      - E7DADE, ![Static Badge](https://img.shields.io/badge/Lavendar_Blush-E7DADE)
+      - EDBC80, ![Static Badge](https://img.shields.io/badge/Buff-EDBC80)
+      - 9BAAA1, ![Static Badge](https://img.shields.io/badge/Ash_Gray-9BAAA1)
+      - DCC8BF, ![Static Badge](https://img.shields.io/badge/Pale_Dogwood-DCC8BF)
+
    
 ## Features   
 ### Header and Navigation
