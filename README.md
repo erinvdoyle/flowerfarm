@@ -11,7 +11,7 @@
 
 The Black Sheep Farm website invites its visitors to connect with nature. This flower farm and events venue is set in the Wicklow Mountains of Ireland and offers a variety of outdoor activities and purposes: Garden walks, weekend yoga, floral design classes, a cut flower garden to build and bring home a bouquet, and an event space to host special occasions.
 
-Users of the site will find out about the owners of the farm and their origin story, as well as a mission statement for the "why" behind the farm, as found in the Our Story (about) page. All of the information to either plan a day visit or inquire about booking the farm is contained within the Events and Visit pages. There is a class schedule newsletter to subscribe to and a contact form for events. The site is intended for adults, their family memebers, and friends of all ages and backgrounds; anyone who would enjoy spending time in a garden setting.
+Users of the site will find out about the owners of the farm and their origin story, as well as a mission statement for the "why" behind the farm, found in the Our Story (about) page. All of the information to either plan a day visit or inquire about booking the farm is contained within the Events and Visit pages. There is a class schedule newsletter to subscribe to and a contact form for events. The site is intended for adults, their family memebers, and friends of all ages and backgrounds; anyone who would enjoy spending time in a garden setting.
 
 ## Table of Contents
 - [Why Black Sheep Farm?](#why-black-sheep-farm)
@@ -27,9 +27,10 @@ Users of the site will find out about the owners of the farm and their origin st
 
 
 ## Why Black Sheep Farm? 
-We were tasked for our first project with Code Institute to build a responsive website with a minimum of three pages. I wanted to create something I felt passionate about, so I chose to create this site and name it so as in a different life, my home and the nature preserve around it could be Black Sheep Farm. 
+We were tasked for our first project with Code Institute to build a responsive website with a minimum of three pages. I wanted to create something I felt passionate about, so I chose to create this site and name it so as in a different life, my home and the nature preserve around it could become Black Sheep Farm. 
 
-Because a wellness website was one of our project prompts, I gave the business a focus on slow-living, sustainability, and spending time outdoors. This lent itself to the plant and floral-based color palette and the style choices made along the way. Sometimes we need to stop and take a breath, feel the sun on our faces, listen to birdsong, and appreciate the beauty around us; if this site can evoke that sense, or better yet, encourage its viewer to do so, then it has been successful. Every project is a journey in itself, and on this one, I gathered visual inspiration from nature and natural photography and let the design of the site follow organically.
+Because a wellness website was one of our project prompts, I gave the business a focus on slow-living, sustainability, and spending time outdoors. This lent itself to the plant and floral-based color palette and the style choices made along the way. Every project is a journey in itself, and on this one, I gathered visual inspiration from nature and natural photography and let the design of the site follow organically.
+Sometimes we need to stop and take a breath, feel the sun on our faces, listen to birdsong, and appreciate the beauty around us; if this site can evoke that sense, or better yet, encourage its viewer to do so, then it is already on the path to success. 
 
 ## User Experience
 
@@ -229,11 +230,12 @@ The 5 Planes of UX Design guided this process:
 
 ### Feature Tests Performed
 
-| Feature                 | Test Case           | Outcome                 |
-|-------------------------|---------------------|-------------------------|
-| *********************** | *****               | ****                    |
-| **********************  | ****                | ****                    |
-| **********************  | ****                | ****                    |
+| Feature                   | Test Case            | Outcome                   |
+|---------------------------|----------------------|---------------------------|
+| Logo image and text links | Click on image, text          | User returns to home page |
+| Navigation links          | Click on links       | Links navigate to designated pages     |
+| Nav links convert to toggle | Narrow screen to 
+| Nav toggle                | Click on toggle icon    | Navigation menu drops down                   |
 
 
 ### Browser compatibility
@@ -271,7 +273,8 @@ Once these errors and alerts were fixed, Lighthouse testing across mobile and de
 
 ### Accessability
 This website was developed with consideration for accessability through the following methods:
-- Aria labels for all forms
+- The use of semantic HTML
+- Aria labels for the navigation bar and all forms
 - Alt text for images
 - Appropriate contrast levels between background and foreground features and background colors and text.
 - 100% Lighthouse testing scores for Accessability and SEO of each page 
@@ -306,7 +309,8 @@ This website was developed with consideration for accessability through the foll
   - However, as an addendum to my final "solved" bug above, I found that the Events form and the "Our Story" div in the about page function as expected on my mobile phone's Chrome in landscape mode, but overflow their containers on mobile Safari (iPhone 12). These elements function properly on all mobile landscape (starting at a height of 320px and upward) in DevTools for Microsoft Edge and Chrome, as well as my partner's safari mobile (iPhone 11). 
 
   ## Contact
-  Thank you for viewing this project. 
+  Thank you for viewing this project. Please feel free to contact me with any questions or comments.
   
-  Email
-  LinkedIn
+ [Email](mailto:erin.v.doyle@gmail.com)
+ [LinkedIn](https://linkedin.com/erinvdoyle)
+
