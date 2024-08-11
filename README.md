@@ -71,7 +71,7 @@ The 5 Planes of UX Design guided this process:
     - Fonts courtesy of Google Fonts. "Sail": Headers and accent text. "Source Sans 3": All other copy.
     <p align="center">
     <img src="assets/images/screenshots/sail-font.png" alt="" height="50"/>
-    <img src="assets/images/screenshots/Source-Sans-3-font.png" alt="" height="45"/>
+    <img src="assets/images/screenshots/source-sans-3-font.png" alt="" height="45"/>
     </p>
 
     - Color Scheme:
@@ -91,7 +91,11 @@ The 5 Planes of UX Design guided this process:
         - DCC8BF, ![Static Badge](https://img.shields.io/badge/Pale_Dogwood-DCC8BF)
 
    
-## Features   
+## Features 
+### Favicon
+
+![alt text](assets/images/screenshots/flowerfarm-favicon.png)
+
 ### Header and Navigation
 
 ![alt text](assets/images/screenshots/flowerfarm-header.png)
@@ -230,13 +234,20 @@ The 5 Planes of UX Design guided this process:
 
 ### Feature Tests Performed
 
-| Feature                   | Test Case            | Outcome                   |
-|---------------------------|----------------------|---------------------------|
-| Logo image and text links | Click on image, text          | User returns to home page |
-| Navigation links          | Click on links       | Links navigate to designated pages     |
-| Nav links convert to toggle | Narrow screen to 
-| Nav toggle                | Click on toggle icon    | Navigation menu drops down                   |
-
+| Feature                     | Test Case                 | Outcome                   |
+|-----------------------------|---------------------------|---------------------------|
+| Logo image and text links   | Click image, text      | User returns to home page |
+| Navigation links            | Click links            | Links navigate to designated pages     |
+| Nav links convert to toggle | Narrow screen below 768px | Toggle appears in top right corner |
+| Nav toggle                  | Click toggle icon      | Navigation menu drops down  |                 |
+| Nav toggle menu             | Click each link          | Links navigate to designated pages |
+| Favicon                     | Open site in new tab     | Favicon appears top left of tab    |
+| Header                      | scroll content on each page | Header remains fixed at top of page |
+| Footer                      | Click each social media icon | All icons navigate as expected |
+|-----------------------------|------------------------------|---------------------------------|
+|index.html                                                                                     |
+|-----------------------------|------------------------------|----------------------------------|
+|Hero image and cover text
 
 ### Browser compatibility
 
@@ -280,6 +291,13 @@ This website was developed with consideration for accessability through the foll
 - 100% Lighthouse testing scores for Accessability and SEO of each page 
 
 ### Code validation
+
+| W3 Validator | index.html | about.html | visit.html | events.html |
+|--------------|------------|------------|------------|-------------|
+| html         | Pass       | Pass       | Pass       | Pass        |
+| CSS          | Pass       | Pass       | Pass       | Pass        |
+
+
 - [HTML Validator](https://validator.w3.org/) - Running the code through an HTML validator highlighted three errors:
   - I used an erroneous img closing tag for the logo image, which occurred across all pages as they shared the same header. 
   - I also attempted to add an alt tag to a section element composed of a background image assigned in the css rather than an html image tag. 
@@ -293,11 +311,6 @@ This website was developed with consideration for accessability through the foll
   
   I removed the unneccesary CSS to resolve these issues as I was happy with the design without the intended CSS.
 
-| W3 Validator | index.html | about.html | visit.html | events.html |
-|--------------|------------|------------|------------|-------------|
-| html         | Pass       | Pass       | Pass       | Pass        |
-| CSS          | Pass       | Pass       | Pass       | Pass        |
-
 
 ## Bugs
 - Solved Bugs
@@ -309,8 +322,8 @@ This website was developed with consideration for accessability through the foll
   - However, as an addendum to my final "solved" bug above, I found that the Events form and the "Our Story" div in the about page function as expected on my mobile phone's Chrome in landscape mode, but overflow their containers on mobile Safari (iPhone 12). These elements function properly on all mobile landscape (starting at a height of 320px and upward) in DevTools for Microsoft Edge and Chrome, as well as my partner's safari mobile (iPhone 11). 
 
   ## Contact
-  Thank you for viewing this project. Please feel free to contact me with any questions or comments.
+  Thank you for viewing my project. Please feel free to contact me with any questions or comments.
   
- [Email](mailto:erin.v.doyle@gmail.com)
- [LinkedIn](https://linkedin.com/erinvdoyle)
+ - [Email](mailto:erin.v.doyle@gmail.com)
+ - [LinkedIn](https://linkedin.com/erinvdoyle)
 
