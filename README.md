@@ -237,17 +237,30 @@ The 5 Planes of UX Design guided this process:
 | Feature                     | Test Case                 | Outcome                   |
 |-----------------------------|---------------------------|---------------------------|
 | Logo image and text links   | Click image, text      | User returns to home page |
-| Navigation links            | Click links            | Links navigate to designated pages     |
-| Nav links convert to toggle | Narrow screen below 768px | Toggle appears in top right corner |
-| Nav toggle                  | Click toggle icon      | Navigation menu drops down  |                 |
-| Nav toggle menu             | Click each link          | Links navigate to designated pages |
+| Navigation links            | Click links            | Links transport to designated pages     |
+| Nav. links convert to toggle | Narrow screen below 768px | Toggle appears in top right corner |
+| Nav. toggle                  | Click toggle icon      | Navigation menu drops down  |                 |
+| Nav. toggle menu             | Click each link          | Links transport to designated pages |
 | Favicon                     | Open site in new tab     | Favicon appears top left of tab    |
 | Header                      | scroll content on each page | Header remains fixed at top of page |
-| Footer                      | Click each social media icon | All icons navigate as expected |
+| Footer                      | Click each social media icon | Icons transport to correct external page|
 |-----------------------------|------------------------------|---------------------------------|
 |index.html                                                                                     |
 |-----------------------------|------------------------------|----------------------------------|
-|Hero image and cover text
+|Flip cards                      | Hover over each card         | Cards rotate horizontally to reveal back|
+|Flip card links              | Flip card and click link     | Links navigate to intended page  |
+|-----------------------------|------------------------------|---------------------------------|
+|visit.html                                                                                     |
+|-----------------------------|------------------------------|----------------------------------|
+| Form: Email address required | Leave field empty, click subscribe | User prompted to provide email   |
+| Form: Data collected         | Enter email and click subscribe | Code Institute form dump confirms entry |
+| Flip cards                   | Hover over each card          |Cards rotate horizontally to reveal back |
+|-----------------------------|------------------------------|---------------------------------|
+|events.html                                                                                     |
+|-----------------------------|------------------------------|----------------------------------|
+| Form: Input fields required | Leave field empty, click submit | User prompted to provide missing field |
+| Form: Data collected         | Complete the form | Code Institute form dump confirms entry |
+
 
 ### Browser compatibility
 
