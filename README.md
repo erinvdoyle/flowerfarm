@@ -244,17 +244,15 @@ The 5 Planes of UX Design guided this process:
 | Favicon                     | Open site in new tab     | Favicon appears top left of tab    |
 | Header                      | Scroll content on each page | Header remains fixed at top of page |
 | Footer                      | Click each social media icon | Icons transport to correct external page|
-|index.html                                                                                     |
-|-----------------------------|------------------------------|----------------------------------|
-|Flip cards                      | Hover over each card         | Cards rotate horizontally to reveal back|
-|Flip card links              | Flip card and click link     | Links navigate to intended page  |
-|visit.html                                                                                     |
-|-----------------------------|------------------------------|----------------------------------|
+| **index.html**                                                                                     |
+|-----------------------------|
+| Flip cards                      | Hover over each card         | Cards rotate horizontally to reveal back|
+| Flip card links              | Flip card and click link     | Links navigate to intended page  |
+| **visit.html**                                                                                     |
 | Form: Email address required | Leave field empty, click subscribe | User prompted to provide email   |
 | Form: Data collected         | Enter email and click subscribe | Code Institute form dump confirms entry |
 | Flip cards                   | Hover over each card          |Cards rotate horizontally to reveal back |
-|events.html                                                                                     |
-|-----------------------------|------------------------------|----------------------------------|
+| **events.html**                                                                                     |
 | Form: Input fields required | Leave field empty, click submit | User prompted to provide missing field |
 | Form: Data collected         | Complete the form | Code Institute form dump confirms entry |
 
