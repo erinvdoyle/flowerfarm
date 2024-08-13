@@ -275,6 +275,7 @@ Congratulations, your site is now deployed.
 
 
 <details>
+
  <summary>A Table of Feature Tests Performed</summary>
 
 | Feature                     | Test Case                 | Outcome                   |
@@ -329,6 +330,7 @@ Congratulations, your site is now deployed.
 <img src="assets/images/screenshots/landingdev5.png">
 <img src="assets/images/screenshots/landingdev6.png">
 </details>
+
 <details>
   <summary>Screenshots of about.html</summary>
 <img src="assets/images/screenshots/aboutdev1.png">
@@ -339,6 +341,7 @@ Congratulations, your site is now deployed.
 <img src="assets/images/screenshots/aboutdev6.png">
 </details>
 
+<details>
 <summary>Screenshots of visit.html</summary>
 <img src="assets/images/screenshots/visitdev1.png">
 <img src="assets/images/screenshots/visitdev2.png">
@@ -348,6 +351,7 @@ Congratulations, your site is now deployed.
 <img src="assets/images/screenshots/visitdev6.png">
 </details>
 
+<details>
 <summary>Screenshots of events.html</summary>
 <img src="assets/images/screenshots/eventsdev1.png">
 <img src="assets/images/screenshots/eventsdev2.png">
@@ -408,7 +412,7 @@ This website was developed with consideration for accessability through the foll
   These were all easily fixed by deleting the superfluous code and switching the ID selector to a class.
   <details>
     <summary>HTML Validation Screenshot</summary>
-
+     <img src="assets/images/screenshots/validator1.png">
   </details>
 
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) - The CSS validator highlighted two specific errors: 
@@ -418,7 +422,7 @@ This website was developed with consideration for accessability through the foll
   I removed the unneccesary CSS to resolve these issues as I was happy with the design without the intended CSS.
    <details>
     <summary>CSS Validation Screenshot</summary>
-
+    <img src="assets/images/screenshots/validator2.png">
   </details>
 
 ## Bugs
