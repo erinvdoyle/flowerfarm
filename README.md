@@ -203,6 +203,7 @@ The 5 Planes of UX Design guided this process:
   - Images from [freepik](https://www.freepik.com) and [Floret Flowers](https://www.floretflowers.com)
   - [Squoosh](https://squoosh.app/) for image compression
   - [Coolors](https://coolors.co/) for README visual of color pallet
+  - [Code Beautify](https://codebeautify.org) for final formatting checks
 
 - Guidance
   - Inspiration and a jumping off point from Code Institute's Love Running walkthrough project.
