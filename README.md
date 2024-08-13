@@ -79,6 +79,15 @@ The 5 Planes of UX Design guided this process:
 4. SKELETON - 
   <details>
   <summary>Initially planned and assembled in Balsamiq Wireframes</summary>
+   <img src="assets/images/screenshots/landingwire.png">
+   <img src="assets/images/screenshots/landingwire2.png">
+   <img src="assets/images/screenshots/aboutwire.png">
+   <img src="assets/images/screenshots/aboutwire2.png">
+   <img src="assets/images/screenshots/visitwire.png">
+   <img src="assets/images/screenshots/visitwire2.png">
+   <img src="assets/images/screenshots/eventswire.png">
+   <img src="assets/images/screenshots/eventswire2.png">
+
   </details>
   
 
@@ -273,7 +282,7 @@ Congratulations, your site is now deployed.
 </details>
 - The Events page features a contact form which requires data entered into the top three input fields in order to submit. This functions correctly and sends the data to the Code Institute form dump.
 
-
+### Feature Testing Table
 <details>
 
  <summary>A Table of Feature Tests Performed</summary>
@@ -430,6 +439,7 @@ This website was developed with consideration for accessability through the foll
   - When I deployed my site, I realized that the header left a gap at the top of the screen which became visible on some mobile devices as the user scrolled. I added a property of "top: 0;" to solve this issue.
   - After testing my deployed site on different screens and devices, I realized the photos were loading slowly. I converted them from jpg to webp to lower the resolution and decrease load time.
   - The form text and content on the Events and Visits pages, as well as the text of the "Our Story" div on the about page, overflowed their containers when tested on mobile device landscape dimensions. Adjusting DevTools to the proper dimensions for landscape on small devices was something I neglected to do and I did not catch the bug until testing landscape mode on my own device. I corrected the flex box for each image container and set each form container to 80% width to solve this issue.
+  - The main container on the about page did not extend all the way down to the footer on larger screens. I fixed this by setting the container height for larger screens at 100vh - 5rem (the height of the footer).
 
 - Unsolved Bugs
   - However, as an addendum to my final "solved" bug above, I found that the Events form and the "Our Story" div in the about page function as expected on my mobile phone's Chrome in landscape mode, but overflow their containers on mobile Safari (iPhone 13Pro). These elements function properly on all mobile landscape (starting at a height of 320px and upward) in DevTools for Microsoft Edge and Chrome, as well as my partner's safari mobile (iPhone 11). 
