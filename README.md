@@ -96,7 +96,8 @@ The 5 Planes of UX Design guided this process:
     <img src="assets/images/screenshots/sail-font.png" alt="" height="50"/>
     <img src="assets/images/screenshots/source-sans-3-font.png" alt="" height="45"/>
     </p>
-    - The font "Sail" was chosen to lend the headers and accents an upscale but cozy feel, an informally formal feel befitting a flower farm and events venue. 
+    - The font "Sail" was chosen to lend the headers and accents an upscale but cozy feel, an informally formal feel befitting a flower farm and events venue.
+
     - The font "Source Sans 3" was chosen for legibility and contrast so that all pertinent information could be read easily by all visitors.
 
   - Color Scheme:
@@ -192,7 +193,7 @@ The 5 Planes of UX Design guided this process:
 
 ## Deployment
 <details>
-  <summary>How to Deploy</summary> 
+  <summary>How to Deploy (pictured)</summary> 
 <p align="center">
 <img src="assets/images/screenshots/github1.png">
 </p>
@@ -242,7 +243,7 @@ Congratulations, your site is now deployed.
 ## Testing
 ### Feature testing
 <details>
-  <summary>Testing The Mobile Navigation Toggle</summary> 
+  <summary>Testing The Mobile Navigation Toggle (Pictured)</summary> 
 <p align="center">
 <img src="assets/images/screenshots/togglemenu1.png">
 </p>
@@ -255,7 +256,7 @@ Congratulations, your site is now deployed.
 
 <details>
   
-  <summary>Testing the Newsletter Signup Box</summary> 
+  <summary>Testing the Newsletter Signup Box (Pictured)</summary> 
 <p align="center">
 <img src="assets/images/screenshots/visittesting.png">
 </p>
@@ -264,7 +265,7 @@ Congratulations, your site is now deployed.
 
 <details>
 
-  <summary>Testing the Events Contact Form</summary> 
+  <summary>Testing the Events Contact Form(Pictured)</summary> 
   <p align="center">
 <img src="assets/images/screenshots/eventstesting.png">
 </p>
@@ -331,7 +332,7 @@ Congratulations, your site is now deployed.
 
 ### Lighthouse & WAVE testing
 <details>
-  <summary>Lighthouse Test Results</summary> 
+  <summary>Lighthouse Test Results (Pictured)</summary> 
 <img src="assets/images/screenshots/lighthouse.png">
 </details>
 
