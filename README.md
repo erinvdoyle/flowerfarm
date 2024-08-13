@@ -275,7 +275,7 @@ The 5 Planes of UX Design guided this process:
     - Laptop (1024px)
     - Laptop (1440px)
   
-- Manual testing has been performed on an iPhone 11 and iPhone12 using Safari and Chrome, as well as on three Windows laptops of differing screen sizes. [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) provided the screenshot for the top of this README and allowed further testing of site responsiveness. 
+- Manual testing has been performed on an iPhone 11 and iPhone 13Pro using Safari and Chrome, as well as on three Windows laptops of differing screen sizes. [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) provided the screenshot for the top of this README and allowed further testing of site responsiveness. 
 
 ### Lighthouse & WAVE testing
 
@@ -326,7 +326,10 @@ This website was developed with consideration for accessability through the foll
   - The form text and content on the Events and Visits pages, as well as the text of the "Our Story" div on the about page, overflowed their containers when tested on mobile device landscape dimensions. Adjusting DevTools to the proper dimensions for landscape on small devices was something I neglected to do and I did not catch the bug until testing landscape mode on my own device. I corrected the flex box for each image container and set each form container to 80% width to solve this issue.
 
 - Unsolved Bugs
-  - However, as an addendum to my final "solved" bug above, I found that the Events form and the "Our Story" div in the about page function as expected on my mobile phone's Chrome in landscape mode, but overflow their containers on mobile Safari (iPhone 12). These elements function properly on all mobile landscape (starting at a height of 320px and upward) in DevTools for Microsoft Edge and Chrome, as well as my partner's safari mobile (iPhone 11). 
+  - However, as an addendum to my final "solved" bug above, I found that the Events form and the "Our Story" div in the about page function as expected on my mobile phone's Chrome in landscape mode, but overflow their containers on mobile Safari (iPhone 13Pro). These elements function properly on all mobile landscape (starting at a height of 320px and upward) in DevTools for Microsoft Edge and Chrome, as well as my partner's safari mobile (iPhone 11). 
+
+  <img src="assets/images/screenshots/unsolvedbug.png">
+  <img src="assets/images/screenshots/solvedbug.png">
 
   ## Contact
   Thank you for viewing my project. Please feel free to contact me with any questions or comments.
