@@ -318,13 +318,53 @@ Congratulations, your site is now deployed.
     - Laptop (1024px)
     - Laptop (1440px)
 
-<details>
-  <summary>Screenshots of each page of the site as tested in DevTools</summary>
+#### Screenshots of each page of the site as tested in DevTools
 
+<details>
+  <summary>Screenshots of index.html</summary>
+<img src="assets/images/screenshots/landingdev1.png">
+<img src="assets/images/screenshots/landingdev2.png">
+<img src="assets/images/screenshots/landingdev3.png">
+<img src="assets/images/screenshots/landingdev4.png">
+<img src="assets/images/screenshots/landingdev5.png">
+<img src="assets/images/screenshots/landingdev6.png">
+</details>
+<details>
+  <summary>Screenshots of about.html</summary>
+<img src="assets/images/screenshots/aboutdev1.png">
+<img src="assets/images/screenshots/aboutdev2.png">
+<img src="assets/images/screenshots/aboutdev3.png">
+<img src="assets/images/screenshots/aboutdev4.png">
+<img src="assets/images/screenshots/aboutdev5.png">
+<img src="assets/images/screenshots/aboutdev6.png">
+</details>
+
+<summary>Screenshots of visit.html</summary>
+<img src="assets/images/screenshots/visitdev1.png">
+<img src="assets/images/screenshots/visitdev2.png">
+<img src="assets/images/screenshots/visitdev3.png">
+<img src="assets/images/screenshots/visitdev4.png">
+<img src="assets/images/screenshots/visitdev5.png">
+<img src="assets/images/screenshots/visitdev6.png">
+</details>
+
+<summary>Screenshots of events.html</summary>
+<img src="assets/images/screenshots/eventsdev1.png">
+<img src="assets/images/screenshots/eventsdev2.png">
+<img src="assets/images/screenshots/eventsdev3.png">
+<img src="assets/images/screenshots/eventsdev4.png">
+<img src="assets/images/screenshots/eventsdev5.png">
+<img src="assets/images/screenshots/eventsdev6.png">
 </details>
   
 - Manual testing has been performed on an iPhone 11 and iPhone 13Pro using Safari and Chrome, as well as on three Windows laptops of differing screen sizes. [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) provided the screenshot for the top of this README and allowed further testing of site responsiveness. 
-
+<details>
+  <summary>Screenshots of each page of the site as tested on Am I Responsive?</summary>
+   <img src="assets/images/screenshots/responsive.png">
+   <img src="assets/images/screenshots/responsiveabout.png">
+   <img src="assets/images/screenshots/responsivevisit.png">
+   <img src="assets/images/screenshots/responsiveevents.png">
+</details>
 <details>
   <summary>Screenshots of each page of the site as tested on our own devices</summary>
 
