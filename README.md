@@ -76,12 +76,11 @@ The 5 Planes of UX Design guided this process:
 3. STRUCTURE -
    Four pages with clear purposes. Landing, About (titled "Our Story"), Visit, and Events.
 
-4. SKELETON -
-   Planned and assembled in wireframes
+4. SKELETON - 
   <details>
-  <summary></summary>
+  <summary>Initially planned and assembled in Balsamiq Wireframes</summary>
   </details>
-  <Balsamiq Wireframes>
+  
 
 5. SURFACE - 
    - A color palette based off of floral hues for all images and feature elements with a neutral grey background to tie into the logo and farm name. 
@@ -192,13 +191,8 @@ The 5 Planes of UX Design guided this process:
 - Streamable content: Yoga and meditation classes for non-local visitors and an audio gallery of Black Sheep Farm nature sounds, forrest bathing, etc.
 
 ## Deployment
-- This site was deployed through GitHub repository [/erinvdoyle/flowerfarm](https://github.com/erinvdoyle/flowerfarm)
-1. Follow the link above and click the Settings tab in the top navigation bar.
-2. From there, navigate to the Code and Automation section on the left side of the screen and click the pages tab.
-3. Under the "Build and deployment" header, click the drop down menu "Deploy from a branch," located under Source.
-4. Under Branch, select "main" with folder "/root" and click Save.
-- Congratulations, your site is now deployed.
-
+<details>
+  <summary>How to Deploy</summary> 
 <p align="center">
 <img src="assets/images/screenshots/github1.png">
 </p>
@@ -208,6 +202,14 @@ The 5 Planes of UX Design guided this process:
 <img src="assets/images/screenshots/github2.png">
 <img src="assets/images/screenshots/github3.png">
 </p>
+</details>
+
+- This site was deployed through GitHub repository [/erinvdoyle/flowerfarm](https://github.com/erinvdoyle/flowerfarm)
+1. Follow the link above and click the Settings tab in the top navigation bar.
+2. From there, navigate to the Code and Automation section on the left side of the screen and click the pages tab.
+3. Under the "Build and deployment" header, click the drop down menu "Deploy from a branch," located under Source.
+4. Under Branch, select "main" with folder "/root" and click Save.
+- Congratulations, your site is now deployed.
 
 ## Technology
 - HTML5
@@ -231,6 +233,7 @@ The 5 Planes of UX Design guided this process:
   - [Squoosh](https://squoosh.app/) for image compression
   - [Coolors](https://coolors.co/) for README visual of color pallet
   - [Code Beautify](https://codebeautify.org) for final formatting checks
+  - [ChatGPT]() for initial copy inspiration which I tweaked for style and tone
 
 - Guidance
   - Inspiration and a jumping off point from Code Institute's Love Running walkthrough project.
@@ -238,27 +241,34 @@ The 5 Planes of UX Design guided this process:
 
 ## Testing
 ### Feature testing
-- The mobile nav toggle clicks into a drop down navigation menu which covers the width of the screen. Its links correctly deliver the user to each page as chosen.
-
+<details>
+  <summary>The Mobile Navigation Toggle</summary> 
 <p align="center">
 <img src="assets/images/screenshots/togglemenu1.png">
 </p>
+</details>
+- The mobile nav toggle clicks into a drop down navigation menu which covers the width of the screen. Its links correctly deliver the user to each page as chosen.
 
 - The landing and Vist pages feature flip cards which function as expected, performing a horizontal flip across the y axis on hover.
   
   - The link on the flipside of each of the landing page cards works properly and leads to the listed page.
 
-- The newsletter signup box on the Visit page requires an email address to be entered before permitting submission. Entering text without an @ results in a directive to enter a functional email address. The user data is then collected and correctly routed to the Code Institute form dump.
-
+<details>
+  <summary>The Mobile Navigation Toggle</summary> 
 <p align="center">
 <img src="assets/images/screenshots/visittesting.png">
 </p>
+</details>
+- The newsletter signup box on the Visit page requires an email address to be entered before permitting submission. Entering text without an @ results in a directive to enter a functional email address. The user data is then collected and correctly routed to the Code Institute form dump.
 
-- The Events page features a contact form which requires data entered into the top three input fields in order to submit. This functions correctly and sends the data to the Code Institute form dump.
-
+<details>
+  <summary>The Mobile Navigation Toggle</summary> 
   <p align="center">
 <img src="assets/images/screenshots/eventstesting.png">
 </p>
+
+</details>
+- The Events page features a contact form which requires data entered into the top three input fields in order to submit. This functions correctly and sends the data to the Code Institute form dump.
 
 ### Feature Tests Performed
 
@@ -306,8 +316,10 @@ The 5 Planes of UX Design guided this process:
 - Manual testing has been performed on an iPhone 11 and iPhone 13Pro using Safari and Chrome, as well as on three Windows laptops of differing screen sizes. [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) provided the screenshot for the top of this README and allowed further testing of site responsiveness. 
 
 ### Lighthouse & WAVE testing
-
+<details>
+  <summary>Lighthouse Test Results</summary> 
 <img src="assets/images/screenshots/lighthouse.png">
+</details>
 
 - After running an inital Lighthouse test on each page of the site, it was clear that SEO and Accessability needed to improve. I used the WAVE Web Accessability Evaluation Tool to scan each page and found several contrast errors on the landing page flipcards, as well as empty labels in the navigation toggle and both the mailing list subscription box and Events page form. 
 
@@ -355,12 +367,13 @@ This website was developed with consideration for accessability through the foll
 
 - Unsolved Bugs
   - However, as an addendum to my final "solved" bug above, I found that the Events form and the "Our Story" div in the about page function as expected on my mobile phone's Chrome in landscape mode, but overflow their containers on mobile Safari (iPhone 13Pro). These elements function properly on all mobile landscape (starting at a height of 320px and upward) in DevTools for Microsoft Edge and Chrome, as well as my partner's safari mobile (iPhone 11). 
-
+<details><summary>Screenshots of the bug from each device </summary>
   iPhone 13Pro Safari
   <img src="assets/images/screenshots/unsolvedbug.png">
 
   iPhone 11 Safari
   <img src="assets/images/screenshots/solvedbug.png">
+  </details>
 
   ## Contact
   Thank you for viewing my project. Please feel free to contact me with any questions or comments.
