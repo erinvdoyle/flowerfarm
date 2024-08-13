@@ -233,7 +233,7 @@ Congratulations, your site is now deployed.
   - [Squoosh](https://squoosh.app/) for image compression
   - [Coolors](https://coolors.co/) for README visual of color pallet
   - [Code Beautify](https://codebeautify.org) for final formatting checks
-  - [ChatGPT]() for initial copy inspiration which I tweaked for style and tone
+  - [ChatGPT](https://openai.com/chatgpt/) for initial copy inspiration which was tweaked for style and tone
 
 - Guidance
   - Inspiration and a jumping off point from Code Institute's Love Running walkthrough project.
@@ -272,7 +272,9 @@ Congratulations, your site is now deployed.
 </details>
 - The Events page features a contact form which requires data entered into the top three input fields in order to submit. This functions correctly and sends the data to the Code Institute form dump.
 
-### Feature Tests Performed
+
+<details>
+ <summary>A Table of Feature Tests Performed</summary>
 
 | Feature                     | Test Case                 | Outcome                   |
 |-----------------------------|---------------------------|---------------------------|
@@ -294,7 +296,7 @@ Congratulations, your site is now deployed.
 | **events.html**                                                                                     |
 | Form: Input fields required | Leave field empty, click submit | User prompted to provide missing field |
 | Form: Data collected | Complete the form | Code Institute form dump confirms entry |
-
+</details>
 
 ### Browser compatibility
 
@@ -314,8 +316,18 @@ Congratulations, your site is now deployed.
     - Tablet (768px)
     - Laptop (1024px)
     - Laptop (1440px)
+
+<details>
+  <summary>Screenshots of each page of the site as tested in DevTools</summary>
+
+</details>
   
 - Manual testing has been performed on an iPhone 11 and iPhone 13Pro using Safari and Chrome, as well as on three Windows laptops of differing screen sizes. [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) provided the screenshot for the top of this README and allowed further testing of site responsiveness. 
+
+<details>
+  <summary>Screenshots of each page of the site as tested on our own devices</summary>
+
+</details>
 
 ### Lighthouse & WAVE testing
 <details>
@@ -353,13 +365,20 @@ This website was developed with consideration for accessability through the foll
   - Finally, I used a css ID multiple times for the flipcard text rather than correctly assigning a class. 
   
   These were all easily fixed by deleting the superfluous code and switching the ID selector to a class.
+  <details>
+    <summary>HTML Validation Screenshot</summary>
+
+  </details>
 
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) - The CSS validator highlighted two specific errors: 
   - I attempted to use a negative padding value in the about page.
   - I used a "size" value rather than "re-size" on the nav toggle icon. 
   
   I removed the unneccesary CSS to resolve these issues as I was happy with the design without the intended CSS.
+   <details>
+    <summary>CSS Validation Screenshot</summary>
 
+  </details>
 
 ## Bugs
 - Solved Bugs
