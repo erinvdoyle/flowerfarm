@@ -396,21 +396,21 @@ Congratulations, your site is now deployed.
 <img src="assets/images/screenshots/lighthouse.png">
 </details>
 
-- After running an inital Lighthouse test on each page of the site, it was clear that SEO and Accessability needed to improve. I used the WAVE Web Accessability Evaluation Tool to scan each page and found several contrast errors on the landing page flipcards, as well as empty labels in the navigation toggle and both the mailing list subscription box and Events page form. 
+- After running an inital Lighthouse test on each page of the site, it was clear that SEO and Accessibility needed to improve. I used the WAVE Web Accessibility Evaluation Tool to scan each page and found several contrast errors on the landing page flipcards, as well as empty labels in the navigation toggle and both the mailing list subscription box and Events page form. 
 
 - The contrast issues were easily modified using WAVE's contrast tab and color sliders. 
 - The missing labels were fixed after a quick google search suggested adding aria labels. 
 - The final issue to be fixed recurred throughout the site and was a failure to adhere to header best practices. I had understood that headers should be used consecutively in size with no smaller header preceeding a larger one, but did not realize it was bad practice to start a page with an h3, for example, without first having an h1 followed by an h2. I resolved this issue by using font-size percentages in a CSS class for each header. This allowed me to keep my preferred size while using the correct selector. 
 
-Once these errors and alerts were fixed, Lighthouse testing across mobile and desktop for all four pages resulted in SEO and Accessability scores of 100.
+Once these errors and alerts were fixed, Lighthouse testing across mobile and desktop for all four pages resulted in SEO and Accessibility scores of 100.
 
-### Accessability
-This website was developed with consideration for accessability through the following methods:
+### Accessibility
+This website was developed with consideration for accessibility through the following methods:
 - The use of semantic HTML
 - Aria labels for the navigation bar and all forms
 - Alt text for images
 - Appropriate contrast levels between background and foreground features and background colors and text.
-- 100% Lighthouse testing scores for Accessability and SEO of each page 
+- 100% Lighthouse testing scores for Accessibility and SEO of each page 
 
 ### Code validation
 
