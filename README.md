@@ -79,12 +79,16 @@ The 5 Planes of UX Design guided this process:
 4. SKELETON - 
   <details>
   <summary>Initially planned and assembled in Balsamiq Wireframes</summary>
+   <p>index.html</p>
    <img src="assets/images/screenshots/landingwire.png">
    <img src="assets/images/screenshots/landingwire2.png">
+   <p>about.html</p>
    <img src="assets/images/screenshots/aboutwire.png">
    <img src="assets/images/screenshots/aboutwire2.png">
+    <p>visit.html</p>
    <img src="assets/images/screenshots/visitwire.png">
    <img src="assets/images/screenshots/visitwire2.png">
+   <p>events.html</p>
    <img src="assets/images/screenshots/eventswire.png">
    <img src="assets/images/screenshots/eventswire2.png">
 
@@ -270,7 +274,7 @@ Congratulations, your site is now deployed.
 <img src="assets/images/screenshots/visittesting.png">
 </p>
 </details>
-- The newsletter signup box on the Visit page requires an email address to be entered before permitting submission. Entering text without an @ results in a directive to enter a functional email address. The user data is then collected and correctly routed to the Code Institute form dump.
+- The newsletter signup box on the Visit page requires an email address to be entered before permitting submission. Entering text without an @ results in a directive to enter a functional email address. The user data is then collected and correctly routed to the Code Institute form dump.<br>
 
 <details>
 
@@ -285,7 +289,7 @@ Congratulations, your site is now deployed.
 ### Feature Testing Table
 <details>
 
- <summary>A Table of Feature Tests Performed</summary>
+ <summary>A Table of Feature Tests</summary>
 
 | Feature                     | Test Case                 | Outcome                   |
 |-----------------------------|---------------------------|---------------------------|
@@ -379,8 +383,11 @@ Congratulations, your site is now deployed.
    <img src="assets/images/screenshots/responsiveevents.png">
 </details>
 <details>
-  <summary>Screenshots of each page of the site as tested on our own devices</summary>
-
+  <summary>Screenshots of each page of the site as tested on my own device, iPhone 13Pro</summary>
+   <img src="assets/images/screenshots/mobiletestfirst.png">
+   <img src="assets/images/screenshots/mobiletestsecond.png">
+   <img src="assets/images/screenshots/mobiletestthird.png">
+   
 </details>
 
 ### Lighthouse & WAVE testing
@@ -450,6 +457,8 @@ This website was developed with consideration for accessability through the foll
   iPhone 11 Safari (no bug)
   <img src="assets/images/screenshots/solvedbug.png">
   </details>
+
+  - After adding a second text box to the Visit page, underneath the mailing list submission box, this box now overflows its container on landscape mode on mobile. This will have to be a future fix as I implemented the change too close to deadline (lesson learned).
 
   ## Contact
   Thank you for viewing my project. Please feel free to contact me with any questions or comments.
