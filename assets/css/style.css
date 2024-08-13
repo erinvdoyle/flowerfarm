@@ -497,7 +497,6 @@ body {
 }
 
 /* Visit Page */
-
 #visit-container {
   display: flex;
   flex-wrap: wrap;
@@ -507,24 +506,30 @@ body {
 }
 
 #visit-left {
-  background: url("../images/floralbouquet.webp") center center/cover; /* Image by Freepik */
+  background: url("../images/floralbouquet.webp") center center/cover;
   flex: 1;
-  padding-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   height: 100vh;
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+#visit-right {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  padding: 5px;
+  width: 100%;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
-/* Mailing List Subscription Form and surrounding text */
-/* Form overlaid on background image inspured by W3 Schools tutorial 'How To Add a Form to an Image' */
-
-#visit-text-box {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.visit-text-box {
   border: 8px solid rgba(249, 247, 247, 0.9);
   border-radius: 5px;
   width: 80%;
@@ -532,16 +537,16 @@ body {
   color: rgb(68, 65, 65);
 }
 
-#visit-text {
+.visit-text {
   background-color: rgba(249, 247, 247, 0.9);
   border-radius: 5px;
   align-self: center;
   max-height: 80%;
   padding: 20px 10px 10px 15px;
-  margin: 20px;
+  margin: 20px 20px 30px 20px;
 }
 
-#visit-text > h1 {
+.visit-text > h1 {
   text-align: center;
   font-family: "Sail", system-ui;
   font-size: 160%;
@@ -549,17 +554,22 @@ body {
   padding-bottom: 4px;
 }
 
-#visit-text > p {
+.visit-text > p {
   padding: 0 5px 0 0px;
 }
 
-#visit-left form {
+.visit-left form {
   text-align: center;
 }
 
 .email {
   border-radius: 5px;
   border: 0.5px solid black;
+}
+
+.address {
+  text-align: center;
+  font-weight: bold;
 }
 
 /* Polaroid Section */
@@ -633,83 +643,6 @@ body {
   font-size: 120%;
 }
 
-/* Location Page */
-#location-container {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100vh;
-  margin-top: 70px;
-  overflow: auto;
-}
-
-#location-left {
-  background: url("../images/floralbouquet.webp") center center/cover;
-  flex: 1;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  height: 100vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-}
-
-#location-right {
-  display: flex;
-  flex: 1;
-  gap: 20px;
-  padding: 5px;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.location-text-box {
-  border: 8px solid rgba(249, 247, 247, 0.9);
-  border-radius: 5px;
-  width: 80%;
-  max-height: 80%;
-  color: rgb(68, 65, 65);
-}
-
-.location-text {
-  background-color: rgba(249, 247, 247, 0.9);
-  border-radius: 5px;
-  align-self: center;
-  max-height: 80%;
-  padding: 20px 10px 10px 15px;
-  margin: 20px 20px 30px 20px;
-}
-
-.location-text > h1 {
-  text-align: center;
-  font-family: "Sail", system-ui;
-  font-size: 160%;
-  margin-top: 6px;
-  padding-bottom: 4px;
-}
-
-.location-text > p {
-  padding: 0 5px 0 0px;
-}
-
-.location-left form {
-  text-align: center;
-}
-
-.email {
-  border-radius: 5px;
-  border: 0.5px solid black;
-}
-
-.address {
-  text-align: center;
-  font-weight: bold;
-}
-
-/* End of location section */
 /* Media Queries */
 
 /* Media query: Mobile phones (425px and below) */
@@ -735,13 +668,6 @@ body {
 /* Media query: Tablets (780px and below) */
 @media (max-width: 780px) {
   #visit-left {
-    min-width: 50vh;
-    margin-bottom: 20px;
-    background: url("../images/floralbouquet.webp") no-repeat center
-      center/cover;
-  }
-
-  #location-left {
     min-width: 50vh;
     margin-bottom: 20px;
     background: url("../images/floralbouquet.webp") no-repeat center
@@ -776,8 +702,6 @@ body {
   }
 }
 
-/* Media query: medium phones (417px and up) */
-
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 633px) {
   #right-container {
@@ -807,10 +731,6 @@ body {
 
 @media screen and (max-height: 420px) and (min-width: 640px) {
   #visit-left {
-    height: 150vh;
-  }
-
-  #location-left {
     height: 150vh;
   }
 }
@@ -858,7 +778,7 @@ body {
     width: 50%;
   }
 
-  #location-left {
+  #visit-left {
     gap: 60px;
   }
 }
@@ -869,11 +789,7 @@ body {
     padding-left: 40px;
   }
 
-  #location-right {
-    padding-left: 40px;
-  }
-
-  #location-left {
+  #visit-left {
     margin-top: 5px;
     gap: 5px;
     height: 150vh;
@@ -883,7 +799,7 @@ body {
 /* Large devices (laptops and desktops, 992px and up) */
 
 @media screen and (min-width: 1023px) and (max-width: 1200px) {
-  #location-left {
+  #visit-left {
     gap: 5px;
   }
 }
@@ -915,10 +831,6 @@ body {
   }
 
   #visit-right {
-    padding-top: 45px;
-  }
-
-  #location-right {
     padding-top: 45px;
   }
 }
