@@ -43,7 +43,7 @@ The 5 Planes of UX Design guided this process:
    To achieve a visually pleasing web experience that evokes a connection to nature and invites its visitors to plan either a day or an event out at the farm.
 
    - User Stories
-     - As a new visitor, I want:
+    - As a new visitor, I want:
        - A simple and inviting layout. Easy to use navigation features and information presented in a logical, straightforward manner.
        - A visually appealing deisgn with images of the farm and flowers.
        - To learn about the ethos of the farm and its founders.
@@ -99,7 +99,7 @@ The 5 Planes of UX Design guided this process:
     - The font "Sail" was chosen to lend the headers and accents an upscale but cozy feel, an informally formal feel befitting a flower farm and events venue. 
     - The font "Source Sans 3" was chosen for legibility and contrast so that all pertinent information could be read easily by all visitors.
 
-    - Color Scheme:
+  - Color Scheme:
     <p align="center">
     <img src="assets/images/dahlias1.webp" alt="" height="150" style="margin-right: 20px;"/>
     <img src="assets/images/screenshots/colorkit.png" alt="" height="150"/>
@@ -204,12 +204,12 @@ The 5 Planes of UX Design guided this process:
 </p>
 </details>
 
-- This site was deployed through GitHub repository [/erinvdoyle/flowerfarm](https://github.com/erinvdoyle/flowerfarm)
+This site was deployed through GitHub repository [/erinvdoyle/flowerfarm](https://github.com/erinvdoyle/flowerfarm)
 1. Follow the link above and click the Settings tab in the top navigation bar.
 2. From there, navigate to the Code and Automation section on the left side of the screen and click the pages tab.
 3. Under the "Build and deployment" header, click the drop down menu "Deploy from a branch," located under Source.
 4. Under Branch, select "main" with folder "/root" and click Save.
-- Congratulations, your site is now deployed.
+Congratulations, your site is now deployed.
 
 ## Technology
 - HTML5
@@ -242,7 +242,7 @@ The 5 Planes of UX Design guided this process:
 ## Testing
 ### Feature testing
 <details>
-  <summary>The Mobile Navigation Toggle</summary> 
+  <summary>Testing The Mobile Navigation Toggle</summary> 
 <p align="center">
 <img src="assets/images/screenshots/togglemenu1.png">
 </p>
@@ -254,7 +254,8 @@ The 5 Planes of UX Design guided this process:
   - The link on the flipside of each of the landing page cards works properly and leads to the listed page.
 
 <details>
-  <summary>The Mobile Navigation Toggle</summary> 
+  
+  <summary>Testing the Newsletter Signup Box</summary> 
 <p align="center">
 <img src="assets/images/screenshots/visittesting.png">
 </p>
@@ -262,7 +263,8 @@ The 5 Planes of UX Design guided this process:
 - The newsletter signup box on the Visit page requires an email address to be entered before permitting submission. Entering text without an @ results in a directive to enter a functional email address. The user data is then collected and correctly routed to the Code Institute form dump.
 
 <details>
-  <summary>The Mobile Navigation Toggle</summary> 
+
+  <summary>Testing the Events Contact Form</summary> 
   <p align="center">
 <img src="assets/images/screenshots/eventstesting.png">
 </p>
@@ -368,10 +370,10 @@ This website was developed with consideration for accessability through the foll
 - Unsolved Bugs
   - However, as an addendum to my final "solved" bug above, I found that the Events form and the "Our Story" div in the about page function as expected on my mobile phone's Chrome in landscape mode, but overflow their containers on mobile Safari (iPhone 13Pro). These elements function properly on all mobile landscape (starting at a height of 320px and upward) in DevTools for Microsoft Edge and Chrome, as well as my partner's safari mobile (iPhone 11). 
 <details><summary>Screenshots of the bug from each device </summary>
-  iPhone 13Pro Safari
+  iPhone 13Pro Safari (evidence of bug)
   <img src="assets/images/screenshots/unsolvedbug.png">
 
-  iPhone 11 Safari
+  iPhone 11 Safari (no bug)
   <img src="assets/images/screenshots/solvedbug.png">
   </details>
 
