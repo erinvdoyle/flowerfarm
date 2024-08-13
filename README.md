@@ -30,7 +30,7 @@ Users of the site will find out about the owners of the farm and their origin st
 We were tasked for our first project with Code Institute to build a responsive website with a minimum of three pages. I wanted to create something I felt passionate about, so I chose to create this site and name it so as in a different life, my home and the nature preserve around it could become Black Sheep Farm. 
 
 Because a wellness website was one of our project prompts, I gave the business a focus on slow-living, sustainability, and spending time outdoors. This lent itself to the plant and floral-based color palette and the style choices made along the way. Every project is a journey in itself, and on this one, I gathered visual inspiration from nature and natural photography and let the design of the site follow organically.
-Sometimes we need to stop and take a breath, feel the sun on our faces, listen to birdsong, and appreciate the beauty around us; if this site can evoke that sense, or better yet, encourage its viewer to do so, then it is already on the path to success. 
+Sometimes we need to stop and take a breath, feel the sun on our faces, listen to birdsong, and appreciate the beauty around us; if this site can evoke that sense, or better yet, encourage its viewer to do so, then I have achieved my purpose. 
 
 ## User Experience
 
@@ -43,12 +43,29 @@ The 5 Planes of UX Design guided this process:
    To achieve a visually pleasing web experience that evokes a connection to nature and invites its visitors to plan either a day or an event out at the farm.
 
    - User Stories
-     - As a visitor, I want:
+     - As a new visitor, I want:
        - A simple and inviting layout. Easy to use navigation features and information presented in a logical, straightforward manner.
+       - A visually appealing deisgn with images of the farm and flowers.
        - To learn about the ethos of the farm and its founders.
        - To explore the different opportunities to visit and how to experience the farm.
-       - A simple way to stay informed about upcoming classes and activities
+       - A simple way to stay informed about upcoming classes and activities.
        - To find out what kind of events are hosted and to be able to easily contact the farm for more information about booking my own event.
+       - To be able to visit and engage with the site on any of my devices.
+    
+    - As a returning visitor, I want:
+       - To find out about the upcoming bouquet box subscription service.
+       - To find class days and times.
+       - To learn about new classes and activities (In the future feature interactive calendar).
+       - To engage with streamable content and to view an image gallery of the farm, the flower gardens, and the classes and events held on site (future features).
+      
+    - As the owner of the site, I want:
+       - A clear and effective delivery of information about what the farm offers.
+       - A site with a warm, welcoming look and feel befitting of my business.
+       - A simple design that puts the focus on the images and descriptions of what makes the farm appealing to visitors.
+       - An introduction to who we are as the farm owners and proprieters which inspires kinship and trust with the visitor.
+       - A simple mailing list subscription service so that visitors can be aware of upcoming attractions and classes.
+       - An easy form system for visitors to make booking inquiries for special events.
+
 
 2. SCOPE -
    - i.  An enticing landing page with a simple layout that displays the beauty of the farm's flowers while inviting visitors to explore the site.
@@ -61,18 +78,27 @@ The 5 Planes of UX Design guided this process:
 
 4. SKELETON -
    Planned and assembled in wireframes
-
+  <details>
+  <summary></summary>
+  </details>
   <Balsamiq Wireframes>
 
 5. SURFACE - 
-   A color palette based off of floral hues for images and feature elements with a neutral grey background to tie into the logo and farm name. Flip cards representing each page of the site are used on the landing page for visual interest. Images from the farm are used for the front of the cards and brief explanatory text with a link to the page described reveal on hover. Background colors on the back of the cards were taken from the front images using a color picker. The form and email subscription signup are each overlaid atop a background image representing life at the farm. Dark grey text is used in favor of black for ease of reading. Copy and image choice give the site an informal, friendly, homespun feel.
+   - A color palette based off of floral hues for all images and feature elements with a neutral grey background to tie into the logo and farm name. 
+   - Flip cards representing each page of the site are used on the landing page for visual interest. Images from the farm are used for the front of the cards and brief explanatory text with a link to the page described reveal on hover. Background colors on the back of the cards have been taken from the front images using a color picker. 
+   - The form and email subscription signup are each overlaid atop a background image representing life at the farm. 
+   - Dark grey text is used in favor of black for ease of reading. 
+   - Copy and image choice give the site an informal, friendly, homespun feel.
+   - Images are intended to display the vibrancy and warmth of the flower farm and encourage the visitor to want to experience it in real life.
 
-  - Fonts and Colors
+  - Typography
     - Fonts courtesy of Google Fonts. "Sail": Headers and accent text. "Source Sans 3": All other copy.
     <p align="center">
     <img src="assets/images/screenshots/sail-font.png" alt="" height="50"/>
     <img src="assets/images/screenshots/source-sans-3-font.png" alt="" height="45"/>
     </p>
+    - The font "Sail" was chosen to lend the headers and accents an upscale but cozy feel, an informally formal feel befitting a flower farm and events venue. 
+    - The font "Source Sans 3" was chosen for legibility and contrast so that all pertinent information could be read easily by all visitors.
 
     - Color Scheme:
     <p align="center">
@@ -101,7 +127,8 @@ The 5 Planes of UX Design guided this process:
 ![alt text](assets/images/screenshots/flowerfarm-header.png)
 
   - The header is in a fixed position and remains static at the top of the page.
-  - The navigation element features at the top of each page, inside the header where the logo and name are located on the left side. These are clickable and return the user from any page or position on the site to the landing page. 
+  - The logo is a stylized drawing of the farm's mascot animal and namesake, a black sheep. This was chosen to establish a playful feel and set the tone for the farm's brand identity.
+  - The fully responsive navigation element features at the top of each page, inside the header, where the logo and name are located on the left side. These are clickable and return the user from any page or position on the site to the landing page. 
   
   <p align="center">
     <img src="assets/images/screenshots/flowerfarm-mobile-header.png" alt="" height="75"/>
@@ -113,8 +140,8 @@ The 5 Planes of UX Design guided this process:
 ### Index.html
 ![alt text](assets/images/screenshots/landing1.png)
   
-  - The landing page features a hero image with one of the farm's mascots at the forefront: A black sheep. Cover text at the bottom of the image lists the farm's full name.
-  - Beneath the hero image and cover text, four flip cards introduce the three remaining pages and a coming soon feature: A bouquet box. The front of these cards show an image relevant to the page content (Dahlias for Our Story/about, a garden pathway for Visit, and a decorated table for Events). These cards flip using the CSS transform property. The brightly colored back side of each card contains a short explanation of each page and a link.
+  - The landing page features a hero image with one of the farm's mascot black sheep at the forefront. Cover text at the bottom of the image lists the farm's full name and description.
+  - Beneath the hero image and cover text, four flip cards introduce the three remaining pages and a coming soon feature: A bouquet box. The front of these cards show an image relevant to the page content (Dahlias for Our Story/about, a garden pathway for Visit, and a decorated table for Events). These cards flip using the CSS transform property. The brightly colored back side of each card contains a short explanation of its page and a link.
 
   <p align="center">
   <img src="/assets/images/screenshots/flowerfarm-flipcards.png" alt="two cards side by side, one with text 'Our Story', another with the image of a garden path" height="200"/>
@@ -126,7 +153,7 @@ The 5 Planes of UX Design guided this process:
   <img src="assets/images/screenshots/about1.png" alt="" height="400"/>
   </p/>
 
-  - This about page features a newspaper-like format with four images sized to echo the landing page's flipcards. The main content is split into two containers: The left side contains the images and a brief introduction, while the right side contains text about the owners and their vision for the farm. The background colors are an earthy pale peach and a muted sage green to give the page a calming, homey feel appropriate to the content. 
+  - This about page features a newspaper-like format with four images sized to echo the landing page's flipcards and maintain cohesiveness. The main content is split into two containers: The left side contains the images and a brief introduction, while the right side contains text about the owners and their vision for the farm. The background colors are an earthy pale peach and a muted sage green to give the page a calming, homey feel appropriate to the content. 
 
 ### Visit.html 
 
@@ -134,7 +161,7 @@ The 5 Planes of UX Design guided this process:
   <img src="assets/images/screenshots/visit1.png" alt="" height="400"/>
   </p>
 
-  - The Visit page contains a call to subscribe to the class schedule. The input box and a description of the classes offered is overlayed on a background image of a bouquet being arranged. The right half of the screen displays four images with border and padding such that they appear in the style of polaroid photographs. Each image is captioned to describe the class or farm attraction they depict: Garden yoga, floral arrangement, family-friendly garden walks, and the on-site cafe. These image cards flip on hover to reveal the class times and locations.
+  - The Visit page contains a call to subscribe to the class schedule. The input box and a description of the classes offered is overlayed on a background image of a bouquet being arranged. Below this, a matching text box invited the user to visit the farm and lists the address and hours. The right half of the screen displays four images with border and padding such that they appear in the style of polaroid photographs. Each image is captioned to describe the class or farm attraction they depict: Garden yoga, floral arrangement, family-friendly garden walks, and the on-site cafe. These image cards flip on hover to reveal the class times and locations.
 
   <p align="center">
   <br><img src="/assets/images/screenshots/flowerfarm-polaroids.png" alt="two images in the style of polaroid photos" height="200"/><br>
@@ -158,7 +185,7 @@ The 5 Planes of UX Design guided this process:
 
 ## Future Feature Developments
 - Bouquet CSA: A sign up and info page for a monthly subscription bouquet box (as shown on flipcard #4 on the landing page).
-- Flowers: A feature page with images of each garden and the varieties of flowers grown.
+- Flowers Page: A feature page with images of each garden and the varieties of flowers grown as well as their seasonality.
 - A dynamic bi-weekly calendar on the Visit page to view and reserve a spot for upcoming classes. 
 - A scrolling or dynamic image gallery of events.
 - "LambCam": Livestream video of the farm's lambs.
