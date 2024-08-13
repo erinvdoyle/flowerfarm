@@ -329,7 +329,10 @@ This website was developed with consideration for accessability through the foll
 - Unsolved Bugs
   - However, as an addendum to my final "solved" bug above, I found that the Events form and the "Our Story" div in the about page function as expected on my mobile phone's Chrome in landscape mode, but overflow their containers on mobile Safari (iPhone 13Pro). These elements function properly on all mobile landscape (starting at a height of 320px and upward) in DevTools for Microsoft Edge and Chrome, as well as my partner's safari mobile (iPhone 11). 
 
+  iPhone 13Pro Safari
   <img src="assets/images/screenshots/unsolvedbug.png">
+
+  iPhone 11 Safari
   <img src="assets/images/screenshots/solvedbug.png">
 
   ## Contact
